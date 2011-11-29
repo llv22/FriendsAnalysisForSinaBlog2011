@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* _0_NewVerifyAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {685, 1508}}";
+			sepNavSelRange = "{233, 1}";
+			sepNavVisRange = "{1650, 911}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* 00_NewVerify */ = {
+		activeExec = 0;
+		executables = (
+			558C03EC148082500031F3BC /* 00_NewVerify */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 558C03EC148082500031F3BC /* 00_NewVerify */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* 00_NewVerify */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* 00_NewVerify */,
+		);
+		codeSenseManager = 558C03F31480826F0031F3BC /* Code sense */;
+		executables = (
+			558C03EC148082500031F3BC /* 00_NewVerify */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					507,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					483,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344266015;
+			PBXWorkspaceStateSaveDate = 344266015;
+		};
+		perUserProjectItems = {
+			559487D5148516EE00F13C53 /* PBXBookmark */ = 559487D5148516EE00F13C53 /* PBXBookmark */;
+			559487D6148516EE00F13C53 /* PBXTextBookmark */ = 559487D6148516EE00F13C53 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 558C03F21480826F0031F3BC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	558C03EC148082500031F3BC /* 00_NewVerify */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = 00_NewVerify;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	558C03F21480826F0031F3BC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	558C03F31480826F0031F3BC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	559487D5148516EE00F13C53 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* _0_NewVerifyAppDelegate.m */;
+	};
+	559487D6148516EE00F13C53 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* _0_NewVerifyAppDelegate.m */;
+		name = "_0_NewVerifyAppDelegate.m: 13";
+		rLen = 1;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 1650;
+	};
+}

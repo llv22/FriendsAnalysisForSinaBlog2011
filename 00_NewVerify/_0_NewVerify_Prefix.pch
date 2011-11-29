@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the '00_NewVerify' target in the '00_NewVerify' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
