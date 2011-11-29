@@ -1,2 +1,10 @@
 README Notes
 1, verification of weibo JSON api - 00_NewVerify
+2, As I can't use XCode 4.0 workspace to manage the item with dependencies, so use my XCode 3.2.6 with customized reference dependencies to import sina SDK into usages and header file building.
+
+Regarding code sharing in XCode with source code link, 
+check with 
+* sue602.blog.163.com/blog/static/314953072011723105438402/
+* blog.csdn.net/dotphoenix/article/details/419455
+-> also will be included in orlando's blog : xiandaoairs.wordpress.com
+And zerg_xcode [toolkit by Cosstan to copy source codes inside]
