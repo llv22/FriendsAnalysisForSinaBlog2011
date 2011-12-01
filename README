@@ -8,3 +8,34 @@ check with
 * blog.csdn.net/dotphoenix/article/details/4191455
 -> also will be included in orlando's blog : xiandaoairs.wordpress.com
 And zerg_xcode [toolkit by Cosstan to copy source codes inside]
+
+3, OCUnit framework in XCode -> write group objective-c to test sina api
+* http://hiediutley.com/2011/03/08/xcode3-debugging-ios-unit-tests/
+* http://hiediutley.com/2011/03/08/xcode3-debugging-ios-unit-tests/
+
+-> add unit test bundle to "target" builder
+-> add source code ***.m into unit test bundle for "compile source"
+-> add customized executable file for *.octest into Executable categories
+
+Then configuration for "executable test case", OK, core here-> 
+How the core triggered?
+$ find /Developer -name otest
+orlando-dings-Mac-mini:~ orlando$ find /Developer -name otest
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/Developer/usr/bin/otest
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/usr/bin/otest
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/Developer/usr/bin/otest
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/Developer/usr/bin/otest
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/usr/bin/otest
+--> /Developer/Tools/otest <--
+
+$ get error information when directly running executable file in xcode project [exited with status faile 5]
+Why? execute in command line, 
+
+2011-12-01 23:12:32.189 otest[500:903] The test bundle at /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/01_JSONAPI/build/Debug/01_JSONAPITest.octest could not be loaded because its Objective-C runtime information does not match the runtime information required by the test rig.  
+This is likely because the test rig is being run with Objective-C garbage collection enabled, but the test bundle does not support Objective-C garbage collection.  To disable Objective-C garbage collection for the test rig, run it in an environment with the OBJC_DISABLE_GC environment variable set to YES.
+2011-12-01 23:12:32.199 otest[502:203] *** NSTask: Task create for path '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/01_JSONAPI/build/Debug/01_JSONAPITest.octest/Contents/MacOS/01_JSONAPITest' failed: 22, "Invalid argument".  Terminating temporary process.
+
+--> define OBJC_DISABLE_GC = YES <--
+Debugging then see breakpoints active
+
+4, Weibo SDK includes a lot of UI stuffing, this may lead to UI and framework fixing, Now just use JSON api to construct pure API layer, add procotol for callback functional [or java event list -> xcode extensiblity]
