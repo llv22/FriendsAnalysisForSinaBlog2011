@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 55499F11148904ED0062B8A3 /* 02_JSONAPIRefactor */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* 02_JSONAPIRefactor */;
+		addToTargets = (
+			55D78CB814891710003D6C4F /* JSONAPITest */,
+		);
+		breakpoints = (
+			55D78CEF14891B2A003D6C4F /* WeiBoAPITest.m:29 */,
+			55D78D0614891BE7003D6C4F /* WeiBoAPITest.m:41 */,
+			55D78D1314891D40003D6C4F /* WeiBoAPITest.m:48 */,
+			558250271489216900870A52 /* 02_JSONAPIRefactor.m:12 */,
+		);
+		codeSenseManager = 55499F1B1489050C0062B8A3 /* Code sense */;
+		executables = (
+			55499F11148904ED0062B8A3 /* 02_JSONAPIRefactor */,
+			55D78CEA148919E8003D6C4F /* WeiBoAPITest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					376,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					488,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					502.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					448,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344531220;
+			PBXWorkspaceStateSaveDate = 344531220;
+		};
+		perUserProjectItems = {
+			55D78CCB14891777003D6C4F = 55D78CCB14891777003D6C4F /* PBXTextBookmark */;
+			55D78CCD14891777003D6C4F = 55D78CCD14891777003D6C4F /* PBXTextBookmark */;
+			55D78CE0148917C2003D6C4F = 55D78CE0148917C2003D6C4F /* PBXTextBookmark */;
+			55D78CE2148917C2003D6C4F = 55D78CE2148917C2003D6C4F /* PBXTextBookmark */;
+			55D78CE3148917C2003D6C4F = 55D78CE3148917C2003D6C4F /* PBXTextBookmark */;
+			55D78CE4148917C2003D6C4F = 55D78CE4148917C2003D6C4F /* PBXTextBookmark */;
+			55D78CE5148917C2003D6C4F = 55D78CE5148917C2003D6C4F /* PBXTextBookmark */;
+			55D78CEC148919FF003D6C4F = 55D78CEC148919FF003D6C4F /* PBXTextBookmark */;
+			55D78CED148919FF003D6C4F = 55D78CED148919FF003D6C4F /* PBXTextBookmark */;
+			55D78CEE14891A95003D6C4F = 55D78CEE14891A95003D6C4F /* PBXTextBookmark */;
+			55D78D0214891BB1003D6C4F = 55D78D0214891BB1003D6C4F /* PBXTextBookmark */;
+			55D78D0314891BB1003D6C4F = 55D78D0314891BB1003D6C4F /* PBXTextBookmark */;
+			55D78D0414891BB1003D6C4F = 55D78D0414891BB1003D6C4F /* PBXTextBookmark */;
+			55D78D0514891BB1003D6C4F = 55D78D0514891BB1003D6C4F /* PBXTextBookmark */;
+			55D78D0A14891BF5003D6C4F = 55D78D0A14891BF5003D6C4F /* PBXTextBookmark */;
+			55D78D0B14891BF5003D6C4F = 55D78D0B14891BF5003D6C4F /* PBXTextBookmark */;
+			55D78D0C14891BF5003D6C4F = 55D78D0C14891BF5003D6C4F /* PBXTextBookmark */;
+			55D78D0F14891C30003D6C4F = 55D78D0F14891C30003D6C4F /* PBXTextBookmark */;
+			55D78D1014891C30003D6C4F = 55D78D1014891C30003D6C4F /* PBXTextBookmark */;
+			55D78D1914891E4C003D6C4F = 55D78D1914891E4C003D6C4F /* PBXTextBookmark */;
+			55D78D1A14891E4C003D6C4F = 55D78D1A14891E4C003D6C4F /* PBXTextBookmark */;
+			55D78D2214891F1C003D6C4F = 55D78D2214891F1C003D6C4F /* PBXTextBookmark */;
+			55D78D2914892018003D6C4F = 55D78D2914892018003D6C4F /* PBXTextBookmark */;
+			55D78D2D14892042003D6C4F = 55D78D2D14892042003D6C4F /* PBXTextBookmark */;
+			55D78D3114892064003D6C4F = 55D78D3114892064003D6C4F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 55499F1A1489050C0062B8A3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* 02_JSONAPIRefactor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {666, 577}}";
+			sepNavSelRange = "{208, 6}";
+			sepNavVisRange = "{0, 395}";
+			sepNavWindowFrame = "{{19, 0}, {750, 746}}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* 02_JSONAPIRefactor_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {666, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 178}";
+		};
+	};
+	55499F11148904ED0062B8A3 /* 02_JSONAPIRefactor */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = 02_JSONAPIRefactor;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	55499F1A1489050C0062B8A3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	55499F1B1489050C0062B8A3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	558250271489216900870A52 /* 02_JSONAPIRefactor.m:12 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* 02_JSONAPIRefactor.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 12;
+		location = 02_JSONAPIRefactor;
+		modificationTime = 344531672.357335;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55D78CB814891710003D6C4F /* JSONAPITest */ = {
+		activeExec = 0;
+	};
+	55D78CC51489175E003D6C4F /* WeiBoAPITest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {666, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	55D78CC61489175E003D6C4F /* WeiBoAPITest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {666, 702}}";
+			sepNavSelRange = "{923, 0}";
+			sepNavVisRange = "{149, 779}";
+		};
+	};
+	55D78CCB14891777003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CCC14891777003D6C4F /* WeiBo.h */;
+		name = "WeiBo.h: 78";
+		rLen = 0;
+		rLoc = 2823;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 2496;
+	};
+	55D78CCC14891777003D6C4F /* WeiBo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WeiBo.h;
+		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/WeiBo.h;
+		sourceTree = "<absolute>";
+	};
+	55D78CCD14891777003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CCE14891777003D6C4F /* WeiBo.h */;
+		name = "WeiBo.h: 78";
+		rLen = 0;
+		rLoc = 2823;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 2118;
+	};
+	55D78CCE14891777003D6C4F /* WeiBo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WeiBo.h;
+		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/WeiBo.h;
+		sourceTree = "<absolute>";
+	};
+	55D78CE0148917C2003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CE1148917C2003D6C4F /* WeiBo.h */;
+		name = "WeiBo.h: 91";
+		rLen = 0;
+		rLoc = 3465;
+		rType = 0;
+		vrLen = 1187;
+		vrLoc = 0;
+	};
+	55D78CE1148917C2003D6C4F /* WeiBo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WeiBo.h;
+		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/WeiBo.h;
+		sourceTree = "<absolute>";
+	};
+	55D78CE2148917C2003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* 02_JSONAPIRefactor.m */;
+		name = "02_JSONAPIRefactor.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	55D78CE3148917C2003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC51489175E003D6C4F /* WeiBoAPITest.h */;
+		name = "WeiBoAPITest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	55D78CE4148917C2003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 44";
+		rLen = 0;
+		rLoc = 741;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 145;
+	};
+	55D78CE5148917C2003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 44";
+		rLen = 0;
+		rLoc = 741;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 88;
+	};
+	55D78CEA148919E8003D6C4F /* WeiBoAPITest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest Self",
+			JSONAPITest.octest,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = DYLD_ROOT_PATH;
+				value = $SDKROOT;
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "${BUILD_PRODUCTS_DIR}:${DYLD_LIBRARY_PATH}";
+			},
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "${SDKROOT}/Developer/Library/Frameworks";
+			},
+			{
+				active = YES;
+				name = LC_ID_DYLIB;
+				value = "${WEIBOSDK_LIB}/**";
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 55D78CEB148919E8003D6C4F /* otest */;
+		libgmallocEnabled = 0;
+		name = WeiBoAPITest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	55D78CEB148919E8003D6C4F /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = /Developer/Tools/otest;
+		sourceTree = "<absolute>";
+	};
+	55D78CEC148919FF003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 44";
+		rLen = 0;
+		rLoc = 741;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 88;
+	};
+	55D78CED148919FF003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 12";
+		rLen = 12;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 88;
+	};
+	55D78CEE14891A95003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 12";
+		rLen = 12;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 88;
+	};
+	55D78CEF14891B2A003D6C4F /* WeiBoAPITest.m:29 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		functionName = "-testOCUnitFramework";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 29;
+		location = JSONAPITest;
+		modificationTime = 344531963.684208;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55D78D0214891BB1003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* 02_JSONAPIRefactor_Prefix.pch */;
+		name = "02_JSONAPIRefactor_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	55D78D0314891BB1003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC51489175E003D6C4F /* WeiBoAPITest.h */;
+		name = "WeiBoAPITest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	55D78D0414891BB1003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 20";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 145;
+	};
+	55D78D0514891BB1003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 9";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 779;
+		vrLoc = 145;
+	};
+	55D78D0614891BE7003D6C4F /* WeiBoAPITest.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		functionName = "-testWeiboAPI_00";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = JSONAPITest;
+		modificationTime = 344531963.684243;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55D78D0A14891BF5003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CE1148917C2003D6C4F /* WeiBo.h */;
+		name = "WeiBo.h: 78";
+		rLen = 0;
+		rLoc = 2823;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 2118;
+	};
+	55D78D0B14891BF5003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "WBUtil.h: No such file or directory";
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	55D78D0C14891BF5003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 9";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 145;
+	};
+	55D78D0F14891C30003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "WBUtil.h: No such file or directory";
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	55D78D1014891C30003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 9";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	55D78D1314891D40003D6C4F /* WeiBoAPITest.m:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		functionName = "-testWeiboAPI_01";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 48;
+		location = JSONAPITest;
+		modificationTime = 344531963.684255;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55D78D1914891E4C003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 50";
+		rLen = 0;
+		rLoc = 923;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 210;
+	};
+	55D78D1A14891E4C003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 50";
+		rLen = 0;
+		rLoc = 923;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 185;
+	};
+	55D78D2214891F1C003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 10";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 88;
+	};
+	55D78D2914892018003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 10";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 88;
+	};
+	55D78D2D14892042003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 10";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 88;
+	};
+	55D78D3114892064003D6C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 10";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 88;
+	};
+	8DD76F960486AA7600D96B5E /* 02_JSONAPIRefactor */ = {
+		activeExec = 0;
+		executables = (
+			55499F11148904ED0062B8A3 /* 02_JSONAPIRefactor */,
+		);
+	};
+}
