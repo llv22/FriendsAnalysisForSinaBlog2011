@@ -1,0 +1,164 @@
+T03_JSONAPIDev
+v7
+r0
+t344583550.330352
+cCheck dependencies
+cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch.gch 03_JSONAPIDev_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD5C66A0000000000B3E910
+t1289078378
+s11790608
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m
+c000000004ED9B3690000000000000155
+t1322890089
+s341
+i<Foundation/Foundation.h>
+i"JSON.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev_Prefix.pch
+c000000004ED9B1C700000000000000A8
+t1322889671
+s168
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.LinkFileList
+c000000004ED9B20400000000000000AC
+t1322889732
+s172
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o
+t1322890091
+s8016
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev
+t1322890184
+s50592
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/build/Debug/libSinaWeiBoStaticAPI.a
+c000000004ED9AF9D000000000002BAB8
+t1322889117
+s178872
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/JSON.h
+c000000004DF8A6DF00000000000008F9
+t1308141279
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/NSObject+SBJSON.h
+c000000004DF8A6DF0000000000000A01
+t1308141279
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/NSString+SBJSON.h
+c000000004DF8A6DF0000000000000916
+t1308141279
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJSON.h
+c000000004DF8A6DF0000000000000AED
+t1308141279
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonBase.h
+c000000004DF8A6DF0000000000000B82
+t1308141279
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonParser.h
+c000000004DF8A6DF0000000000000C0B
+t1308141279
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonWriter.h
+c000000004DF8A6DF0000000000001140
+t1308141279
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-dusmbbshrrbfjbfxknrsivrcikql/03_JSONAPIDev_Prefix.pch.gch
+t1322889735
+s41429776
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch.gch
+t1322890019
+s41429776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344583550#344583550#0(0"0(0#1#0"8631113760#0"0#
+
+CCompileC build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344582890.632056
+e344582891.064928
+r1
+xCompileC
+xbuild/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m344582890#344582891#0(0"0(0#0#97"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m8640762912#2554"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev normal x86_64
+s344582984.844935
+e344582984.884757
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev
+xnormal
+xx86_64
+lSLF07#2@112"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev344582984#344582984#0(0"0(0#0#0"8639582432#882"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.LinkFileList -mmacosx-version-min=10.6 /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/build/Debug/libSinaWeiBoStaticAPI.a -framework Foundation -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev0#
+
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-dusmbbshrrbfjbfxknrsivrcikql/03_JSONAPIDev_Prefix.pch.gch 03_JSONAPIDev_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344582532.029037
+e344582535.256252
+r1
+xProcessPCH
+x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-dusmbbshrrbfjbfxknrsivrcikql/03_JSONAPIDev_Prefix.pch.gch
+x03_JSONAPIDev_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile 03_JSONAPIDev_Prefix.pch344582532#344582535#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev_Prefix.pch8598449120#1900"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-dusmbbshrrbfjbfxknrsivrcikql/03_JSONAPIDev_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch.gch 03_JSONAPIDev_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344582816.679223
+e344582819.675523
+r1
+xProcessPCH
+x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch.gch
+x03_JSONAPIDev_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile 03_JSONAPIDev_Prefix.pch344582816#344582819#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev_Prefix.pch8633299168#2393"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch.gch0#
+

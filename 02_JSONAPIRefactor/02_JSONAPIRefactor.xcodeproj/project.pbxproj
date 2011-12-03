@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55D36EBF1489E4CE00CF1D66 /* SinaWeiBoBasisAPI.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55D78C1F14891457003D6C4F /* SinaWeiBoBasisAPI.dylib */; };
+		55D36EE51489E5AE00CF1D66 /* SinaWeiBoBasisAPI.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55D78C1F14891457003D6C4F /* SinaWeiBoBasisAPI.dylib */; };
 		55D78CC71489175E003D6C4F /* WeiBoAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */; };
 		8DD76F9A0486AA7600D96B5E /* 02_JSONAPIRefactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* 02_JSONAPIRefactor.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
@@ -18,7 +20,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 55D78C1A14891457003D6C4F /* SinaWeiBoBasisAPI.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC0C605546C1D00DB518D /* SinaWeiBoBasisAPI */;
+			remoteGlobalIDString = D2AAC0C605546C1D00DB518D;
+			remoteInfo = SinaWeiBoBasisAPI;
+		};
+		55D36EE61489E5B600CF1D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D78C1A14891457003D6C4F /* SinaWeiBoBasisAPI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC0C605546C1D00DB518D;
 			remoteInfo = SinaWeiBoBasisAPI;
 		};
 		55D78C1E14891457003D6C4F /* PBXContainerItemProxy */ = {
@@ -28,22 +37,26 @@
 			remoteGlobalIDString = D2AAC0C705546C1D00DB518D;
 			remoteInfo = SinaWeiBoBasisAPI;
 		};
-		55D78CC014891720003D6C4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55D78C1A14891457003D6C4F /* SinaWeiBoBasisAPI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC0C605546C1D00DB518D;
-			remoteInfo = SinaWeiBoBasisAPI;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		55D36ED01489E50D00CF1D66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				55D36EE51489E5AE00CF1D66 /* SinaWeiBoBasisAPI.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				55D36EBF1489E4CE00CF1D66 /* SinaWeiBoBasisAPI.dylib in CopyFiles */,
 				8DD76F9F0486AA7600D96B5E /* 02_JSONAPIRefactor.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -149,11 +162,12 @@
 				55D78CB414891710003D6C4F /* Resources */,
 				55D78CB514891710003D6C4F /* Sources */,
 				55D78CB614891710003D6C4F /* Frameworks */,
+				55D36ED01489E50D00CF1D66 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				55D78CC114891720003D6C4F /* PBXTargetDependency */,
+				55D36EE71489E5B600CF1D66 /* PBXTargetDependency */,
 			);
 			name = JSONAPITest;
 			productName = JSONAPITest;
@@ -255,10 +269,10 @@
 			name = SinaWeiBoBasisAPI;
 			targetProxy = 55D36DD81489DA6700CF1D66 /* PBXContainerItemProxy */;
 		};
-		55D78CC114891720003D6C4F /* PBXTargetDependency */ = {
+		55D36EE71489E5B600CF1D66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SinaWeiBoBasisAPI;
-			targetProxy = 55D78CC014891720003D6C4F /* PBXContainerItemProxy */;
+			targetProxy = 55D36EE61489E5B600CF1D66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -355,6 +369,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/samba/vfs\"",
+					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -389,6 +404,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/samba/vfs\"",
+					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",

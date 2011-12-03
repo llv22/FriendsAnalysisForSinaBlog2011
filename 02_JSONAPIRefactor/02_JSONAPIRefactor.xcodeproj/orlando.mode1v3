@@ -271,6 +271,12 @@
 								<string>1AB674ADFE9D54B511CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>55D36D371489CEFD00CF1D66</string>
+								<string>55D36EB81489E29800CF1D66</string>
+								<string>55D36ECD1489E50D00CF1D66</string>
+								<string>55D36EB91489E29800CF1D66</string>
+								<string>55D36ECE1489E50D00CF1D66</string>
+								<string>55D36EBA1489E29800CF1D66</string>
+								<string>55D36EC01489E4DB00CF1D66</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
@@ -301,7 +307,7 @@
 							<real>271</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>4 55 1020 691 0 0 1024 746 </string>
+						<string>2 55 1020 691 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,7 +335,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>55D36DF11489DCBB00CF1D66</string>
+										<string>55D36F901489E92F00CF1D66</string>
 										<key>history</key>
 										<array>
 											<string>55D78CE0148917C2003D6C4F</string>
@@ -337,7 +343,7 @@
 											<string>558F7C701489CEAC002EB23D</string>
 											<string>55D36D8B1489D64B00CF1D66</string>
 											<string>55D36DC41489D96B00CF1D66</string>
-											<string>55D36DC51489D96B00CF1D66</string>
+											<string>55D36E821489DE5400CF1D66</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,7 +357,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {727, 590}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 55 1020 691 0 0 1024 746 </string>
+								<string>2 55 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -371,7 +377,7 @@
 								<key>Frame</key>
 								<string>{{0, 595}, {727, 55}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 55 1020 691 0 0 1024 746 </string>
+								<string>2 55 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -535,14 +541,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>55D36D431489CEFD00CF1D66</string>
 		<string>55D36D451489CEFD00CF1D66</string>
 		<string>55D36D461489CEFD00CF1D66</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>55499F5014890B730062B8A3</string>
 		<string>/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>4 55 1020 691 0 0 1024 746 </string>
+	<string>2 55 1020 691 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -634,7 +642,7 @@
 			<key>WindowToolGUID</key>
 			<string>55499F5014890B730062B8A3</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -1186,7 +1194,7 @@
 			<key>WindowToolGUID</key>
 			<string>55D36D431489CEFD00CF1D66</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

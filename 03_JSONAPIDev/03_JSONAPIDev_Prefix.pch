@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '03_JSONAPIDev' target in the '03_JSONAPIDev' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
