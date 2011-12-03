@@ -1,10 +1,11 @@
 T02_JSONAPIRefactor
 v7
 r0
-t344531965.005960
+t344579251.991248
 cCheck dependencies
 cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch.gch 02_JSONAPIRefactor_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor normal x86_64
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004D5A274300000000000000EE
@@ -22,12 +23,11 @@ t1289078378
 s11790608
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m
-c000000004ED8EC78000000000000018D
-t1322839160
-s397
-i<Foundation/Foundation.h>
+c000000004ED99B59000000000000013D
+t1322883929
+s317
 i"JSON.h"
-i"WBUtil.h"
+i<Foundation/Foundation.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch
 c000000004ED8CD6D00000000000000B2
@@ -36,21 +36,25 @@ s178
 i<Foundation/Foundation.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.LinkFileList
-c000000004ED8DDAA00000000000000C0
-t1322835370
+c000000004ED9970700000000000000C0
+t1322882823
 s192
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.o
+t1322886154
+s8116
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/StaticAnalyzer/normal/x86_64/02_JSONAPIRefactor.plist
 t2
 s0
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor
-t1322838871
-s9472
+t2
+s0
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/build/Debug/SinaWeiBoBasisAPI.dylib
-c000000004ED8DF4300000000000114B8
-t1322835779
+c000000004ED9970700000000000114B8
+t1322882823
 s70840
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/JSON.h
@@ -107,22 +111,37 @@ t1308282636
 s1164
 i<Foundation/Foundation.h>
 
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-aeunnzlahygtbrgxngkgemuhufhe/02_JSONAPIRefactor_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-aoykmuldlgsskecnpyuocrovhlpf/02_JSONAPIRefactor_Prefix.pch.gch
 t1322835373
 s41429776
 
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-dtwszqjplchezietxldycwlpgzqg/02_JSONAPIRefactor_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-epmvxodotgeduzesjykbaodsdtmk/02_JSONAPIRefactor_Prefix.pch.pth
+t2
+s0
+
 N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch.gch
-t1322838871
+t1322882826
 s41429776
+
+CAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m
+r0
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344531964#344531964#0(0"0(0#1#0"8635403296#0"0#
+lSLF07#2@18"Check dependencies344579251#344579251#0(0"0(0#1#0"8631666336#0"0#
 
 CCompileC build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s344531964.686405
-e344531965.005861
-r0
+s344578954.650961
+e344578954.938792
+r1
 xCompileC
 xbuild/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.o
 x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m
@@ -130,22 +149,25 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m: In function 'main':
-o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: error: 'jsonString' undeclared (first use in this function)
-o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: error: (Each undeclared identifier is reported only once
-o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: error: for each function it appears in.)
-o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: warning: unused variable 'jsonObject'
-lSLF07#2@115"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m344531964#344531965#0(773"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m: In function 'main':/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: error: 'jsonString' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: error: (Each undeclared identifier is reported only once/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: error: for each function it appears in.)/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m:11: warning: unused variable 'jsonObject'2(4@52"'jsonString' undeclared (first use in this function)344531964#129#172#0(6@107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m344531960#11#0#11#0#43"'*' undeclared (first use in this function)0(22@28"Unused variable 'jsonObject'344531964#623#150#0(6@107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m344531960#11#0#11#0#19"unused variable '*'0(0#0#107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m5076517149655982080#2714"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.o1#
+lSLF07#2@115"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m344578954#344578954#0(0"0(0#0#107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m8638289216#2714"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.o0#
 
 CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor normal x86_64
-s344531671.787610
-e344531671.814413
-r1
+s344579251.958517
+e344579251.991200
+r0
 xLd
 x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor
 xnormal
 xx86_64
-lSLF07#2@122"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor344531671#344531671#0(0"0(0#0#0"8606858688#1048"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/../SinaWeiBoBasisAPI/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.LinkFileList -mmacosx-version-min=10.6 /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/build/Debug/SinaWeiBoBasisAPI.dylib -framework Foundation -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor0#
+oUndefined symbols:
+o  "_OBJC_CLASS_$_SBJSON", referenced from:
+o      objc-class-ref-to-SBJSON in 02_JSONAPIRefactor.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@122"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor344579251#344579251#0(177"Undefined symbols:  "_OBJC_CLASS_$_SBJSON", referenced from:      objc-class-ref-to-SBJSON in 02_JSONAPIRefactor.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@40""_OBJC_CLASS_$_SBJSON", referenced from:344579251#19#43#0(6@0"344579251#0#0#0#0#0"0(13@48"Objc-class-ref-to-SBJSON in 02_JSONAPIRefactor.o344579251#62#55#0(6@0"344579251#0#0#0#0#0"0(13@19"Symbol(s) not found344579251#117#24#0(6@0"344579251#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status344579251#141#36#0(6@0"344579251#0#0#0#0#0"0(0#0#0"8631194304#839"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -L../SinaWeiBoBasisAPI/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/Objects-normal/x86_64/02_JSONAPIRefactor.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/02_JSONAPIRefactor1#
+
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-aeunnzlahygtbrgxngkgemuhufhe/02_JSONAPIRefactor_Prefix.pch.gch 02_JSONAPIRefactor_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-aoykmuldlgsskecnpyuocrovhlpf/02_JSONAPIRefactor_Prefix.pch.gch 02_JSONAPIRefactor_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344528170.083181
@@ -160,9 +182,15 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile 02_JSONAPIRefactor_Prefix.pch344528170#344528173#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch8609204416#2045"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-aoykmuldlgsskecnpyuocrovhlpf/02_JSONAPIRefactor_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-dtwszqjplchezietxldycwlpgzqg/02_JSONAPIRefactor_Prefix.pch.gch 02_JSONAPIRefactor_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-epmvxodotgeduzesjykbaodsdtmk/02_JSONAPIRefactor_Prefix.pch.pth 02_JSONAPIRefactor_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
 CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch.gch 02_JSONAPIRefactor_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s344531669.138579
-e344531671.660053
+s344575623.795040
+e344575626.924790
 r1
 xProcessPCH
 x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch.gch
@@ -171,5 +199,5 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Precompile 02_JSONAPIRefactor_Prefix.pch344531669#344531671#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch8601181472#2533"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch.gch0#
+lSLF07#2@40"Precompile 02_JSONAPIRefactor_Prefix.pch344575623#344575626#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch8619208000#2533"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/02_JSONAPIRefactor-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/02_JSONAPIRefactor.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/02_JSONAPIRefactor_Prefix-gqtofdikygpiydboffjgypxmmncq/02_JSONAPIRefactor_Prefix.pch.gch0#
 

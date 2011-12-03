@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558AC2761487BF68007C6616 /* JSONAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A94E051487B39A00ADC452 /* JSONAPITest.m */; };
 		55C661C21485251800F51E0F /* libSinaWeiBoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C661BD1485246C00F51E0F /* libSinaWeiBoSDK.a */; };
 		8DD76F9A0486AA7600D96B5E /* 01_JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* 01_JSONAPI.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
@@ -14,18 +15,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		558AC26D1487BF2A007C6616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C661B51485246C00F51E0F /* SinaWeiBoSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SinaWeiBoSDK;
+		};
 		55C661BC1485246C00F51E0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55C661B51485246C00F51E0F /* SinaWeiBoSDK.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libSinaWeiBoSDK.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = SinaWeiBoSDK;
 		};
 		55C661BE148524AD00F51E0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55C661B51485246C00F51E0F /* SinaWeiBoSDK.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* SinaWeiBoSDK */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = SinaWeiBoSDK;
 		};
 /* End PBXContainerItemProxy section */
@@ -56,12 +64,23 @@
 		08FB7796FE84155DC02AAC07 /* 01_JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 01_JSONAPI.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* 01_JSONAPI_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 01_JSONAPI_Prefix.pch; sourceTree = "<group>"; };
+		55A94E041487B39A00ADC452 /* JSONAPITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPITest.h; sourceTree = "<group>"; };
+		55A94E051487B39A00ADC452 /* JSONAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPITest.m; sourceTree = "<group>"; };
+		55A94EAA1487B97900ADC452 /* 01_JSONAPITest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_JSONAPITest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A94EAB1487B97900ADC452 /* 01_JSONAPITest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01_JSONAPITest-Info.plist"; sourceTree = "<group>"; };
 		55C661B51485246C00F51E0F /* SinaWeiBoSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SinaWeiBoSDK.xcodeproj; path = ../SinaWeiBoSDK/src/SinaWeiBoSDK.xcodeproj; sourceTree = SOURCE_ROOT; };
 		8DD76FA10486AA7600D96B5E /* 01_JSONAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01_JSONAPI; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* 01_JSONAPI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 01_JSONAPI.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		55A94EA71487B97900ADC452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +101,7 @@
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				55A94EAB1487B97900ADC452 /* 01_JSONAPITest-Info.plist */,
 			);
 			name = 01_JSONAPI;
 			sourceTree = "<group>";
@@ -89,6 +109,8 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				55A94E041487B39A00ADC452 /* JSONAPITest.h */,
+				55A94E051487B39A00ADC452 /* JSONAPITest.m */,
 				32A70AAB03705E1F00C91783 /* 01_JSONAPI_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* 01_JSONAPI.m */,
 			);
@@ -107,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD76FA10486AA7600D96B5E /* 01_JSONAPI */,
+				55A94EAA1487B97900ADC452 /* 01_JSONAPITest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +153,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		55A94EA91487B97900ADC452 /* 01_JSONAPITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A94EAE1487B97900ADC452 /* Build configuration list for PBXNativeTarget "01_JSONAPITest" */;
+			buildPhases = (
+				55A94EA51487B97900ADC452 /* Resources */,
+				55A94EA61487B97900ADC452 /* Sources */,
+				55A94EA71487B97900ADC452 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558AC26E1487BF2A007C6616 /* PBXTargetDependency */,
+			);
+			name = 01_JSONAPITest;
+			productName = 01_JSONAPITest;
+			productReference = 55A94EAA1487B97900ADC452 /* 01_JSONAPITest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		8DD76F960486AA7600D96B5E /* 01_JSONAPI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "01_JSONAPI" */;
@@ -176,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				8DD76F960486AA7600D96B5E /* 01_JSONAPI */,
+				55A94EA91487B97900ADC452 /* 01_JSONAPITest */,
 			);
 		};
 /* End PBXProject section */
@@ -190,7 +232,25 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXResourcesBuildPhase section */
+		55A94EA51487B97900ADC452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		55A94EA61487B97900ADC452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558AC2761487BF68007C6616 /* JSONAPITest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F990486AA7600D96B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +262,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		558AC26E1487BF2A007C6616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SinaWeiBoSDK;
+			targetProxy = 558AC26D1487BF2A007C6616 /* PBXContainerItemProxy */;
+		};
 		55C661BF148524AD00F51E0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SinaWeiBoSDK;
@@ -245,14 +310,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "${DEVELOPER_LIBRARY_DIR}/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"${WeiboSDK_SRC}/**",
+					"${WeiBoSDK_LIB}/**",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
-				WeiboSDK_SRC = "";
+				WeiBoSDK_LIB = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/build/;
 			};
 			name = Debug;
 		};
@@ -260,11 +330,85 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "${DEVELOPER_LIBRARY_DIR}/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"${WeiboSDK_SRC}/**",
+					"${WeiBoSDK_LIB}/**",
+				);
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				WeiBoSDK_LIB = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/build/;
+			};
+			name = Release;
+		};
+		55A94EAC1487B97900ADC452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				HEADER_SEARCH_PATHS = "$(WeiboSDK_SRC)/**";
+				INFOPLIST_FILE = "01_JSONAPITest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$WeiBoSDK_LIB/**",
+					"$WeiboSDK_SRC/**",
+				);
+				"New Setting" = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = 01_JSONAPITest;
+				WRAPPER_EXTENSION = octest;
+				WeiboSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/;
+			};
+			name = Debug;
+		};
+		55A94EAD1487B97900ADC452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				HEADER_SEARCH_PATHS = "$(WeiboSDK_SRC)/**";
+				INFOPLIST_FILE = "01_JSONAPITest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$WeiBoSDK_LIB/**",
+					"$WeiboSDK_SRC/**",
+				);
+				"New Setting" = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = 01_JSONAPITest;
+				WRAPPER_EXTENSION = octest;
+				WeiboSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -285,6 +429,15 @@
 			buildConfigurations = (
 				1DEB927908733DD40010E9CD /* Debug */,
 				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A94EAE1487B97900ADC452 /* Build configuration list for PBXNativeTarget "01_JSONAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A94EAC1487B97900ADC452 /* Debug */,
+				55A94EAD1487B97900ADC452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

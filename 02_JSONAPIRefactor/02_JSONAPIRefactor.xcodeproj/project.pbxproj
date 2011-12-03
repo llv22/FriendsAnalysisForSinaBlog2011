@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55825031148922A900870A52 /* SinaWeiBoBasisAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D78D1C14891EAA003D6C4F /* SinaWeiBoBasisAPI.dylib */; };
-		55825032148922B300870A52 /* SinaWeiBoBasisAPI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D78D1C14891EAA003D6C4F /* SinaWeiBoBasisAPI.dylib */; };
 		55D78CC71489175E003D6C4F /* WeiBoAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */; };
 		8DD76F9A0486AA7600D96B5E /* 02_JSONAPIRefactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* 02_JSONAPIRefactor.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
@@ -16,18 +14,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		55D36DD81489DA6700CF1D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D78C1A14891457003D6C4F /* SinaWeiBoBasisAPI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC0C605546C1D00DB518D /* SinaWeiBoBasisAPI */;
+			remoteInfo = SinaWeiBoBasisAPI;
+		};
 		55D78C1E14891457003D6C4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55D78C1A14891457003D6C4F /* SinaWeiBoBasisAPI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC0C705546C1D00DB518D;
-			remoteInfo = SinaWeiBoBasisAPI;
-		};
-		55D78CA4148914EB003D6C4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55D78C1A14891457003D6C4F /* SinaWeiBoBasisAPI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC0C605546C1D00DB518D;
 			remoteInfo = SinaWeiBoBasisAPI;
 		};
 		55D78CC014891720003D6C4F /* PBXContainerItemProxy */ = {
@@ -61,7 +59,6 @@
 		55D78CBA14891710003D6C4F /* JSONAPITest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONAPITest-Info.plist"; sourceTree = "<group>"; };
 		55D78CC51489175E003D6C4F /* WeiBoAPITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoAPITest.h; sourceTree = "<group>"; };
 		55D78CC61489175E003D6C4F /* WeiBoAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoAPITest.m; sourceTree = "<group>"; };
-		55D78D1C14891EAA003D6C4F /* SinaWeiBoBasisAPI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = SinaWeiBoBasisAPI.dylib; path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/build/Debug/SinaWeiBoBasisAPI.dylib; sourceTree = "<absolute>"; };
 		8DD76FA10486AA7600D96B5E /* 02_JSONAPIRefactor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02_JSONAPIRefactor; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* 02_JSONAPIRefactor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 02_JSONAPIRefactor.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55825032148922B300870A52 /* SinaWeiBoBasisAPI.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55825031148922A900870A52 /* SinaWeiBoBasisAPI.dylib in Frameworks */,
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +91,6 @@
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				55D78CBA14891710003D6C4F /* JSONAPITest-Info.plist */,
-				55D78D1C14891EAA003D6C4F /* SinaWeiBoBasisAPI.dylib */,
 			);
 			name = 02_JSONAPIRefactor;
 			sourceTree = "<group>";
@@ -177,7 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				55D78CA5148914EB003D6C4F /* PBXTargetDependency */,
+				55D36DD91489DA6700CF1D66 /* PBXTargetDependency */,
 			);
 			name = 02_JSONAPIRefactor;
 			productInstallPath = "$(HOME)/bin";
@@ -256,10 +250,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55D78CA5148914EB003D6C4F /* PBXTargetDependency */ = {
+		55D36DD91489DA6700CF1D66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SinaWeiBoBasisAPI;
-			targetProxy = 55D78CA4148914EB003D6C4F /* PBXContainerItemProxy */;
+			targetProxy = 55D36DD81489DA6700CF1D66 /* PBXContainerItemProxy */;
 		};
 		55D78CC114891720003D6C4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -284,10 +278,10 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"",
+					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"/**",
 				);
 				PRODUCT_NAME = 02_JSONAPIRefactor;
-				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -303,36 +297,42 @@
 				INSTALL_PATH = /usr/local/bin;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"",
+					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"/**",
 				);
 				PRODUCT_NAME = 02_JSONAPIRefactor;
-				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		1DEB927908733DD40010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src;
 			};
 			name = Debug;
 		};
 		1DEB927A08733DD40010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src;
 			};
 			name = Release;
 		};
@@ -341,7 +341,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks/**";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -353,10 +353,8 @@
 				INFOPLIST_FILE = "JSONAPITest-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
-					"$(WEIBOSDK_LIB)/**",
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/samba/vfs\"",
-					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -366,8 +364,9 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = JSONAPITest;
-				WEIBOSDK_LIB = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/build;
+				WEIBOSDK_LIB = "";
 				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src;
+				WEIBOSDK_TEMP = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -378,7 +377,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks/**";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -388,10 +387,8 @@
 				INFOPLIST_FILE = "JSONAPITest-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
-					"$(WEIBOSDK_LIB)/**",
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/samba/vfs\"",
-					"\"$(SRCROOT)/../SinaWeiBoBasisAPI/build/Debug\"",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -401,8 +398,9 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = JSONAPITest;
-				WEIBOSDK_LIB = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/build;
+				WEIBOSDK_LIB = "";
 				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src;
+				WEIBOSDK_TEMP = "";
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
 			};

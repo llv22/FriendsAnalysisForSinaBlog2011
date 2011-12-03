@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* SinaWeiBoSDKDemoAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {704, 553}}";
+			sepNavIntBoundsRect = "{{0, 0}, {704, 551}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 518}";
 		};
@@ -22,7 +22,7 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* SinaWeiBoSDKDemoViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {704, 553}}";
+			sepNavIntBoundsRect = "{{0, 0}, {704, 551}}";
 			sepNavSelRange = "{186, 9}";
 			sepNavVisRange = "{0, 515}";
 		};
@@ -103,8 +103,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 344268321;
-			PBXWorkspaceStateSaveDate = 344268321;
+			PBXPerProjectTemplateStateSaveDate = 344356223;
+			PBXWorkspaceStateSaveDate = 344356223;
 		};
 		perUserProjectItems = {
 			55858DEA14826F04001C1911 = 55858DEA14826F04001C1911 /* PBXTextBookmark */;

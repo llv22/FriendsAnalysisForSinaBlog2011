@@ -38,4 +38,10 @@ This is likely because the test rig is being run with Objective-C garbage collec
 --> define OBJC_DISABLE_GC = YES <--
 Debugging then see breakpoints active
 
+* debugging issue - Argument list too long: recursive header expansion failed at /Developer/Documentation/DocSets/com.apple.adc.documentation.AppleSnowLeopard.CoreReference.docset/Contents/Resources/Documents/documentation/AppleApplications/Reference/Motion_FXPlug_Ref/FxGenerator/Protocols.
+
+--> reason: 
+library search path include ${inherited}, then argument become too long for item
+for ${inherited} rather than user defined library search path, shoudln't be recurisve.
+
 4, Weibo SDK includes a lot of UI stuffing, this may lead to UI and framework fixing, Now just use JSON api to construct pure API layer, add procotol for callback functional [or java event list -> xcode extensiblity]

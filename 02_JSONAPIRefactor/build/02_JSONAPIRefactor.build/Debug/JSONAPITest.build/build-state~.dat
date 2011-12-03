@@ -1,14 +1,12 @@
 TJSONAPITest
 v7
 r0
-t344528751.549198
+t344575733.317816
 cCheck dependencies
 cProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/Info.plist JSONAPITest-Info.plist
-cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-bfspddkhpqbdmcdodsrpkexvqnue/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hgfomlybfahlwlapqvawffkdwdnv/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/WeiBoAPITest.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest normal x86_64
-cPhaseScriptExecution "Run Script" /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Script-55D78CB714891710003D6C4F.sh
-cTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest
 
 N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSException_SenTestFailure.h
 c000000004D08914F0000000000000E25
@@ -159,55 +157,90 @@ s240
 i<SenTestingKit/SenTestingKit.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m
-c000000004ED8DFDE00000000000000D3
-t1322835934
-s211
+c000000004ED8E86400000000000003A5
+t1322838116
+s933
+i"JSON.h"
+i"WBUtil.h"
 i"WeiBoAPITest.h"
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONAPITest.LinkFileList
-c000000004ED8DFEA00000000000000B3
-t1322835946
+c000000004ED9977100000000000000B3
+t1322882929
 s179
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/WeiBoAPITest.o
-t1322835950
-s5612
+t1322882933
+s19964
 
-N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/untitled.o
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest
 t2
 s0
 
-N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Script-55D78CB714891710003D6C4F.sh
-c000000004ED8DFEA0000000000000062
-t1322835946
-s98
-
-N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest
-t1322835951
-s102
-
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/Info.plist
-t1322835946
+t1322882929
 s1069
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest
-t1322835950
-s9232
+t2
+s0
 
-N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/untitled.h
-c000000004ED8DFC000000000000000E8
-t1322835904
-s232
-i<SenTestingKit/SenTestingKit.h>
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/JSON.h
+c000000004DF8A6DF00000000000008F9
+t1308141279
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
 
-N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/untitled.m
-c000000004ED8DFC000000000000000C7
-t1322835904
-s199
-i"untitled.h"
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/NSObject+SBJSON.h
+c000000004DF8A6DF0000000000000A01
+t1308141279
+s2561
+i<Foundation/Foundation.h>
 
-N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-bfspddkhpqbdmcdodsrpkexvqnue/Cocoa.h.gch
-t1322835950
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/NSString+SBJSON.h
+c000000004DF8A6DF0000000000000916
+t1308141279
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/SBJSON.h
+c000000004DF8A6DF0000000000000AED
+t1308141279
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/SBJsonBase.h
+c000000004DF8A6DF0000000000000B82
+t1308141279
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/SBJsonParser.h
+c000000004DF8A6DF0000000000000C0B
+t1308141279
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON/SBJsonWriter.h
+c000000004DF8A6DF0000000000001140
+t1308141279
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/WBUtil.h
+c000000004DFACF0C000000000000048C
+t1308282636
+s1164
+i<Foundation/Foundation.h>
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hgfomlybfahlwlapqvawffkdwdnv/Cocoa.h.gch
+t1322882933
 s54306544
 
 NJSONAPITest-Info.plist
@@ -217,11 +250,11 @@ s700
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344528746#344528746#0(0"0(0#1#0"8617084352#0"0#
+lSLF07#2@18"Check dependencies344575729#344575729#0(0"0(0#1#0"8604289824#0"0#
 
 CCompileC build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/WeiBoAPITest.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s344528750.340897
-e344528750.495380
+s344575733.109687
+e344575733.277369
 r1
 xCompileC
 xbuild/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/WeiBoAPITest.o
@@ -230,70 +263,45 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@109"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m344528750#344528750#0(0"0(0#0#101"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m8606844544#2108"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-bfspddkhpqbdmcdodsrpkexvqnue/Cocoa.h -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/WeiBoAPITest.o0#
-
-CCompileC build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/untitled.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-r0
+lSLF07#2@109"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m344575733#344575733#0(0"0(0#0#101"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m8601291264#2596"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hgfomlybfahlwlapqvawffkdwdnv/Cocoa.h -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/WeiBoAPITest.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/WeiBoAPITest.o0#
 
 CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest normal x86_64
-s344528750.495505
-e344528750.539569
-r1
+s344575733.277478
+e344575733.317738
+r0
 xLd
 x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest
 xnormal
 xx86_64
-lSLF07#2@149"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest344528750#344528750#0(0"0(0#0#0"8614685184#877"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Developer/Library/Frameworks -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONAPITest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework SenTestingKit -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest0#
-
-CPhaseScriptExecution "Run Script" /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Script-55D78CB714891710003D6C4F.sh
-s344528750.539695
-e344528751.502625
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Script-55D78CB714891710003D6C4F.sh
-o/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'x86_64'
-o/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'x86_64' (GC OFF)
-oobjc[524]: GC: forcing GC OFF because OBJC_DISABLE_GC is set
-oTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' started at 2011-12-02 22:25:51 +0800
-oTest Suite 'WeiBoAPITest' started at 2011-12-02 22:25:51 +0800
-oTest Suite 'WeiBoAPITest' finished at 2011-12-02 22:25:51 +0800.
-oExecuted 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
-o
-oTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' finished at 2011-12-02 22:25:51 +0800.
-oExecuted 0 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds
-o
-o/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)
-o/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'x86_64'
-lSLF07#2@36"Run custom shell script 'Run Script'344528750#344528751#1(20@49"Run unit tests for architecture 'x86_64' (GC OFF)344528751#344528751#1(20@139"Run test suite /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)344528751#344528751#1(20@27"Run test suite WeiBoAPITest344528751#344528751#0(202"Test Suite 'WeiBoAPITest' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds0(0#0#23"0 out of 0 tests passed13"0.000 seconds73"Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds12"WeiBoAPITest629"Test Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds0(0#0#23"0 out of 0 tests passed13"0.003 seconds73"Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds124"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)902"/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'x86_64' (GC OFF)objc[524]: GC: forcing GC OFF because OBJC_DISABLE_GC is setTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)0(0#0#0"0"104"/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)0"1100"/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'x86_64'/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'x86_64' (GC OFF)objc[524]: GC: forcing GC OFF because OBJC_DISABLE_GC is setTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' started at 2011-12-02 22:25:51 +0800Test Suite 'WeiBoAPITest' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite '/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest(Tests)' finished at 2011-12-02 22:25:51 +0800.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'x86_64'0(0#0#0"8608647168#19061"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER orlando    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build    setenv BUILD_ROOT /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug    setenv CACHE_ROOT /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug    setenv CONTENTS_FOLDER_PATH JSONAPITest.octest/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH JSONAPITest.octest/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/02_JSONAPIRefactor.dst    setenv DWARF_DSYM_FILE_NAME JSONAPITest.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH JSONAPITest.octest/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH JSONAPITest.octest/Contents/MacOS    setenv EXECUTABLE_NAME JSONAPITest    setenv EXECUTABLE_PATH JSONAPITest.octest/Contents/MacOS/JSONAPITest    setenv FILE_LIST /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH JSONAPITest.octest/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug\" /Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME JSONAPITest.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE JSONAPITest-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH JSONAPITest.octest/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH JSONAPITest.octest/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/02_JSONAPIRefactor.dst/Users/orlando/Library/Bundles    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER orlando    setenv INSTALL_PATH /Users/orlando/Library/Bundles    setenv INSTALL_ROOT /tmp/02_JSONAPIRefactor.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH JSONAPITest.octest/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONAPITest.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH JSONAPITest.octest/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J567    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal    setenv OBJROOT /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Cocoa -framework SenTestingKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH JSONAPITest.octest/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/PkgInfo    setenv PKGINFO_PATH JSONAPITest.octest/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2518    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH JSONAPITest.octest/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH JSONAPITest.octest/Contents/PrivateHeaders    setenv PRODUCT_NAME JSONAPITest    setenv PRODUCT_SETTINGS_PATH /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/JSONAPITest-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT 02_JSONAPIRefactor    setenv PROJECT_DERIVED_FILE_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/DerivedSources    setenv PROJECT_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv PROJECT_FILE_PATH /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.xcodeproj    setenv PROJECT_NAME 02_JSONAPIRefactor    setenv PROJECT_TEMP_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build    setenv PUBLIC_HEADERS_FOLDER_PATH JSONAPITest.octest/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH JSONAPITest.octest/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SDK_PRODUCT_BUILD_VERSION 10M2518    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH JSONAPITest.octest/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH JSONAPITest.octest/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv SRCROOT /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SYMBOL_REPOSITORY_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/SymbolRepositories    setenv SYMROOT /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME JSONAPITest    setenv TARGET_BUILD_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug    setenv TARGET_NAME JSONAPITest    setenv TARGET_TEMP_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build    setenv TEMP_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build    setenv TEMP_FILES_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build    setenv TEMP_FILE_DIR /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build    setenv TEMP_ROOT /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH JSONAPITest.octest/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER orlando    setenv USER_APPS_DIR /Users/orlando/Applications    setenv USER_LIBRARY_DIR /Users/orlando/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH JSONAPITest.octest/Contents/version.plist    setenv VERSION_INFO_BUILDER orlando    setenv VERSION_INFO_FILE JSONAPITest_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:JSONAPITest  PROJECT:02_JSONAPIRefactor-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME JSONAPITest.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2518    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT macosx10.6    /bin/sh -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Script-55D78CB714891710003D6C4F.sh0#
+oUndefined symbols:
+o  "_OBJC_CLASS_$_SBJSON", referenced from:
+o      objc-class-ref-to-SBJSON in WeiBoAPITest.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@149"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest344575733#344575733#0(171"Undefined symbols:  "_OBJC_CLASS_$_SBJSON", referenced from:      objc-class-ref-to-SBJSON in WeiBoAPITest.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@40""_OBJC_CLASS_$_SBJSON", referenced from:344575733#19#43#0(6@0"344575733#0#0#0#0#0"0(13@42"Objc-class-ref-to-SBJSON in WeiBoAPITest.o344575733#62#49#0(6@0"344575733#0#0#0#0#0"0(13@19"Symbol(s) not found344575733#111#24#0(6@0"344575733#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status344575733#135#36#0(6@0"344575733#0#0#0#0#0"0(0#0#0"8605709472#1144"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/build -L/Developer/SDKs/MacOSX10.6.sdk/usr/lib/samba/vfs -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/../SinaWeiBoBasisAPI/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Developer/Library/Frameworks -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONAPITest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework SenTestingKit -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest1#
 
 CProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/Info.plist JSONAPITest-Info.plist
-s344528746.853357
-e344528746.856580
+s344575729.538090
+e344575729.543022
 r1
 xProcessInfoPlistFile
 x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/Info.plist
 xJSONAPITest-Info.plist
-lSLF07#2@30"Process JSONAPITest-Info.plist344528746#344528746#0(0"0(0#0#109"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/JSONAPITest-Info.plist8615796640#325"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    builtin-infoPlistUtility JSONAPITest-Info.plist -expandbuildsettings -platform macosx -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/Info.plist0#
+lSLF07#2@30"Process JSONAPITest-Info.plist344575729#344575729#0(0"0(0#0#109"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/JSONAPITest-Info.plist8606380832#325"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    builtin-infoPlistUtility JSONAPITest-Info.plist -expandbuildsettings -platform macosx -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest/Contents/Info.plist0#
 
-CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-bfspddkhpqbdmcdodsrpkexvqnue/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s344528746.856684
-e344528750.340556
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hgfomlybfahlwlapqvawffkdwdnv/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344575729.543168
+e344575733.109479
 r1
 xProcessPCH
-x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-bfspddkhpqbdmcdodsrpkexvqnue/Cocoa.h.gch
+x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hgfomlybfahlwlapqvawffkdwdnv/Cocoa.h.gch
 x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
 xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h344528746#344528750#0(0"0(0#0#88"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h8615238208#1918"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-bfspddkhpqbdmcdodsrpkexvqnue/Cocoa.h.gch0#
+lSLF07#2@99"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h344575729#344575733#0(0"0(0#0#88"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h8605821056#2406"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoBasisAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/02_JSONAPIRefactor.build/Debug/JSONAPITest.build/DerivedSources -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hgfomlybfahlwlapqvawffkdwdnv/Cocoa.h.gch0#
 
 CTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest
-s344528751.502815
-e344528751.549132
-r1
-xTouch
-x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest
-lSLF07#2@123"Touch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest344528751#344528751#0(0"0(0#0#0"8599281888#234"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor    /usr/bin/touch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/build/Debug/JSONAPITest.octest0#
+r0
 

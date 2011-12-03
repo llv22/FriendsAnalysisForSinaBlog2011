@@ -1,15 +1,14 @@
-#import <Foundation/Foundation.h>
 #import "JSON.h"
-#import "WBUtil.h"
+#import <Foundation/Foundation.h>
+
 
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-
-    // insert code here...
-	//SBJSON* proxy = [[SBJSON alloc]init];
-	//[proxy fragmentWithString:@"error" error:
-	id jsonObject = [jsonString JSONValue];
     NSLog(@"Hello, World!");
+	SBJSON* proxy = [[SBJSON alloc]init];
+	if (proxy != nil) {
+		NSLog(@"SBJSON debugging");
+	}
     [pool drain];
     return 0;
 }
