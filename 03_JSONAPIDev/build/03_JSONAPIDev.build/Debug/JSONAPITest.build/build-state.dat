@@ -1,13 +1,12 @@
 TJSONAPITest
 v7
 r0
-t344583568.726518
+t344584496.870201
 cCheck dependencies
 cProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/Info.plist JSONAPITest-Info.plist
 cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-gfhgtdhjckugisfqnisovjlgtfum/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONBasicAPITest.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest normal x86_64
-cPhaseScriptExecution "Run Script" /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Script-55D36FE71489EC0400CF1D66.sh
 cTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest
 
 N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSException_SenTestFailure.h
@@ -164,9 +163,9 @@ s243
 i<SenTestingKit/SenTestingKit.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m
-c000000004ED9B58C00000000000003A9
-t1322890636
-s937
+c000000004ED9B9B700000000000003A8
+t1322891703
+s936
 i"JSONBasicAPITest.h"
 i"JSON.h"
 i"WBUtil.h"
@@ -177,7 +176,7 @@ t1322890763
 s173
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONBasicAPITest.o
-t1322890768
+t1322891696
 s20060
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Script-55D36FE71489EC0400CF1D66.sh
@@ -186,7 +185,7 @@ t1322890763
 s98
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest
-t1322890768
+t1322891696
 s102
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/Info.plist
@@ -194,7 +193,7 @@ t1322890763
 s1069
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest
-t1322890768
+t1322891696
 s52024
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/build/Debug/libSinaWeiBoStaticAPI.a
@@ -271,11 +270,11 @@ s700
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344583562#344583563#0(0"0(0#1#0"8637728384#0"0#
+lSLF07#2@18"Check dependencies344584496#344584496#0(0"0(0#1#0"8641681728#0"0#
 
 CCompileC build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONBasicAPITest.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s344583567.945708
-e344583568.169286
+s344584496.561382
+e344584496.806871
 r1
 xCompileC
 xbuild/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONBasicAPITest.o
@@ -284,17 +283,17 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m344583567#344583568#0(0"0(0#0#100"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m8635328768#2519"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-gfhgtdhjckugisfqnisovjlgtfum/Cocoa.h -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONBasicAPITest.o0#
+lSLF07#2@108"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m344584496#344584496#0(0"0(0#0#100"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m8636274048#2519"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-gfhgtdhjckugisfqnisovjlgtfum/Cocoa.h -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/JSONBasicAPITest.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONBasicAPITest.o0#
 
 CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest normal x86_64
-s344583568.169386
-e344583568.245473
+s344584496.807091
+e344584496.865208
 r1
 xLd
 x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest
 xnormal
 xx86_64
-lSLF07#2@144"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest344583568#344583568#0(0"0(0#0#0"8642670208#992"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Developer/Library/Frameworks -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONAPITest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework SenTestingKit -framework Foundation /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/build/Debug/libSinaWeiBoStaticAPI.a -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest0#
+lSLF07#2@144"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest344584496#344584496#0(0"0(0#0#0"8639680160#992"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Developer/Library/Frameworks -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Objects-normal/x86_64/JSONAPITest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework SenTestingKit -framework Foundation /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/build/Debug/libSinaWeiBoStaticAPI.a -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest/Contents/MacOS/JSONAPITest0#
 
 CPhaseScriptExecution "Run Script" /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/Script-55D36FE71489EC0400CF1D66.sh
 s344583568.245672
@@ -350,10 +349,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h344583563#344583567#0(0"0(0#0#88"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h8641851776#2336"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/JSONAPITest-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -F/Developer/Library/Frameworks -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/JSONAPITest.build/DerivedSources -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-gfhgtdhjckugisfqnisovjlgtfum/Cocoa.h.gch0#
 
 CTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest
-s344583568.722386
-e344583568.726444
+s344584496.865593
+e344584496.870128
 r1
 xTouch
 x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest
-lSLF07#2@118"Touch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest344583568#344583568#0(0"0(0#0#0"8642426816#224"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    /usr/bin/touch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest0#
+lSLF07#2@118"Touch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest344584496#344584496#0(0"0(0#0#0"8634838880#224"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    /usr/bin/touch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/JSONAPITest.octest0#
 

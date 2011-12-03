@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,21 +268,14 @@
 								<string>08FB7795FE84155DC02AAC07</string>
 								<string>1AB674ADFE9D54B511CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>55D36D371489CEFD00CF1D66</string>
-								<string>55D36EB81489E29800CF1D66</string>
-								<string>55D36ECD1489E50D00CF1D66</string>
-								<string>55D36EB91489E29800CF1D66</string>
-								<string>55D36ECE1489E50D00CF1D66</string>
-								<string>55D36EBA1489E29800CF1D66</string>
-								<string>55D36EC01489E4DB00CF1D66</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>14</integer>
+									<integer>19</integer>
+									<integer>17</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -307,7 +298,7 @@
 							<real>271</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>2 55 1020 691 0 0 1024 746 </string>
+						<string>4 55 1020 691 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,6 +309,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -335,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>55D36F901489E92F00CF1D66</string>
+										<string>55D370271489F03100CF1D66</string>
 										<key>history</key>
 										<array>
 											<string>55D78CE0148917C2003D6C4F</string>
@@ -343,7 +336,7 @@
 											<string>558F7C701489CEAC002EB23D</string>
 											<string>55D36D8B1489D64B00CF1D66</string>
 											<string>55D36DC41489D96B00CF1D66</string>
-											<string>55D36E821489DE5400CF1D66</string>
+											<string>55D36F901489E92F00CF1D66</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +348,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {727, 590}}</string>
+								<string>{{0, 0}, {727, 588}}</string>
 								<key>RubberWindowFrame</key>
-								<string>2 55 1020 691 0 0 1024 746 </string>
+								<string>4 55 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>590pt</string>
+							<string>588pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +368,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 595}, {727, 55}}</string>
+								<string>{{0, 593}, {727, 57}}</string>
 								<key>RubberWindowFrame</key>
-								<string>2 55 1020 691 0 0 1024 746 </string>
+								<string>4 55 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>55pt</string>
+							<string>57pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -401,9 +394,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>55D36D391489CEFD00CF1D66</string>
+				<string>55D370281489F03100CF1D66</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>55D36D3A1489CEFD00CF1D66</string>
+				<string>55D370291489F03100CF1D66</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -541,16 +534,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>55D36D431489CEFD00CF1D66</string>
-		<string>55D36D451489CEFD00CF1D66</string>
-		<string>55D36D461489CEFD00CF1D66</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>55499F5014890B730062B8A3</string>
 		<string>/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/02_JSONAPIRefactor/02_JSONAPIRefactor.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>2 55 1020 691 0 0 1024 746 </string>
+	<string>4 55 1020 691 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -571,7 +559,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WeiBoAPITest.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -588,8 +576,6 @@
 							<string>408pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -629,7 +615,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>55499F5014890B730062B8A3</string>
-				<string>55D36D3B1489CEFD00CF1D66</string>
+				<string>55D3702A1489F03100CF1D66</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

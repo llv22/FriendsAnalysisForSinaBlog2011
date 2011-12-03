@@ -128,13 +128,13 @@
 			PBXWorkspaceStateSaveDate = 344583105;
 		};
 		perUserProjectItems = {
-			558250531489258600870A52 = 558250531489258600870A52 /* PBXTextBookmark */;
-			558F7C701489CEAC002EB23D = 558F7C701489CEAC002EB23D /* PBXTextBookmark */;
-			55D36D8B1489D64B00CF1D66 = 55D36D8B1489D64B00CF1D66 /* PBXTextBookmark */;
-			55D36DC41489D96B00CF1D66 = 55D36DC41489D96B00CF1D66 /* PBXTextBookmark */;
-			55D36E821489DE5400CF1D66 = 55D36E821489DE5400CF1D66 /* PBXTextBookmark */;
-			55D36F901489E92F00CF1D66 = 55D36F901489E92F00CF1D66 /* PBXTextBookmark */;
-			55D78CE0148917C2003D6C4F = 55D78CE0148917C2003D6C4F /* PBXTextBookmark */;
+			558250531489258600870A52 /* PBXTextBookmark */ = 558250531489258600870A52 /* PBXTextBookmark */;
+			558F7C701489CEAC002EB23D /* PBXTextBookmark */ = 558F7C701489CEAC002EB23D /* PBXTextBookmark */;
+			55D36D8B1489D64B00CF1D66 /* PBXTextBookmark */ = 55D36D8B1489D64B00CF1D66 /* PBXTextBookmark */;
+			55D36DC41489D96B00CF1D66 /* PBXTextBookmark */ = 55D36DC41489D96B00CF1D66 /* PBXTextBookmark */;
+			55D36F901489E92F00CF1D66 /* PBXTextBookmark */ = 55D36F901489E92F00CF1D66 /* PBXTextBookmark */;
+			55D370271489F03100CF1D66 /* PBXTextBookmark */ = 55D370271489F03100CF1D66 /* PBXTextBookmark */;
+			55D78CE0148917C2003D6C4F /* PBXTextBookmark */ = 55D78CE0148917C2003D6C4F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 55499F1A1489050C0062B8A3 /* Source Control */;
 		userBuildSettings = {
@@ -262,16 +262,9 @@
 		ignoreCount = 0;
 		lineNumber = 48;
 		location = JSONAPITest;
-		modificationTime = 344582142.1617049;
+		modificationTime = 344583550.981256;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	55D36E821489DE5400CF1D66 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
-		rLen = 1;
-		rLoc = 47;
-		rType = 1;
+		state = 0;
 	};
 	55D36F901489E92F00CF1D66 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -282,6 +275,16 @@
 		rType = 0;
 		vrLen = 767;
 		vrLoc = 166;
+	};
+	55D370271489F03100CF1D66 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D78CC61489175E003D6C4F /* WeiBoAPITest.m */;
+		name = "WeiBoAPITest.m: 17";
+		rLen = 682;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 185;
 	};
 	55D78CB814891710003D6C4F /* JSONAPITest */ = {
 		activeExec = 0;
@@ -295,9 +298,9 @@
 	};
 	55D78CC61489175E003D6C4F /* WeiBoAPITest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {959, 702}}";
-			sepNavSelRange = "{349, 0}";
-			sepNavVisRange = "{300, 624}";
+			sepNavIntBoundsRect = "{{0, 0}, {666, 702}}";
+			sepNavSelRange = "{243, 682}";
+			sepNavVisRange = "{185, 748}";
 			sepNavWindowFrame = "{{237, 0}, {750, 746}}";
 		};
 	};

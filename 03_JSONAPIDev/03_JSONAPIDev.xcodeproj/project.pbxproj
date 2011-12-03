@@ -21,21 +21,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 55D36F991489E95500CF1D66 /* SinaWeiBoStaticAPI.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libSinaWeiBoStaticAPI.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = SinaWeiBoStaticAPI;
 		};
 		55D36FA41489E97500CF1D66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55D36F991489E95500CF1D66 /* SinaWeiBoStaticAPI.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* SinaWeiBoStaticAPI */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = SinaWeiBoStaticAPI;
 		};
 		55D36FEE1489EC0800CF1D66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55D36F991489E95500CF1D66 /* SinaWeiBoStaticAPI.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* SinaWeiBoStaticAPI */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = SinaWeiBoStaticAPI;
 		};
 /* End PBXContainerItemProxy section */

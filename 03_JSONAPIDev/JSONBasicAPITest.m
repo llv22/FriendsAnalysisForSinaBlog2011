@@ -21,7 +21,6 @@
 {
 	//TODO : Optional
 }
-
 -(void) testOCUnitFramework
 {
 	NSString *string1 = @"test";

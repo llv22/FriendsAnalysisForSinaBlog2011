@@ -44,4 +44,8 @@ Debugging then see breakpoints active
 library search path include ${inherited}, then argument become too long for item
 for ${inherited} rather than user defined library search path, shoudln't be recurisve.
 
+* organization -> xcode couldn't support dynlib compiling directly, see the xcodeproject configuration file for compiling [do we need to use source code for dynlib?], refer to http://www.cocoachina.com/bbs/simple/index.php?t21019.html
+
+* breakpoints -> http://www.quora.com/Xcode/Whats-the-keyboard-shortcut-to-remove-a-debug-breakpoint-in-Xcode shortcut
+
 4, Weibo SDK includes a lot of UI stuffing, this may lead to UI and framework fixing, Now just use JSON api to construct pure API layer, add procotol for callback functional [or java event list -> xcode extensiblity]
