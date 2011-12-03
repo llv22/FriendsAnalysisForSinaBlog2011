@@ -1,0 +1,284 @@
+TTweetStream
+v7
+r0
+t344612952.055067
+cCheck dependencies
+cProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/Info.plist TweetStream/TweetStream-Info.plist
+cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch.gch TweetStream/TweetStream-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamAppDelegate.o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamViewController.o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCopyStringsFile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/InfoPlist.strings TweetStream/en.lproj/InfoPlist.strings
+cCompileXIB /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/MainWindow.xib
+cCompileXIB /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/TweetStreamViewController.xib
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStream-Prefix.pch
+c000000004E57F3E20000000000000148
+t1314386914
+s328
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.h
+c000000004E57F3E200000000000001B5
+t1314386914
+s437
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m
+c000000004E57F3E20000000000000978
+t1314386914
+s2424
+i"TweetStreamAppDelegate.h"
+i"TweetStreamViewController.h"
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.h
+c000000004E57F3E200000000000001FE
+t1314386914
+s510
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m
+c000000004E57F3E200000000000010CC
+t1314386914
+s4300
+i"TweetStreamViewController.h"
+i<SBJson/SBJson.h>
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/InfoPlist.strings
+c000000004E57F3E2000000000000002D
+t1314386914
+s45
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/MainWindow.xib
+c000000004E57F3E20000000000004E49
+t1314386914
+s20041
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/TweetStreamViewController.xib
+c000000004E57F3E2000000000000427A
+t1314386914
+s17018
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m
+c000000004E57F3E20000000000000169
+t1314386914
+s361
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app
+t2
+s0
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app.dSYM
+t2
+s0
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/Info.plist
+t1322920150
+s794
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/PkgInfo
+t1322920150
+s8
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/TweetStream
+t2
+s0
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/InfoPlist.strings
+t1322920151
+s42
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/MainWindow.nib
+t1322920151
+s1689
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/TweetStreamViewController.nib
+t1322920151
+s5025
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStream.LinkFileList
+c000000004EDA28D60000000000000210
+t1322920150
+s528
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamAppDelegate.o
+t1322920150
+s48992
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamViewController.o
+t2
+s0
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/main.o
+t1322920150
+s3164
+
+N/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/build/Debug-iphonesimulator/libsbjson-ios.a
+c000000004EDA28D60000000000042970
+t1322920150
+s272752
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch.gch
+t1322920150
+s12283312
+
+NTweetStream/TweetStream-Info.plist
+c000000004E57F3E200000000000004A4
+t1314386914
+s1188
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344612950#344612950#0(0"0(0#1#0"8609385856#0"0#
+
+CCompileC build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamAppDelegate.o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s344612950.818181
+e344612950.954575
+r1
+xCompileC
+xbuild/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamAppDelegate.o
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@116"Compile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m344612950#344612951#0(0"0(0#0#108"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m8612897472#2652"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/../../../Library/Developer/Xcode/DerivedData/Examples-atkbdjffzwdsgfgrgywggtsrhcwl/Build/Products/Debug -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch -c /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamAppDelegate.m -o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamAppDelegate.o0#
+
+CCompileC build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamViewController.o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s344612950.877456
+e344612950.943031
+r0
+xCompileC
+xbuild/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamViewController.o
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:10:26: error: SBJson/SBJson.h: No such file or directory
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:12: error: cannot find protocol declaration for 'SBJsonStreamParserAdapterDelegate'
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m: In function '-[TweetStreamViewController go]':
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:56: warning: receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:60: error: request for member 'delegate' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:63: warning: receiver 'SBJsonStreamParser' is a forward class and corresponding @interface may not exist
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:66: error: request for member 'delegate' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:72: error: request for member 'supportMultipleDocuments' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m: In function '-[TweetStreamViewController connection:didReceiveData:]':
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: 'SBJsonStreamParserStatus' undeclared (first use in this function)
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: (Each undeclared identifier is reported only once
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: for each function it appears in.)
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: expected ';' before 'status'
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:117: error: 'status' undeclared (first use in this function)
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:117: error: 'SBJsonStreamParserError' undeclared (first use in this function)
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:118: error: request for member 'error' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:119: error: request for member 'error' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:121: error: 'SBJsonStreamParserWaitingForData' undeclared (first use in this function)
+lSLF07#2@119"Compile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m344612950#344612950#0(3355"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:10:26: error: SBJson/SBJson.h: No such file or directory/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:12: error: cannot find protocol declaration for 'SBJsonStreamParserAdapterDelegate'/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m: In function '-[TweetStreamViewController go]':/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:56: warning: receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:60: error: request for member 'delegate' in something not a structure or union/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:63: warning: receiver 'SBJsonStreamParser' is a forward class and corresponding @interface may not exist/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:66: error: request for member 'delegate' in something not a structure or union/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:72: error: request for member 'supportMultipleDocuments' in something not a structure or union/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m: In function '-[TweetStreamViewController connection:didReceiveData:]':/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: 'SBJsonStreamParserStatus' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: (Each undeclared identifier is reported only once/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: for each function it appears in.)/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:115: error: expected ';' before 'status'/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:117: error: 'status' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:117: error: 'SBJsonStreamParserError' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:118: error: request for member 'error' in something not a structure or union/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:119: error: request for member 'error' in something not a structure or union/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m:121: error: 'SBJsonStreamParserWaitingForData' undeclared (first use in this function)14(4@42"SBJson/SBJson.h: No such file or directory344612950#0#169#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#10#0#10#0#28"*: No such file or directory0(4@72"Cannot find protocol declaration for 'SBJsonStreamParserAdapterDelegate'344612950#169#196#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#12#0#12#0#0"0(22@98"Receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist344612950#525#224#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#56#0#56#0#0"0(4@67"Request for member 'delegate' in something not a structure or union344612950#749#191#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#60#0#60#0#0"0(22@91"Receiver 'SBJsonStreamParser' is a forward class and corresponding @interface may not exist344612950#940#217#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#63#0#63#0#0"0(4@67"Request for member 'delegate' in something not a structure or union344612950#1157#191#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#66#0#66#0#0"0(4@83"Request for member 'supportMultipleDocuments' in something not a structure or union344612950#1348#207#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#72#0#72#0#0"0(4@66"'SBJsonStreamParserStatus' undeclared (first use in this function)344612950#1739#191#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#115#0#115#0#43"'*' undeclared (first use in this function)0(4@28"Expected ';' before 'status'344612950#2262#153#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#115#0#115#0#19"expected * before *0(4@48"'status' undeclared (first use in this function)344612950#2415#173#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#117#0#117#0#43"'*' undeclared (first use in this function)0(4@65"'SBJsonStreamParserError' undeclared (first use in this function)344612950#2588#190#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#117#0#117#0#43"'*' undeclared (first use in this function)0(4@64"Request for member 'error' in something not a structure or union344612950#2778#189#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#118#0#118#0#0"0(4@64"Request for member 'error' in something not a structure or union344612950#2967#189#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#119#0#119#0#0"0(4@74"'SBJsonStreamParserWaitingForData' undeclared (first use in this function)344612950#3156#199#0(6@111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m336079714#121#0#121#0#43"'*' undeclared (first use in this function)0(0#0#111"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m8609609760#2658"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/../../../Library/Developer/Xcode/DerivedData/Examples-atkbdjffzwdsgfgrgywggtsrhcwl/Build/Products/Debug -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch -c /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStreamViewController.m -o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/TweetStreamViewController.o1#
+
+CCompileC build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s344612950.816640
+e344612950.877306
+r1
+xCompileC
+xbuild/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/main.o
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@98"Compile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m344612950#344612950#0(0"0(0#0#90"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m8616336608#2616"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/../../../Library/Developer/Xcode/DerivedData/Examples-atkbdjffzwdsgfgrgywggtsrhcwl/Build/Products/Debug -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch -c /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/main.m -o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/MainWindow.xib
+s344612950.955599
+e344612951.697533
+r1
+xCompileXIB
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/MainWindow.xib
+lSLF07#2@46"CompileXIB TweetStream/en.lproj/MainWindow.xib344612950#344612951#0(0"0(0#0#107"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/MainWindow.xib8607305536#703"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/MainWindow.nib /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/TweetStreamViewController.xib
+s344612951.370331
+e344612952.054848
+r1
+xCompileXIB
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/TweetStreamViewController.xib
+lSLF07#2@61"CompileXIB TweetStream/en.lproj/TweetStreamViewController.xib344612951#344612952#0(0"0(0#0#122"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/TweetStreamViewController.xib8622072672#733"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/TweetStreamViewController.nib /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/TweetStreamViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCopyStringsFile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/InfoPlist.strings TweetStream/en.lproj/InfoPlist.strings
+s344612950.954630
+e344612951.370193
+r1
+xCopyStringsFile
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj/InfoPlist.strings
+xTweetStream/en.lproj/InfoPlist.strings
+lSLF07#2@43"Copy TweetStream/en.lproj/InfoPlist.strings344612950#344612951#0(0"0(0#0#110"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/en.lproj/InfoPlist.strings8607526816#565"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary TweetStream/en.lproj/InfoPlist.strings --outdir /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/en.lproj0#
+
+CGenerateDSYMFile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app.dSYM /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/TweetStream
+r0
+
+CLd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/TweetStream normal i386
+r0
+
+CProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/Info.plist TweetStream/TweetStream-Info.plist
+s344612950.188244
+e344612950.194085
+r1
+xProcessInfoPlistFile
+x/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/Info.plist
+xTweetStream/TweetStream-Info.plist
+lSLF07#2@42"Process TweetStream/TweetStream-Info.plist344612950#344612950#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStream-Info.plist8607119168#602"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TweetStream/TweetStream-Info.plist -genpkginfo /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app/Info.plist0#
+
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch.gch TweetStream/TweetStream-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s344612950.194221
+e344612950.816518
+r1
+xProcessPCH
+x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch.gch
+xTweetStream/TweetStream-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@45"Precompile TweetStream/TweetStream-Prefix.pch344612950#344612950#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStream-Prefix.pch8606348288#2471"    cd /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/TweetStream-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream -F/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/../../../Library/Developer/Xcode/DerivedData/Examples-atkbdjffzwdsgfgrgywggtsrhcwl/Build/Products/Debug -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/TweetStream.build/Debug-iphonesimulator/TweetStream.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/TweetStream/TweetStream-Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetStream-Prefix-gdzapvdiqtyucpehfkkstmkjeukg/TweetStream-Prefix.pch.gch0#
+
+CTouch /Users/orlando/Documents/06_weiboApp/SBJson_v3.0.4/Examples/TweetStream/build/Debug-iphonesimulator/TweetStream.app
+r0
+

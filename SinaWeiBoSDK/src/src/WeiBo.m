@@ -201,6 +201,7 @@ static NSString* weiboHttpRequestDomain		= @"http://api.t.sina.com.cn/";
 		_request = nil;
 	}
 	
+	//TODO : request parameters
 	_request = [WBRequest getAuthorizeRequestWithParams:params
 											 httpMethod:@"POST"
 										   postDataType:postDataType 

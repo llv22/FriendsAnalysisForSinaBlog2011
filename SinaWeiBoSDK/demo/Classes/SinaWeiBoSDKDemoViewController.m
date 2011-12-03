@@ -9,8 +9,8 @@
 #import "SinaWeiBoSDKDemoViewController.h"
 
 //TODO : Micro to define key for verification
-#define SinaWeiBoSDKDemo_APPKey @"2033665283"
-#define SinaWeiBoSDKDemo_APPSecret @"36de69750ed7a41a778c9d68ecf92c9c"
+#define SinaWeiBoSDKDemo_APPKey @"2657678697"
+#define SinaWeiBoSDKDemo_APPSecret @"6085bbad181f41c25dc7d164b0d6fde2"
 
 #if !defined(SinaWeiBoSDKDemo_APPKey)
 #error "You must define SinaWeiBoSDKDemo_APPKey as your APP Key"

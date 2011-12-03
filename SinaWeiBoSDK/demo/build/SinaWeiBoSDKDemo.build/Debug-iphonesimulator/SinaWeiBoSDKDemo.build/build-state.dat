@@ -1,11 +1,11 @@
 TSinaWeiBoSDKDemo
 v7
 r0
-t344092419.739303
+t344612355.037459
 cCheck dependencies
-cProcessInfoPlistFile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist SinaWeiBoSDKDemo-Info.plist
-cCompileXIB /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/MainWindow.xib
-cCompileXIB /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib
+cProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist SinaWeiBoSDKDemo-Info.plist
+cCompileXIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/MainWindow.xib
+cCompileXIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib
 cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg.png ../src/src/images/bg.png
 cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg@2x.png ../src/src/images/bg@2x.png
 cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg_land.png ../src/src/images/bg_land.png
@@ -16,26 +16,26 @@ cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/close.png ../src/sr
 cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/close@2x.png ../src/src/images/close@2x.png
 cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/delete.png ../src/src/images/delete.png
 cCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/delete@2x.png ../src/src/images/delete@2x.png
-cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch.gch SinaWeiBoSDKDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBSendView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WeiBo.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo normal i386
-cGenerateDSYMFile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
-cTouch /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
+cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch.gch SinaWeiBoSDKDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo normal i386
+cGenerateDSYMFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
+cTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
 c000000004D5C9B4E0000000000000110
@@ -556,8 +556,461 @@ i"WBRequest.h"
 i"WBSendView.h"
 i"WBAuthorize.h"
 
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m
+c000000004DF8A6DF0000000000005BD2
+t1308141279
+s23506
+i"GTMBase64.h"
+i"GTMDefines.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/JSON.h
+c000000004DF8A6DF00000000000008F9
+t1308141279
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m
+c000000004DF8A6DF000000000000089E
+t1308141279
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m
+c000000004DF8A6DF000000000000087D
+t1308141279
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m
+c000000004DF8A6DF0000000000001ABC
+t1308141279
+s6844
+i"SBJSON.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m
+c000000004DF8A6DF0000000000000AC1
+t1308141279
+s2753
+i"SBJsonBase.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m
+c000000004DF8A6DF00000000000036D0
+t1308141279
+s14032
+i"SBJsonParser.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m
+c000000004DF8A6DF0000000000001F26
+t1308141279
+s7974
+i"SBJsonWriter.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m
+c000000004DF8A6DF0000000000003A97
+t1308141279
+s14999
+i"SFHFKeychainUtils.h"
+i<Security/Security.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m
+c000000004DFACEF700000000000031A8
+t1308282615
+s12712
+i"WBAuthorize.h"
+i"WBUtil.h"
+i<UIKit/UIKit.h>
+i"WeiBo.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBConnect.h
+c000000004DFACEF400000000000002BF
+t1308282612
+s703
+i"WBUtil.h"
+i"WBRequest.h"
+i"WBAuthorize.h"
+i"WeiBo.h"
+i"WBSendView.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m
+c000000004DFACEFF0000000000002493
+t1308282623
+s9363
+i"WBRequest.h"
+i<UIKit/UIKit.h>
+i"WBUtil.h"
+i"JSON.h"
+i"WeiBo.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m
+c000000004DFACF080000000000005074
+t1308282632
+s20596
+i"WBSendView.h"
+i"WBRequest.h"
+i"WeiBo.h"
+i"WBUtil.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m
+c000000004DFACF0F0000000000000B41
+t1308282639
+s2881
+i"WBUtil.h"
+i<CommonCrypto/CommonDigest.h>
+i<CommonCrypto/CommonHMAC.h>
+i"GTMBase64.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m
+c000000004EDA23EE0000000000002713
+t1322918894
+s10003
+i"WeiBo.h"
+i"WBUtil.h"
+i"SFHFKeychainUtils.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/bg.png
+c000000004DF8A6DF0000000000000FCA
+t1308141279
+s4042
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/bg@2x.png
+c000000004DF8A6DF0000000000002199
+t1308141279
+s8601
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/bg_land.png
+c000000004DF8A6DF0000000000000FEC
+t1308141279
+s4076
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/bg_land@2x.png
+c000000004DF8A6DF0000000000002307
+t1308141279
+s8967
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/btn.png
+c000000004DF8A6DF0000000000000CE6
+t1308141279
+s3302
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/btn@2x.png
+c000000004DF8A6DF0000000000000F40
+t1308141279
+s3904
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/close.png
+c000000004DF8A6DF0000000000000F12
+t1308141279
+s3858
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/close@2x.png
+c000000004DF8A6DF00000000000014C8
+t1308141279
+s5320
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/delete.png
+c000000004DF8A6DF0000000000000BBE
+t1308141279
+s3006
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/images/delete@2x.png
+c000000004DF8A6DF0000000000000CDB
+t1308141279
+s3291
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.h
+c000000004DF585230000000000000206
+t1307936035
+s518
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m
+c000000004DF5CB2A0000000000000C89
+t1307953962
+s3209
+i"SinaWeiBoSDKDemoAppDelegate.h"
+i"SinaWeiBoSDKDemoViewController.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.h
+c000000004DF9FB290000000000000203
+t1308228393
+s515
+i<UIKit/UIKit.h>
+i"WBConnect.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m
+c000000004EDA233100000000000018B0
+t1322918705
+s6320
+i"SinaWeiBoSDKDemoViewController.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/MainWindow.xib
+c000000004DF585230000000000004E95
+t1307936035
+s20117
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib
+c000000004DF585230000000000001A69
+t1307936035
+s6761
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/SinaWeiBoSDKDemo_Prefix.pch
+c000000004DF5852300000000000000C9
+t1307936035
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
+t1322919209
+s578
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM
+t1322919209
+s102
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist
+t1321968931
+s700
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/MainWindow.nib
+t1321968932
+s1699
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/PkgInfo
+t1321968931
+s8
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
+t1322919209
+s175336
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemoViewController.nib
+t1321968932
+s1269
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg.png
+t1321968932
+s4042
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg@2x.png
+t1321968932
+s8601
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg_land.png
+t1321968932
+s4076
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg_land@2x.png
+t1321968932
+s8967
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/btn.png
+t1321968932
+s3302
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/btn@2x.png
+t1321968932
+s3904
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/close.png
+t1321968932
+s3858
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/close@2x.png
+t1321968932
+s5320
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/delete.png
+t1321968932
+s3006
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/delete@2x.png
+t1321968932
+s3291
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o
+t1322918279
+s31348
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o
+t1322918279
+s8408
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o
+t1322918279
+s8328
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o
+t1322918280
+s20196
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o
+t1322918280
+s13328
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o
+t1322918280
+s36048
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o
+t1322918280
+s25664
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o
+t1322918280
+s19020
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemo.LinkFileList
+c000000004EDA21860000000000000C36
+t1322918278
+s3126
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o
+t1322918279
+s57048
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o
+t1322918708
+s70596
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o
+t1322918280
+s80252
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o
+t1322918280
+s44628
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o
+t1322918280
+s118596
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o
+t1322918280
+s15648
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o
+t1322919209
+s69376
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o
+t1322918279
+s6404
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m
+c000000004DF585230000000000000163
+t1307936035
+s355
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/Base64/GTMBase64.h
+c000000004DF8A6DF000000000000157B
+t1308141279
+s5499
+i<Foundation/Foundation.h>
+i"GTMDefines.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/Base64/GTMDefines.h
+c000000004DF8A6DF000000000000324A
+t1308141279
+s12874
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+i<Availability.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/JSON/NSObject+SBJSON.h
+c000000004DF8A6DF0000000000000A01
+t1308141279
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/JSON/NSString+SBJSON.h
+c000000004DF8A6DF0000000000000916
+t1308141279
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/JSON/SBJSON.h
+c000000004DF8A6DF0000000000000AED
+t1308141279
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/JSON/SBJsonBase.h
+c000000004DF8A6DF0000000000000B82
+t1308141279
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/JSON/SBJsonParser.h
+c000000004DF8A6DF0000000000000C0B
+t1308141279
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/JSON/SBJsonWriter.h
+c000000004DF8A6DF0000000000001140
+t1308141279
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/Security/SFHFKeychainUtils.h
+c000000004DF8A6DF0000000000000753
+t1308141279
+s1875
+i<UIKit/UIKit.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBAuthorize.h
+c000000004DFACDD80000000000000ACD
+t1308282328
+s2765
+i<Foundation/Foundation.h>
+i"WBRequest.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBRequest.h
+c000000004DFACEFB0000000000000EEC
+t1308282619
+s3820
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBSendView.h
+c000000004DFACF030000000000000A7F
+t1308282627
+s2687
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"WBRequest.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBUtil.h
+c000000004DFACF0C000000000000048C
+t1308282636
+s1164
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WeiBo.h
+c000000004DFACF130000000000000E58
+t1308282643
+s3672
+i<Foundation/Foundation.h>
+i"WBRequest.h"
+i"WBSendView.h"
+i"WBAuthorize.h"
+
 N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch.gch
 t1321968933
+s15814064
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch.gch
+t1322918279
 s15814064
 
 NSinaWeiBoSDKDemo-Info.plist
@@ -567,7 +1020,7 @@ s1059
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344092419#344092419#0(0"0(0#1#0"8606393920#0"0#
+lSLF07#2@18"Check dependencies344612355#344612355#0(0"0(0#1#0"8620975584#0"0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.568939
@@ -582,6 +1035,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m343661733#343661733#0(0"0(0#0#88"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m8607578208#2342"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.741827
+e344611079.886380
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m344611079#344611079#0(0"0(0#0#115"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m8620991072#2639"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Base64/GTMBase64.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/GTMBase64.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.684746
 e343661733.833334
@@ -594,6 +1060,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m343661733#343661733#0(0"0(0#0#92"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m6296435152686901248#2352"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.883770
+e344611079.954387
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@127"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m344611079#344611079#0(0"0(0#0#119"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m8618635808#2649"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSObject+SBJSON.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSObject+SBJSON.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.767403
@@ -608,6 +1087,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m343661733#343661733#0(0"0(0#0#92"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m8607472320#2352"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.886559
+e344611079.952915
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@127"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m344611079#344611079#0(0"0(0#0#119"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m8618179808#2649"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/NSString+SBJSON.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/NSString+SBJSON.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.833523
 e343661733.957259
@@ -620,6 +1112,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m343661733#343661733#0(0"0(0#0#83"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m8607035488#2334"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.953072
+e344611080.067699
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m344611079#344611080#0(0"0(0#0#110"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m8617879136#2631"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJSON.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJSON.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.866109
@@ -634,6 +1139,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m343661733#343661733#0(0"0(0#0#87"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m8603092128#2342"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.954519
+e344611080.041224
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m344611079#344611080#0(0"0(0#0#114"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m8617175840#2639"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonBase.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonBase.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.957381
 e343661734.143372
@@ -646,6 +1164,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m343661733#343661734#0(0"0(0#0#89"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m8606645760#2346"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.041666
+e344611080.282629
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m344611080#344611080#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m8616519360#2643"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonParser.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonParser.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.959046
@@ -660,6 +1191,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m343661733#343661734#0(0"0(0#0#89"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m8606527840#2346"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.067839
+e344611080.192687
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m344611080#344611080#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m8621073216#2643"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/JSON/SBJsonWriter.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SBJsonWriter.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661734.110572
 e343661734.240413
@@ -672,6 +1216,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@106"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m343661734#343661734#0(0"0(0#0#98"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m8606267936#2360"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.192794
+e344611080.379494
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@133"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m344611080#344611080#0(0"0(0#0#125"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m8618680832#2657"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/Security/SFHFKeychainUtils.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SFHFKeychainUtils.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.367766
@@ -686,6 +1243,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@104"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m343661733#343661733#0(0"0(0#0#96"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m8606112928#2368"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.552340
+e344611079.741701
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@131"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m344611079#344611079#0(0"0(0#0#123"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m8615621536#2665"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoAppDelegate.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoAppDelegate.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s344092337.720607
 e344092337.992857
@@ -698,6 +1268,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@107"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m344092337#344092337#0(0"0(0#0#99"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m8314045422917086208#2374"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611508.729969
+e344611508.946333
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m344611508#344611508#0(0"0(0#0#126"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m7453294940679727104#2671"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/Classes/SinaWeiBoSDKDemoViewController.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemoViewController.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661734.148697
@@ -712,6 +1295,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m343661734#343661734#0(0"0(0#0#83"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m8606065440#2339"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.282754
+e344611080.500016
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m344611080#344611080#0(0"0(0#0#110"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m8618858048#2636"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBAuthorize.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBAuthorize.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661734.240527
 e343661734.436266
@@ -724,6 +1320,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBRequest.m343661734#343661734#0(0"0(0#0#81"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBRequest.m8607171712#2335"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBRequest.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.379688
+e344611080.552395
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m344611080#344611080#0(0"0(0#0#108"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m8618639744#2632"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBRequest.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBRequest.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBSendView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661734.402402
@@ -738,6 +1347,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBSendView.m343661734#343661734#0(0"0(0#0#82"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBSendView.m8607168640#2337"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBSendView.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.500081
+e344611080.792063
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m344611080#344611080#0(0"0(0#0#109"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m8620599904#2634"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBSendView.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBSendView.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661734.436388
 e343661734.531954
@@ -750,6 +1372,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBUtil.m343661734#343661734#0(0"0(0#0#78"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBUtil.m8606427872#2329"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WBUtil.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611080.552873
+e344611080.633889
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m344611080#344611080#0(0"0(0#0#105"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m8616790976#2626"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WBUtil.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WBUtil.o0#
 
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WeiBo.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661734.532064
@@ -764,6 +1399,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@85"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WeiBo.m343661734#343661734#0(0"0(0#0#77"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WeiBo.m8606681504#2327"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/../src/src/WeiBo.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o0#
 
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344612008.807678
+e344612009.023122
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m344612008#344612009#0(0"0(0#0#104"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m8617482848#2624"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/../src/src/WeiBo.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/WeiBo.o0#
+
 CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661733.365263
 e343661733.535144
@@ -776,6 +1424,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/main.m343661733#343661733#0(0"0(0#0#65"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/main.m8606848928#2314"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/main.m -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611079.551118
+e344611079.718792
+r1
+xCompileC
+xbuild/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m344611079#344611079#0(0"0(0#0#92"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m8616672608#2611"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/main.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/MainWindow.xib
 s343661731.472570
@@ -792,6 +1453,12 @@ r1
 xCompileXIB
 x/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib
 lSLF07#2@45"CompileXIB SinaWeiBoSDKDemoViewController.xib343661731#343661732#0(0"0(0#0#93"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib8605971008#679"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemoViewController.nib /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/MainWindow.xib
+r0
+
+CCompileXIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/SinaWeiBoSDKDemoViewController.xib
+r0
 
 CCpResource build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/bg.png ../src/src/images/bg.png
 s343661732.292794
@@ -892,6 +1559,15 @@ x/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesi
 x/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
 lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo344092338#344092338#0(0"0(0#0#124"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo8599182016#470"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM0#
 
+CGenerateDSYMFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
+s344612009.078890
+e344612009.117595
+r1
+xGenerateDSYMFile
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
+lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo344612009#344612009#0(0"0(0#0#151"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo8621080384#551"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app.dSYM0#
+
 CLd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo normal i386
 s344092337.992977
 e344092338.544379
@@ -902,6 +1578,16 @@ xnormal
 xi386
 lSLF07#2@129"Link /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo344092337#344092338#0(0"0(0#0#0"8600679776#1065"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -filelist /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Security -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo0#
 
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo normal i386
+s344612009.023230
+e344612009.078776
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo
+xnormal
+xi386
+lSLF07#2@156"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo344612009#344612009#0(0"0(0#0#0"8621447424#1200"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/Objects-normal/i386/SinaWeiBoSDKDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Security -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/SinaWeiBoSDKDemo0#
+
 CProcessInfoPlistFile /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist SinaWeiBoSDKDemo-Info.plist
 s343661731.401073
 e343661731.471655
@@ -910,6 +1596,9 @@ xProcessInfoPlistFile
 x/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist
 xSinaWeiBoSDKDemo-Info.plist
 lSLF07#2@35"Process SinaWeiBoSDKDemo-Info.plist343661731#343661731#0(0"0(0#0#86"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemo-Info.plist13229813538947188#566"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SinaWeiBoSDKDemo-Info.plist -genpkginfo /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app/Info.plist SinaWeiBoSDKDemo-Info.plist
+r0
 
 CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch.gch SinaWeiBoSDKDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s343661732.350945
@@ -924,6 +1613,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@38"Precompile SinaWeiBoSDKDemo_Prefix.pch343661732#343661733#0(0"0(0#0#86"/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemo_Prefix.pch8603561920#2177"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/SinaWeiBoSDKDemo_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-boaysbnmsganaecufynydbfgsfho/SinaWeiBoSDKDemo_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch.gch SinaWeiBoSDKDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s344611078.515203
+e344611079.550910
+r1
+xProcessPCH
+x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch.gch
+xSinaWeiBoSDKDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile SinaWeiBoSDKDemo_Prefix.pch344611078#344611079#0(0"0(0#0#113"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/SinaWeiBoSDKDemo_Prefix.pch6012097048002125824#2447"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/SinaWeiBoSDKDemo-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/SinaWeiBoSDKDemo.build/Debug-iphonesimulator/SinaWeiBoSDKDemo.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/SinaWeiBoSDKDemo_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoSDKDemo_Prefix-dvqiagtloflqwtgmeygxlghkdive/SinaWeiBoSDKDemo_Prefix.pch.gch0#
+
 CTouch /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
 s344092338.658665
 e344092338.694889
@@ -931,4 +1633,12 @@ r1
 xTouch
 x/Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
 lSLF07#2@113"Touch /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app344092338#344092338#0(0"0(0#0#0"8598732736#327"    cd /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/orlando/Documents/05_weibo_sdkapi/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app0#
+
+CTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
+s344612009.117689
+e344612009.120691
+r1
+xTouch
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app
+lSLF07#2@140"Touch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app344612009#344612009#0(0"0(0#0#0"8620924000#381"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/demo/build/Debug-iphonesimulator/SinaWeiBoSDKDemo.app0#
 

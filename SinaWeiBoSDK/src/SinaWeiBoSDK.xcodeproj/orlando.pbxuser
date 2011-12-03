@@ -3,6 +3,9 @@
 	0867D690FE84028FC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeTarget = D2AAC07D0554694100DB518D /* SinaWeiBoSDK */;
+		breakpoints = (
+			5583AA46148A5CA600CB804F /* WBRequest.m:87 */,
+		);
 		codeSenseManager = 5524E953147BDC7100EF680F /* Code sense */;
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
@@ -63,11 +66,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 344529747;
-			PBXWorkspaceStateSaveDate = 344529747;
+			PBXPerProjectTemplateStateSaveDate = 344610934;
+			PBXWorkspaceStateSaveDate = 344610934;
 		};
 		perUserProjectItems = {
-			55499F4914890B730062B8A3 /* PBXTextBookmark */ = 55499F4914890B730062B8A3 /* PBXTextBookmark */;
+			5583AA4A148A5CA900CB804F /* PBXTextBookmark */ = 5583AA4A148A5CA900CB804F /* PBXTextBookmark */;
+			5583AA64148A5FF300CB804F /* PBXTextBookmark */ = 5583AA64148A5FF300CB804F /* PBXTextBookmark */;
 			5594879E148515AA00F13C53 /* PBXTextBookmark */ = 5594879E148515AA00F13C53 /* PBXTextBookmark */;
 			559D83B21487D9CB00FA66A7 /* PBXTextBookmark */ = 559D83B21487D9CB00FA66A7 /* PBXTextBookmark */;
 			559D83B31487D9CB00FA66A7 /* PBXTextBookmark */ = 559D83B31487D9CB00FA66A7 /* PBXTextBookmark */;
@@ -81,7 +85,6 @@
 			559D83BB1487D9CB00FA66A7 /* PBXTextBookmark */ = 559D83BB1487D9CB00FA66A7 /* PBXTextBookmark */;
 			559D83BC1487D9CB00FA66A7 /* PBXTextBookmark */ = 559D83BC1487D9CB00FA66A7 /* PBXTextBookmark */;
 			559D83BD1487D9CB00FA66A7 /* PBXTextBookmark */ = 559D83BD1487D9CB00FA66A7 /* PBXTextBookmark */;
-			55D78CFE14891B55003D6C4F /* PBXTextBookmark */ = 55D78CFE14891B55003D6C4F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5524E952147BDC7100EF680F /* Source Control */;
 		userBuildSettings = {
@@ -101,15 +104,43 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	55499F4914890B730062B8A3 /* PBXTextBookmark */ = {
+	5583AA46148A5CA600CB804F /* WBRequest.m:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C3FCF2A413A74E42002D6E03 /* WBRequest.m */;
+		functionName = "+serializeURL:params:httpMethod:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		location = SinaWeiBoSDKDemo;
+		modificationTime = 344612358.168021;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	5583AA4A148A5CA900CB804F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C3FCF2A313A74E42002D6E03 /* WBRequest.h */;
 		name = "WBRequest.h: 12";
 		rLen = 0;
 		rLoc = 510;
 		rType = 0;
-		vrLen = 1362;
+		vrLen = 1302;
 		vrLoc = 36;
+	};
+	5583AA64148A5FF300CB804F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3FCF2A413A74E42002D6E03 /* WBRequest.m */;
+		name = "WBRequest.m: 117";
+		rLen = 0;
+		rLoc = 3595;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 2926;
 	};
 	5594879E148515AA00F13C53 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -241,16 +272,6 @@
 		vrLen = 1280;
 		vrLoc = 584;
 	};
-	55D78CFE14891B55003D6C4F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C3FCF2A313A74E42002D6E03 /* WBRequest.h */;
-		name = "WBRequest.h: 12";
-		rLen = 0;
-		rLoc = 510;
-		rType = 0;
-		vrLen = 1362;
-		vrLoc = 36;
-	};
 	C3FCF29013A74E42002D6E03 /* JSON.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {691, 663}}";
@@ -296,17 +317,17 @@
 	};
 	C3FCF2A313A74E42002D6E03 /* WBRequest.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 1417}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 1404}}";
 			sepNavSelRange = "{510, 0}";
-			sepNavVisRange = "{36, 1362}";
+			sepNavVisRange = "{36, 1302}";
 			sepNavWindowFrame = "{{19, 0}, {750, 746}}";
 		};
 	};
 	C3FCF2A413A74E42002D6E03 /* WBRequest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 4069}}";
-			sepNavSelRange = "{2386, 0}";
-			sepNavVisRange = "{584, 1280}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 4043}}";
+			sepNavSelRange = "{3595, 0}";
+			sepNavVisRange = "{2926, 1256}";
 		};
 	};
 	C3FCF2A513A74E42002D6E03 /* WBSendView.h */ = {
