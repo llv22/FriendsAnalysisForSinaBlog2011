@@ -49,3 +49,8 @@ for ${inherited} rather than user defined library search path, shoudln't be recu
 * breakpoints -> http://www.quora.com/Xcode/Whats-the-keyboard-shortcut-to-remove-a-debug-breakpoint-in-Xcode shortcut
 
 4, Weibo SDK includes a lot of UI stuffing, this may lead to UI and framework fixing, Now just use JSON api to construct pure API layer, add procotol for callback functional [or java event list -> xcode extensiblity]
+
+* for json parser/writer framework, stig provide the latest branch in github on xcode 4.2 based on ARC changed properties, so 
+stick to 3.04 version and update static libraries with 3.04 source code.
+SBJSON.h, SBjson.h is different as one from stig framework, another from sina api. 
+[decision: drop sina api, directly write json parser via grahpic algorithm to archive general framework purpose, sina api still needs to OAuth operation, then UI logic won't be isolated from API framework layer.]
