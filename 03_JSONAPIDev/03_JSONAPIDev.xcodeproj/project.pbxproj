@@ -349,7 +349,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				HEADER_SEARCH_PATHS = "${WEIBOSDK_SRC}/**";
+				HEADER_SEARCH_PATHS = (
+					"${WEIBOSDK_CLASSES}/**",
+					"${WEIBOSDK_SRC}/**",
+				);
 				INFOPLIST_FILE = "JSONAPITest-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = (
@@ -360,6 +363,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = JSONAPITest;
+				WEIBOSDK_CLASSES = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes;
 				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -377,7 +381,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				HEADER_SEARCH_PATHS = "${WEIBOSDK_SRC}/**";
+				HEADER_SEARCH_PATHS = (
+					"${WEIBOSDK_CLASSES}/**",
+					"${WEIBOSDK_SRC}/**",
+				);
 				INFOPLIST_FILE = "JSONAPITest-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = (
@@ -388,6 +395,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = JSONAPITest;
+				WEIBOSDK_CLASSES = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes;
 				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
