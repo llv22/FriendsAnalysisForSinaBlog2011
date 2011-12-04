@@ -16,6 +16,9 @@
 @interface JSONBasicAPITest () <SBJsonStreamParserAdapterDelegate>
 @end
 
+@interface JSONBasicAPITest (NSURLConnectionDelegate)
+@end
+
 @implementation JSONBasicAPITest
 
 //Help documentation - Xcode Unit Testing Guide [Adding Unit Tests to Your Projects]
@@ -73,27 +76,26 @@
 }
 
 -(void) myThreadMainMethod:(id)param{
-	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc]init ];
-	
-	NSNumber* value = (NSNumber*)param;
-	
-	NSString *url = @"https://api.weibo.com/2/statuses/public_timeline.json";	
+	//NSAutoreleasePool* pool = [[NSAutoreleasePool alloc]init ];	
+	//NSNumber* value = (NSNumber*)param;	
+	NSString *url = [NSString stringWithString:@"https://api.weibo.com/2/statuses/public_timeline.json"];	
 	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:url]
 											  cachePolicy:NSURLRequestUseProtocolCachePolicy
 										  timeoutInterval:60.0];
 	
 	//TODO : NSURLConnection delegate to username/password for default url authentication
-	[[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];
+	NSURLConnection *theConnection = [[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];
+	STAssertNotNil(theConnection, @"Connection creation failed");
 	//TODO : working
-	NSLog(@"in the thread working - in thread %d", [value intValue]);
-	if (cocoaCondition != nil) {
-		[cocoaCondition lock];
-		isFinished = true;
-		[cocoaCondition signal];
-		[cocoaCondition unlock];
-	}
-	
-	[pool drain];
+//	NSLog(@"in the thread working - in thread %d", [value intValue]);
+//	if (cocoaCondition != nil) {
+//		[cocoaCondition lock];
+//		isFinished = true;
+//		[cocoaCondition signal];
+//		[cocoaCondition unlock];
+//	}
+//	
+	//[pool drain];
 }
 
 //TODO : Test JSON API for implementation
@@ -103,7 +105,8 @@
 	//TODO : Mac OSX 10.5 later
 	NSThread* myThread = [[NSThread alloc] initWithTarget:self 
 												 selector:@selector(myThreadMainMethod:) 
-												   object:[NSNumber numberWithInt:2]];
+												   object:nil//[NSNumber numberWithInt:2]
+						  ];
 	//TODO : Actually to start thread
 	[myThread start];
 	

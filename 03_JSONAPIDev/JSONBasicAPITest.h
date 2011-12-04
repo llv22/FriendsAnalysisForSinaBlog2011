@@ -11,7 +11,7 @@
 @class SBJsonStreamParser;
 @class SBJsonStreamParserAdapter;
 
-@interface JSONBasicAPITest : SenTestCase {
+@interface JSONBasicAPITest : SenTestCase{
 	
 #pragma mark fields for authentication of calling json	
 	NSString* username;

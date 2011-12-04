@@ -1,0 +1,730 @@
+TLinkedImageFetcher
+v7
+r0
+t344700547.294963
+cCheck dependencies
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/ImageDownloadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTMLLinkFinder.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTTPOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QWatchedOperationQueue.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/PageGetOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkFinder.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QRunLoopOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher normal x86_64
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/ImageDownloadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTMLLinkFinder.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTTPOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QWatchedOperationQueue.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/PageGetOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkFinder.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QRunLoopOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher normal i386
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/ImageDownloadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTMLLinkFinder.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTTPOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QWatchedOperationQueue.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/PageGetOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkFinder.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QRunLoopOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher normal ppc
+cCreateUniversalBinary /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher.dSYM /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5A279000000000000C7160
+t1297754000
+s815456
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004CC3E9410000000000002401
+t1287907649
+s9217
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libxml2.dylib
+c000000004D5A279500000000000474A8
+t1297754005
+s292008
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.h
+c000000004BFC0E250000000000000FD0
+t1274809893
+s4048
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m
+c000000004C4D83E20000000000002B33
+t1280148450
+s11059
+i"QHTMLLinkFinder.h"
+i<libxml/HTMLparser.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.h
+c000000004C4D83E20000000000002DFA
+t1280148450
+s11770
+i"QRunLoopOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m
+c000000004C4D83E2000000000000526B
+t1280148450
+s21099
+i"QHTTPOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.h
+c000000004C4EEB0C00000000000016C6
+t1280240396
+s5830
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m
+c000000004C50089F000000000000372B
+t1280313503
+s14123
+i"QRunLoopOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.h
+c000000004C19F5740000000000001173
+t1276769652
+s4467
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m
+c000000004C19F5740000000000001E6F
+t1276769652
+s7791
+i"QWatchedOperationQueue.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.h
+c000000004C19F5740000000000000FD8
+t1276769652
+s4056
+i"QHTTPOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m
+c000000004C19F5740000000000002051
+t1276769652
+s8273
+i"ImageDownloadOperation.h"
+i<fcntl.h>
+i<unistd.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.h
+c000000004BFC0E250000000000000D77
+t1274809893
+s3447
+i"QHTMLLinkFinder.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m
+c000000004BFC0E250000000000000D18
+t1274809893
+s3352
+i"LinkFinder.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.h
+c000000004C19F57400000000000016C4
+t1276769652
+s5828
+i<Foundation/Foundation.h>
+i"QWatchedOperationQueue.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m
+c000000004C19F57400000000000040D5
+t1276769652
+s16597
+i"LinkedImageFetcher.h"
+i"ImageDownloadOperation.h"
+i"PageGetOperation.h"
+i"LinkFinder.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.h
+c000000004BFC0E250000000000000D31
+t1274809893
+s3377
+i"QHTTPOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m
+c000000004BFC0E250000000000000D51
+t1274809893
+s3409
+i"PageGetOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher
+t1323007471
+s337188
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher.dSYM
+t1323007472
+s102
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/ImageDownloadOperation.o
+t1323007464
+s20272
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkFinder.o
+t1323007467
+s8576
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher
+t1323007467
+s97128
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.LinkFileList
+c000000004EDB7DE30000000000000696
+t1323007459
+s1686
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.o
+t1323007464
+s46976
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/PageGetOperation.o
+t1323007466
+s11776
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTMLLinkFinder.o
+t1323007465
+s55372
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTTPOperation.o
+t1323007465
+s61108
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QRunLoopOperation.o
+t1323007467
+s26328
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QWatchedOperationQueue.o
+t1323007466
+s19844
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/main.o
+t1323007463
+s11368
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/ImageDownloadOperation.o
+t1323007468
+s22216
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkFinder.o
+t1323007471
+s8812
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher
+t1323007471
+s107812
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.LinkFileList
+c000000004EDB7DE3000000000000068D
+t1323007459
+s1677
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.o
+t1323007469
+s54196
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/PageGetOperation.o
+t1323007471
+s12108
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTMLLinkFinder.o
+t1323007469
+s57820
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTTPOperation.o
+t1323007470
+s71348
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QRunLoopOperation.o
+t1323007471
+s29620
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QWatchedOperationQueue.o
+t1323007470
+s22012
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/main.o
+t1323007468
+s12068
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/ImageDownloadOperation.o
+t1323007460
+s26780
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkFinder.o
+t1323007463
+s9512
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher
+t1323007463
+s123600
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.LinkFileList
+c000000004EDB7DE300000000000006A8
+t1323007459
+s1704
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.o
+t1323007461
+s64624
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/PageGetOperation.o
+t1323007463
+s13480
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTMLLinkFinder.o
+t1323007461
+s63964
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTTPOperation.o
+t1323007462
+s86408
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QRunLoopOperation.o
+t1323007463
+s36340
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QWatchedOperationQueue.o
+t1323007462
+s25740
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/main.o
+t1323007460
+s13412
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m
+c000000004BFC0E2500000000000012FD
+t1274809893
+s4861
+i<Foundation/Foundation.h>
+i"LinkedImageFetcher.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344700547#344700547#0(0"0(0#1#0"8609406240#0"0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/ImageDownloadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700263.854168
+e344700264.619828
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/ImageDownloadOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m344700263#344700264#0(0"0(0#0#111"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m8637221920#1660"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/ImageDownloadOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkFinder.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700266.429738
+e344700267.283372
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkFinder.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m344700266#344700267#0(0"0(0#0#99"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m8629463328#1636"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkFinder.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700263.893407
+e344700264.735252
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m344700263#344700264#0(0"0(0#0#107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m8631818944#1652"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/PageGetOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700265.807603
+e344700266.599842
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/PageGetOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m344700265#344700266#0(0"0(0#0#105"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m8628297824#1648"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/PageGetOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTMLLinkFinder.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700264.620145
+e344700265.622873
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTMLLinkFinder.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m344700264#344700265#0(0"0(0#0#114"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m8610068064#1658"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTMLLinkFinder.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTTPOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700264.735374
+e344700265.807446
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTTPOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m344700264#344700265#0(0"0(0#0#113"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m8630347104#1656"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QHTTPOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QRunLoopOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700266.600048
+e344700267.432227
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QRunLoopOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m344700266#344700267#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m8628566272#1662"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QRunLoopOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QWatchedOperationQueue.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700265.622980
+e344700266.429457
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QWatchedOperationQueue.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m344700265#344700266#0(0"0(0#0#121"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m8631645824#1672"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/QWatchedOperationQueue.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s344700263.068088
+e344700263.854062
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/main.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m344700263#344700263#0(0"0(0#0#93"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m8630744480#1624"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/main.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/ImageDownloadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700267.666040
+e344700268.888086
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/ImageDownloadOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m344700267#344700268#0(0"0(0#0#111"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m8622937728#1667"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/ImageDownloadOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkFinder.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700270.414810
+e344700271.117353
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkFinder.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m344700270#344700271#0(0"0(0#0#99"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m8632551072#1643"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkFinder.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700268.853872
+e344700269.630200
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m344700268#344700269#0(0"0(0#0#107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m8630808672#1659"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/PageGetOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700270.337532
+e344700271.056974
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/PageGetOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m344700270#344700271#0(0"0(0#0#105"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m8637364544#1655"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/PageGetOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTMLLinkFinder.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700268.888427
+e344700269.662518
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTMLLinkFinder.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m344700268#344700269#0(0"0(0#0#114"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m8628492288#1665"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTMLLinkFinder.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTTPOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700269.630332
+e344700270.414636
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTTPOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m344700269#344700270#0(0"0(0#0#113"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m8627106560#1663"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QHTTPOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QRunLoopOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700271.057106
+e344700271.661901
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QRunLoopOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m344700271#344700271#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m8637687744#1669"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QRunLoopOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QWatchedOperationQueue.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700269.662640
+e344700270.337414
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QWatchedOperationQueue.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m344700269#344700270#0(0"0(0#0#121"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m8639141120#1679"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/QWatchedOperationQueue.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s344700267.283476
+e344700268.853597
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/main.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m344700267#344700268#0(0"0(0#0#93"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m8638830752#1631"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G4 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/ImageDownloadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700259.544295
+e344700260.598493
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/ImageDownloadOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m344700259#344700260#0(0"0(0#0#111"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m8629607456#1666"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/ImageDownloadOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkFinder.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700262.358370
+e344700263.067975
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkFinder.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m344700262#344700263#0(0"0(0#0#99"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m8637399936#1642"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkFinder.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkFinder.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700260.546683
+e344700261.511681
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m344700260#344700261#0(0"0(0#0#107"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m8627901056#1658"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/PageGetOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700262.295337
+e344700263.023505
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/PageGetOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m344700262#344700263#0(0"0(0#0#105"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m8638293888#1654"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/PageGetOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/PageGetOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTMLLinkFinder.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700260.598726
+e344700261.576000
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTMLLinkFinder.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m344700260#344700261#0(0"0(0#0#114"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m8626885664#1664"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTMLLinkFinder.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTTPOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700261.512026
+e344700262.358214
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTTPOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m344700261#344700262#0(0"0(0#0#113"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m8600656128#1662"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTTPOperation.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QHTTPOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QRunLoopOperation.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700263.023712
+e344700263.812774
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QRunLoopOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m344700263#344700263#0(0"0(0#0#116"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m8631701664#1668"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QRunLoopOperation.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QRunLoopOperation.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QWatchedOperationQueue.o "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700261.576126
+e344700262.295111
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QWatchedOperationQueue.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m344700261#344700262#0(0"0(0#0#121"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m8603178176#1678"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c "/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m" -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/QWatchedOperationQueue.o0#
+
+CCompileC build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344700259.542046
+e344700260.546557
+r1
+xCompileC
+xbuild/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/main.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m344700259#344700260#0(0"0(0#0#93"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m7598550502702202880#1630"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/LinkedImageFetcher.hmap -Wall -Wextra -Wfloat-equal -Wpointer-arith -Wstrict-prototypes -Wold-style-definition -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/main.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/main.o0#
+
+CCreateUniversalBinary /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher normal "x86_64 i386 ppc"
+s344700271.956646
+e344700271.994689
+r1
+xCreateUniversalBinary
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@77"CreateUniversalBinary build/Debug/LinkedImageFetcher normal "x86_64 i386 ppc"344700271#344700271#0(0"0(0#0#102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/x86_64 i386 ppc8630322048#811"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    /usr/bin/lipo -create /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher -output /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher0#
+
+CGenerateDSYMFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher.dSYM /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher
+s344700271.994792
+e344700272.152891
+r1
+xGenerateDSYMFile
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher.dSYM
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher
+lSLF07#2@83"GenerateDSYMFile build/Debug/LinkedImageFetcher.dSYM build/Debug/LinkedImageFetcher344700271#344700272#0(0"0(0#0#117"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher8630157664#370"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    /Developer/usr/bin/dsymutil /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug/LinkedImageFetcher.dSYM0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher normal i386
+s344700267.432341
+e344700267.665888
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher
+xnormal
+xi386
+lSLF07#2@192"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher344700267#344700267#0(0"0(0#0#0"8628187552#877"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -lxml2 -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/i386/LinkedImageFetcher0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher normal ppc
+s344700271.661990
+e344700271.956347
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher
+xnormal
+xppc
+lSLF07#2@191"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher344700271#344700271#0(0"0(0#0#0"8632152832#874"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -lxml2 -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/ppc/LinkedImageFetcher0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher normal x86_64
+s344700263.812880
+e344700263.893241
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher
+xnormal
+xx86_64
+lSLF07#2@194"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher344700263#344700263#0(0"0(0#0#0"8638368352#883"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -lxml2 -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/build/LinkedImageFetcher.build/Debug/LinkedImageFetcher.build/Objects-normal/x86_64/LinkedImageFetcher0#
+

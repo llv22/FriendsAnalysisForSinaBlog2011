@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
+		E44AB829115D1399001B2F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44AB828115D1399001B2F61 /* Foundation.framework */; };
+		E44AB8E8115D26A6001B2F61 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E44AB8E7115D26A6001B2F61 /* libxml2.dylib */; };
+		E44ABAC81160006A001B2F61 /* ImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E44ABAC71160006A001B2F61 /* ImageDownloadOperation.m */; };
+		E44ABBB51160E6D5001B2F61 /* LinkedImageFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E44ABBB41160E6D5001B2F61 /* LinkedImageFetcher.m */; };
+		E44ABD041160FBDD001B2F61 /* QHTMLLinkFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = E44ABCFF1160FBDD001B2F61 /* QHTMLLinkFinder.m */; };
+		E44ABD051160FBDD001B2F61 /* QHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E44ABD011160FBDD001B2F61 /* QHTTPOperation.m */; };
+		E44ABD061160FBDD001B2F61 /* QWatchedOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E44ABD031160FBDD001B2F61 /* QWatchedOperationQueue.m */; };
+		E4CB7F7A11F8919900A30469 /* QRunLoopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB7F7911F8919900A30469 /* QRunLoopOperation.m */; };
+		E4E2F26911A93573007C0299 /* PageGetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2F26811A93573007C0299 /* PageGetOperation.m */; };
+		E4E2F28011A936E4007C0299 /* LinkFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E2F27F11A936E4007C0299 /* LinkFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* LinkedImageFetcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedImageFetcher; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44AB828115D1399001B2F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E44AB8E7115D26A6001B2F61 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E44ABAC61160006A001B2F61 /* ImageDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloadOperation.h; sourceTree = "<group>"; };
+		E44ABAC71160006A001B2F61 /* ImageDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadOperation.m; sourceTree = "<group>"; };
+		E44ABBB31160E6D5001B2F61 /* LinkedImageFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedImageFetcher.h; sourceTree = "<group>"; };
+		E44ABBB41160E6D5001B2F61 /* LinkedImageFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedImageFetcher.m; sourceTree = "<group>"; };
+		E44ABCFE1160FBDD001B2F61 /* QHTMLLinkFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTMLLinkFinder.h; sourceTree = "<group>"; };
+		E44ABCFF1160FBDD001B2F61 /* QHTMLLinkFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTMLLinkFinder.m; sourceTree = "<group>"; };
+		E44ABD001160FBDD001B2F61 /* QHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTTPOperation.h; sourceTree = "<group>"; };
+		E44ABD011160FBDD001B2F61 /* QHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTTPOperation.m; sourceTree = "<group>"; };
+		E44ABD021160FBDD001B2F61 /* QWatchedOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWatchedOperationQueue.h; sourceTree = "<group>"; };
+		E44ABD031160FBDD001B2F61 /* QWatchedOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWatchedOperationQueue.m; sourceTree = "<group>"; };
+		E4CB7F7811F8919900A30469 /* QRunLoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRunLoopOperation.h; sourceTree = "<group>"; };
+		E4CB7F7911F8919900A30469 /* QRunLoopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRunLoopOperation.m; sourceTree = "<group>"; };
+		E4E2F26711A93573007C0299 /* PageGetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageGetOperation.h; sourceTree = "<group>"; };
+		E4E2F26811A93573007C0299 /* PageGetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageGetOperation.m; sourceTree = "<group>"; };
+		E4E2F27E11A936E4007C0299 /* LinkFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkFinder.h; sourceTree = "<group>"; };
+		E4E2F27F11A936E4007C0299 /* LinkFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkFinder.m; sourceTree = "<group>"; };
+		E4E2F33111A96D54007C0299 /* Read Me About LinkedImageFetcher.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me About LinkedImageFetcher.txt"; sourceTree = "<group>"; wrapsLines = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44AB829115D1399001B2F61 /* Foundation.framework in Frameworks */,
+				E44AB8E8115D26A6001B2F61 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* LinkedImageFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				E4E2F33111A96D54007C0299 /* Read Me About LinkedImageFetcher.txt */,
+				08FB7796FE84155DC02AAC07 /* main.m */,
+				E44ABBB31160E6D5001B2F61 /* LinkedImageFetcher.h */,
+				E44ABBB41160E6D5001B2F61 /* LinkedImageFetcher.m */,
+				E4E2F26711A93573007C0299 /* PageGetOperation.h */,
+				E4E2F26811A93573007C0299 /* PageGetOperation.m */,
+				E4E2F27E11A936E4007C0299 /* LinkFinder.h */,
+				E4E2F27F11A936E4007C0299 /* LinkFinder.m */,
+				E44ABAC61160006A001B2F61 /* ImageDownloadOperation.h */,
+				E44ABAC71160006A001B2F61 /* ImageDownloadOperation.m */,
+				E44ABCFD1160FBDD001B2F61 /* Core Code */,
+				E44AB828115D1399001B2F61 /* Foundation.framework */,
+				E44AB8E7115D26A6001B2F61 /* libxml2.dylib */,
+				8DD76FB20486AB0100D96B5E /* LinkedImageFetcher */,
+			);
+			name = LinkedImageFetcher;
+			sourceTree = "<group>";
+		};
+		E44ABCFD1160FBDD001B2F61 /* Core Code */ = {
+			isa = PBXGroup;
+			children = (
+				E44ABCFE1160FBDD001B2F61 /* QHTMLLinkFinder.h */,
+				E44ABCFF1160FBDD001B2F61 /* QHTMLLinkFinder.m */,
+				E44ABD001160FBDD001B2F61 /* QHTTPOperation.h */,
+				E44ABD011160FBDD001B2F61 /* QHTTPOperation.m */,
+				E4CB7F7811F8919900A30469 /* QRunLoopOperation.h */,
+				E4CB7F7911F8919900A30469 /* QRunLoopOperation.m */,
+				E44ABD021160FBDD001B2F61 /* QWatchedOperationQueue.h */,
+				E44ABD031160FBDD001B2F61 /* QWatchedOperationQueue.m */,
+			);
+			path = "Core Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* LinkedImageFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "LinkedImageFetcher" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedImageFetcher;
+			productInstallPath = "$(HOME)/bin";
+			productName = LinkedImageFetcher;
+			productReference = 8DD76FB20486AB0100D96B5E /* LinkedImageFetcher */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "LinkedImageFetcher" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* LinkedImageFetcher */;
+			productRefGroup = 08FB7794FE84155DC02AAC07 /* LinkedImageFetcher */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* LinkedImageFetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.m in Sources */,
+				E44ABAC81160006A001B2F61 /* ImageDownloadOperation.m in Sources */,
+				E44ABBB51160E6D5001B2F61 /* LinkedImageFetcher.m in Sources */,
+				E44ABD041160FBDD001B2F61 /* QHTMLLinkFinder.m in Sources */,
+				E44ABD051160FBDD001B2F61 /* QHTTPOperation.m in Sources */,
+				E44ABD061160FBDD001B2F61 /* QWatchedOperationQueue.m in Sources */,
+				E4E2F26911A93573007C0299 /* PageGetOperation.m in Sources */,
+				E4E2F28011A936E4007C0299 /* LinkFinder.m in Sources */,
+				E4CB7F7A11F8919900A30469 /* QRunLoopOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS",
+					")",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				PRODUCT_NAME = LinkedImageFetcher;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS",
+					")",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				PRODUCT_NAME = LinkedImageFetcher;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wfloat-equal",
+					"-Wpointer-arith",
+					"-Wstrict-prototypes",
+					"-Wold-style-definition",
+				);
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wfloat-equal",
+					"-Wpointer-arith",
+					"-Wstrict-prototypes",
+					"-Wold-style-definition",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "LinkedImageFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "LinkedImageFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

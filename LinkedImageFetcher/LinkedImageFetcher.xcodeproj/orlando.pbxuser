@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5590AAC8148BB55300B04CB3 /* LinkedImageFetcher */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* LinkedImageFetcher */;
+		breakpoints = (
+		);
+		codeSenseManager = 5590AAD1148BB57100B04CB3 /* Code sense */;
+		executables = (
+			5590AAC8148BB55300B04CB3 /* LinkedImageFetcher */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					461,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					573,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					533,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344700243;
+			PBXWorkspaceStateSaveDate = 344700243;
+		};
+		perUserProjectItems = {
+			5590AAE7148BB7B700B04CB3 /* PBXTextBookmark */ = 5590AAE7148BB7B700B04CB3 /* PBXTextBookmark */;
+			5590AAE8148BB7B700B04CB3 /* PBXTextBookmark */ = 5590AAE8148BB7B700B04CB3 /* PBXTextBookmark */;
+			5590AAE9148BB7B700B04CB3 /* PBXTextBookmark */ = 5590AAE9148BB7B700B04CB3 /* PBXTextBookmark */;
+			5590AAEA148BB7B700B04CB3 /* PBXTextBookmark */ = 5590AAEA148BB7B700B04CB3 /* PBXTextBookmark */;
+			5590AAEB148BB7B700B04CB3 /* PBXTextBookmark */ = 5590AAEB148BB7B700B04CB3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5590AAD0148BB57100B04CB3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {751, 1430}}";
+			sepNavSelRange = "{3672, 0}";
+			sepNavVisRange = "{3465, 1394}";
+		};
+	};
+	5590AAC8148BB55300B04CB3 /* LinkedImageFetcher */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"http://127.0.0.1:631",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LinkedImageFetcher;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	5590AAD0148BB57100B04CB3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5590AAD1148BB57100B04CB3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5590AAE7148BB7B700B04CB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E44ABBB31160E6D5001B2F61 /* LinkedImageFetcher.h */;
+		name = "LinkedImageFetcher.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2431;
+		vrLoc = 0;
+	};
+	5590AAE8148BB7B700B04CB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4E2F33111A96D54007C0299 /* Read Me About LinkedImageFetcher.txt */;
+		name = "Read Me About LinkedImageFetcher.txt: 38";
+		rLen = 0;
+		rLoc = 1767;
+		rType = 0;
+		vrLen = 1554;
+		vrLoc = 1166;
+	};
+	5590AAE9148BB7B700B04CB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E44ABBB41160E6D5001B2F61 /* LinkedImageFetcher.m */;
+		name = "LinkedImageFetcher.m: 400";
+		rLen = 0;
+		rLoc = 15446;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 14675;
+	};
+	5590AAEA148BB7B700B04CB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
+		name = "main.m: 78";
+		rLen = 0;
+		rLoc = 3727;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 3398;
+	};
+	5590AAEB148BB7B700B04CB3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
+		name = "main.m: 76";
+		rLen = 0;
+		rLoc = 3672;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 3465;
+	};
+	8DD76FA90486AB0100D96B5E /* LinkedImageFetcher */ = {
+		activeExec = 0;
+		executables = (
+			5590AAC8148BB55300B04CB3 /* LinkedImageFetcher */,
+		);
+	};
+	E44ABBB31160E6D5001B2F61 /* LinkedImageFetcher.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {751, 1456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2431}";
+		};
+	};
+	E44ABBB41160E6D5001B2F61 /* LinkedImageFetcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {751, 5889}}";
+			sepNavSelRange = "{15446, 0}";
+			sepNavVisRange = "{14675, 1246}";
+		};
+	};
+	E4E2F33111A96D54007C0299 /* Read Me About LinkedImageFetcher.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {751, 2041}}";
+			sepNavSelRange = "{1767, 0}";
+			sepNavVisRange = "{1166, 1554}";
+		};
+	};
+}
