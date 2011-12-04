@@ -52,7 +52,6 @@
 */
 
 #include <Foundation/Foundation.h>
-
 #import "LinkedImageFetcher.h"
 
 int main(int argc, char **argv)

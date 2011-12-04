@@ -86,8 +86,8 @@
 	08FB7796FE84155DC02AAC07 /* main.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {751, 1430}}";
-			sepNavSelRange = "{3672, 0}";
-			sepNavVisRange = "{3465, 1394}";
+			sepNavSelRange = "{4018, 5}";
+			sepNavVisRange = "{3396, 1441}";
 		};
 	};
 	5590AAC8148BB55300B04CB3 /* LinkedImageFetcher */ = {
@@ -173,7 +173,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
 		name = "main.m: 78";
 		rLen = 0;
-		rLoc = 3727;
+		rLoc = 3726;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 3398;
@@ -183,7 +183,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
 		name = "main.m: 76";
 		rLen = 0;
-		rLoc = 3672;
+		rLoc = 3671;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 3465;
