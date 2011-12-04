@@ -8,6 +8,12 @@
 			55D36FE81489EC0400CF1D66 /* JSONAPITest */,
 		);
 		breakpoints = (
+			5592406D148B50A200B93FCD /* JSONBasicAPITest.m:130 */,
+			5592406F148B50A700B93FCD /* JSONBasicAPITest.m:140 */,
+			55924071148B50AA00B93FCD /* JSONBasicAPITest.m:144 */,
+			55924073148B50AE00B93FCD /* JSONBasicAPITest.m:154 */,
+			55924075148B50B300B93FCD /* JSONBasicAPITest.m:171 */,
+			55924079148B50BA00B93FCD /* JSONBasicAPITest.m:177 */,
 		);
 		codeSenseManager = 55D36FA31489E95500CF1D66 /* Code sense */;
 		executables = (
@@ -113,37 +119,20 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 344663365;
-			PBXWorkspaceStateSaveDate = 344663365;
+			PBXPerProjectTemplateStateSaveDate = 344674005;
+			PBXWorkspaceStateSaveDate = 344674005;
 		};
 		perUserProjectItems = {
-			558973E0148B253D00EB1F6E = 558973E0148B253D00EB1F6E /* PBXTextBookmark */;
-			558973E1148B253D00EB1F6E = 558973E1148B253D00EB1F6E /* PBXTextBookmark */;
-			558973E2148B253D00EB1F6E = 558973E2148B253D00EB1F6E /* PBXTextBookmark */;
-			558973FA148B25C200EB1F6E /* XCBuildMessageTextBookmark */ = 558973FA148B25C200EB1F6E /* XCBuildMessageTextBookmark */;
-			558973FB148B25C200EB1F6E /* PBXTextBookmark */ = 558973FB148B25C200EB1F6E /* PBXTextBookmark */;
-			5589741E148B26F500EB1F6E /* PBXTextBookmark */ = 5589741E148B26F500EB1F6E /* PBXTextBookmark */;
-			5589741F148B26F500EB1F6E /* PBXTextBookmark */ = 5589741F148B26F500EB1F6E /* PBXTextBookmark */;
-			55897420148B26F500EB1F6E /* PBXTextBookmark */ = 55897420148B26F500EB1F6E /* PBXTextBookmark */;
-			5589742B148B27DB00EB1F6E /* PBXTextBookmark */ = 5589742B148B27DB00EB1F6E /* PBXTextBookmark */;
-			5589742C148B27DB00EB1F6E /* PBXTextBookmark */ = 5589742C148B27DB00EB1F6E /* PBXTextBookmark */;
-			5589742E148B27DB00EB1F6E /* PBXTextBookmark */ = 5589742E148B27DB00EB1F6E /* PBXTextBookmark */;
-			55897430148B27F700EB1F6E /* PBXTextBookmark */ = 55897430148B27F700EB1F6E /* PBXTextBookmark */;
-			55897438148B287200EB1F6E /* PBXTextBookmark */ = 55897438148B287200EB1F6E /* PBXTextBookmark */;
-			55897439148B287200EB1F6E /* PBXTextBookmark */ = 55897439148B287200EB1F6E /* PBXTextBookmark */;
-			5589743B148B287200EB1F6E /* PBXTextBookmark */ = 5589743B148B287200EB1F6E /* PBXTextBookmark */;
-			5589744E148B299200EB1F6E /* PBXTextBookmark */ = 5589744E148B299200EB1F6E /* PBXTextBookmark */;
-			5589744F148B299200EB1F6E /* PBXTextBookmark */ = 5589744F148B299200EB1F6E /* PBXTextBookmark */;
-			55897451148B299200EB1F6E /* PBXTextBookmark */ = 55897451148B299200EB1F6E /* PBXTextBookmark */;
-			55897453148B299200EB1F6E /* PBXTextBookmark */ = 55897453148B299200EB1F6E /* PBXTextBookmark */;
 			55897476148B2D2900EB1F6E /* PBXTextBookmark */ = 55897476148B2D2900EB1F6E /* PBXTextBookmark */;
-			55897478148B2D2900EB1F6E /* PBXTextBookmark */ = 55897478148B2D2900EB1F6E /* PBXTextBookmark */;
-			55897479148B2D2900EB1F6E /* PBXTextBookmark */ = 55897479148B2D2900EB1F6E /* PBXTextBookmark */;
-			5589747A148B2D2900EB1F6E /* PBXTextBookmark */ = 5589747A148B2D2900EB1F6E /* PBXTextBookmark */;
-			5589747E148B2E2E00EB1F6E /* PBXTextBookmark */ = 5589747E148B2E2E00EB1F6E /* PBXTextBookmark */;
-			5589748D148B2EFB00EB1F6E /* PBXTextBookmark */ = 5589748D148B2EFB00EB1F6E /* PBXTextBookmark */;
-			5589748E148B2EFB00EB1F6E /* PBXTextBookmark */ = 5589748E148B2EFB00EB1F6E /* PBXTextBookmark */;
-			55D3703D1489F07400CF1D66 = 55D3703D1489F07400CF1D66 /* PBXTextBookmark */;
+			559240C9148B53A500B93FCD /* PBXTextBookmark */ = 559240C9148B53A500B93FCD /* PBXTextBookmark */;
+			559240CB148B53A500B93FCD /* PBXTextBookmark */ = 559240CB148B53A500B93FCD /* PBXTextBookmark */;
+			559240CC148B53A500B93FCD /* PBXTextBookmark */ = 559240CC148B53A500B93FCD /* PBXTextBookmark */;
+			559240CE148B53A500B93FCD /* PBXTextBookmark */ = 559240CE148B53A500B93FCD /* PBXTextBookmark */;
+			559240CF148B53A500B93FCD /* PBXTextBookmark */ = 559240CF148B53A500B93FCD /* PBXTextBookmark */;
+			559240D1148B53A500B93FCD /* PBXTextBookmark */ = 559240D1148B53A500B93FCD /* PBXTextBookmark */;
+			559240D3148B53A500B93FCD /* PBXTextBookmark */ = 559240D3148B53A500B93FCD /* PBXTextBookmark */;
+			559240D4148B53A500B93FCD /* PBXTextBookmark */ = 559240D4148B53A500B93FCD /* PBXTextBookmark */;
+			55D3703D1489F07400CF1D66 /* PBXTextBookmark */ = 55D3703D1489F07400CF1D66 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 55D36FA21489E95500CF1D66 /* Source Control */;
 		userBuildSettings = {
@@ -157,250 +146,11 @@
 			sepNavWindowFrame = "{{253, 0}, {750, 746}}";
 		};
 	};
-	558973E0148B253D00EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF11489EC3D00CF1D66 /* JSONBasicAPITest.h */;
-		name = "JSONBasicAPITest.h: 18";
-		rLen = 25;
-		rLoc = 482;
-		rType = 0;
-		vrLen = 427;
-		vrLoc = 0;
-	};
-	558973E1148B253D00EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 18";
-		rLen = 0;
-		rLoc = 1421;
-		rType = 0;
-		vrLen = 887;
-		vrLoc = 0;
-	};
-	558973E2148B253D00EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 9";
-		rLen = 0;
-		rLoc = 210;
-		rType = 0;
-		vrLen = 1118;
-		vrLoc = 0;
-	};
-	558973FA148B25C200EB1F6E /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist";
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 36;
-		rType = 1;
-	};
-	558973FB148B25C200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 23";
-		rLen = 0;
-		rLoc = 1408;
-		rType = 0;
-		vrLen = 924;
-		vrLoc = 0;
-	};
-	5589741E148B26F500EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF11489EC3D00CF1D66 /* JSONBasicAPITest.h */;
-		name = "JSONBasicAPITest.h: 18";
-		rLen = 25;
-		rLoc = 482;
-		rType = 0;
-		vrLen = 427;
-		vrLoc = 0;
-	};
-	5589741F148B26F500EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 14";
-		rLen = 33;
-		rLoc = 386;
-		rType = 0;
-		vrLen = 1398;
-		vrLoc = 0;
-	};
-	55897420148B26F500EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 11";
-		rLen = 0;
-		rLoc = 295;
-		rType = 0;
-		vrLen = 1394;
-		vrLoc = 0;
-	};
-	5589742B148B27DB00EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 12";
-		rLen = 6;
-		rLoc = 305;
-		rType = 0;
-		vrLen = 1394;
-		vrLoc = 0;
-	};
-	5589742C148B27DB00EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5589742D148B27DB00EB1F6E /* SBJsonBase.h */;
-		rLen = 1;
-		rLoc = 54;
-		rType = 1;
-	};
-	5589742D148B27DB00EB1F6E /* SBJsonBase.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = SBJsonBase.h;
-		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonBase.h;
-		sourceTree = "<absolute>";
+	32A70AAB03705E1F00C91783 /* 03_JSONAPIDev_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {695, 1131}}";
-			sepNavSelRange = "{1006, 0}";
-			sepNavVisRange = "{0, 1710}";
-		};
-	};
-	5589742E148B27DB00EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5589742F148B27DB00EB1F6E /* SBJsonBase.h */;
-		name = "SBJsonBase.h: 21";
-		rLen = 0;
-		rLoc = 1006;
-		rType = 0;
-		vrLen = 1710;
-		vrLoc = 0;
-	};
-	5589742F148B27DB00EB1F6E /* SBJsonBase.h */ = {
-		isa = PBXFileReference;
-		name = SBJsonBase.h;
-		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonBase.h;
-		sourceTree = "<absolute>";
-	};
-	55897430148B27F700EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5589742D148B27DB00EB1F6E /* SBJsonBase.h */;
-		name = "SBJsonBase.h: 21";
-		rLen = 0;
-		rLoc = 1006;
-		rType = 0;
-		vrLen = 1710;
-		vrLoc = 0;
-	};
-	55897438148B287200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 19";
-		rLen = 0;
-		rLoc = 420;
-		rType = 0;
-		vrLen = 1336;
-		vrLoc = 0;
-	};
-	55897439148B287200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5589743A148B287200EB1F6E /* NSURLConnection.h */;
-		rLen = 1;
-		rLoc = 40;
-		rType = 1;
-	};
-	5589743A148B287200EB1F6E /* NSURLConnection.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = NSURLConnection.h;
-		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSURLConnection.h;
-		sourceTree = "<absolute>";
-	};
-	5589743B148B287200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5589743C148B287200EB1F6E /* NSURLConnection.h */;
-		name = "NSURLConnection.h: 8";
-		rLen = 1;
-		rLoc = 151;
-		rType = 0;
-		vrLen = 1219;
-		vrLoc = 0;
-	};
-	5589743C148B287200EB1F6E /* NSURLConnection.h */ = {
-		isa = PBXFileReference;
-		name = NSURLConnection.h;
-		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSURLConnection.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {959, 6357}}";
-			sepNavSelRange = "{151, 1}";
-			sepNavVisRange = "{0, 1219}";
-		};
-	};
-	5589744E148B299200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 29";
-		rLen = 25;
-		rLoc = 1421;
-		rType = 0;
-		vrLen = 1049;
-		vrLoc = 354;
-	};
-	5589744F148B299200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55897450148B299200EB1F6E /* SBJsonStreamParserAdapter.h */;
-		name = "SBJsonStreamParserAdapter.h: 118";
-		rLen = 26;
-		rLoc = 4333;
-		rType = 0;
-		vrLen = 1336;
-		vrLoc = 3646;
-	};
-	55897450148B299200EB1F6E /* SBJsonStreamParserAdapter.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = SBJsonStreamParserAdapter.h;
-		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/SBJsonStreamParserAdapter.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {959, 1898}}";
-			sepNavSelRange = "{4333, 26}";
-			sepNavVisRange = "{3646, 1196}";
-		};
-	};
-	55897451148B299200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55897452148B299200EB1F6E /* SBJsonStreamParser.h */;
-		rLen = 1;
-		rLoc = 51;
-		rType = 1;
-	};
-	55897452148B299200EB1F6E /* SBJsonStreamParser.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = SBJsonStreamParser.h;
-		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/SBJsonStreamParser.h;
-		sourceTree = "<absolute>";
-	};
-	55897453148B299200EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55897454148B299200EB1F6E /* SBJsonStreamParser.h */;
-		name = "SBJsonStreamParser.h: 101";
-		rLen = 8;
-		rLoc = 3466;
-		rType = 0;
-		vrLen = 1171;
-		vrLoc = 4478;
-	};
-	55897454148B299200EB1F6E /* SBJsonStreamParser.h */ = {
-		isa = PBXFileReference;
-		name = SBJsonStreamParser.h;
-		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/SBJsonStreamParser.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {959, 2184}}";
-			sepNavSelRange = "{3466, 8}";
-			sepNavVisRange = "{4478, 1171}";
+			sepNavIntBoundsRect = "{{0, 0}, {695, 595}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 168}";
 		};
 	};
 	55897476148B2D2900EB1F6E /* PBXTextBookmark */ = {
@@ -415,69 +165,222 @@
 	};
 	55897477148B2D2900EB1F6E /* SBJsonStreamParserAdapter.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = SBJsonStreamParserAdapter.h;
 		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/SBJsonStreamParserAdapter.h;
 		sourceTree = "<absolute>";
 	};
-	55897478148B2D2900EB1F6E /* PBXTextBookmark */ = {
+	5592406D148B50A200B93FCD /* JSONBasicAPITest.m:130 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		functionName = "-parser:foundArray:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 130;
+		location = JSONAPITest;
+		modificationTime = 344675187.385671;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	5592406F148B50A700B93FCD /* JSONBasicAPITest.m:140 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		functionName = "-connection:didReceiveResponse:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 140;
+		location = JSONAPITest;
+		modificationTime = 344675187.387344;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55924071148B50AA00B93FCD /* JSONBasicAPITest.m:144 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		functionName = "-connection:didReceiveAuthenticationChallenge:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 144;
+		location = JSONAPITest;
+		modificationTime = 344675187.394276;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55924073148B50AE00B93FCD /* JSONBasicAPITest.m:154 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		functionName = "-connection:didReceiveData:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 154;
+		location = JSONAPITest;
+		modificationTime = 344675187.395535;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55924075148B50B300B93FCD /* JSONBasicAPITest.m:171 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		functionName = "-connection:didFailWithError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 171;
+		location = JSONAPITest;
+		modificationTime = 344675187.397183;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	55924079148B50BA00B93FCD /* JSONBasicAPITest.m:177 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 177;
+		location = JSONAPITest;
+		modificationTime = 344675187.399284;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	559240C9148B53A500B93FCD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D36FF11489EC3D00CF1D66 /* JSONBasicAPITest.h */;
-		name = "JSONBasicAPITest.h: 16";
+		fRef = 559240CA148B53A500B93FCD /* NSLock.h */;
+		name = "NSLock.h: 63";
 		rLen = 0;
-		rLoc = 351;
+		rLoc = 1349;
 		rType = 0;
-		vrLen = 527;
+		vrLen = 1144;
+		vrLoc = 535;
+	};
+	559240CA148B53A500B93FCD /* NSLock.h */ = {
+		isa = PBXFileReference;
+		name = NSLock.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSLock.h;
+		sourceTree = "<absolute>";
+	};
+	559240CB148B53A500B93FCD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* 03_JSONAPIDev_Prefix.pch */;
+		name = "03_JSONAPIDev_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
 		vrLoc = 0;
 	};
-	55897479148B2D2900EB1F6E /* PBXTextBookmark */ = {
+	559240CC148B53A500B93FCD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 52";
-		rLen = 0;
-		rLoc = 2130;
+		fRef = 559240CD148B53A500B93FCD /* objc.h */;
+		name = "objc.h: 50";
+		rLen = 32;
+		rLoc = 1519;
 		rType = 0;
-		vrLen = 1028;
-		vrLoc = 1778;
+		vrLen = 1007;
+		vrLoc = 1033;
 	};
-	5589747A148B2D2900EB1F6E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 73";
-		rLen = 0;
-		rLoc = 2579;
-		rType = 0;
-		vrLen = 1428;
-		vrLoc = 2132;
+	559240CD148B53A500B93FCD /* objc.h */ = {
+		isa = PBXFileReference;
+		name = objc.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/objc.h;
+		sourceTree = "<absolute>";
 	};
-	5589747E148B2E2E00EB1F6E /* PBXTextBookmark */ = {
+	559240CE148B53A500B93FCD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 73";
-		rLen = 0;
-		rLoc = 2577;
+		fRef = 55D36FF11489EC3D00CF1D66 /* JSONBasicAPITest.h */;
+		name = "JSONBasicAPITest.h: 22";
+		rLen = 4;
+		rLoc = 522;
 		rType = 0;
-		vrLen = 1433;
-		vrLoc = 2132;
+		vrLen = 694;
+		vrLoc = 0;
 	};
-	5589748D148B2EFB00EB1F6E /* PBXTextBookmark */ = {
+	559240CF148B53A500B93FCD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 34";
-		rLen = 0;
-		rLoc = 1272;
+		fRef = 559240D0148B53A500B93FCD /* stdbool.h */;
+		name = "stdbool.h: 36";
+		rLen = 5;
+		rLoc = 1266;
 		rType = 0;
-		vrLen = 1410;
-		vrLoc = 1564;
+		vrLen = 1461;
+		vrLoc = 0;
 	};
-	5589748E148B2EFB00EB1F6E /* PBXTextBookmark */ = {
+	559240D0148B53A500B93FCD /* stdbool.h */ = {
+		isa = PBXFileReference;
+		name = stdbool.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h";
+		sourceTree = "<absolute>";
+	};
+	559240D1148B53A500B93FCD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 559240D2148B53A500B93FCD /* unistd.h */;
+		name = "unistd.h: 494";
+		rLen = 46;
+		rLoc = 17303;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 16499;
+	};
+	559240D2148B53A500B93FCD /* unistd.h */ = {
+		isa = PBXFileReference;
+		name = unistd.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h;
+		sourceTree = "<absolute>";
+	};
+	559240D3148B53A500B93FCD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
-		name = "JSONBasicAPITest.m: 125";
+		name = "JSONBasicAPITest.m: 109";
 		rLen = 0;
-		rLoc = 4401;
+		rLoc = 3718;
 		rType = 0;
-		vrLen = 1731;
-		vrLoc = 3375;
+		vrLen = 1491;
+		vrLoc = 3107;
+	};
+	559240D4148B53A500B93FCD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */;
+		name = "JSONBasicAPITest.m: 26";
+		rLen = 0;
+		rLoc = 1067;
+		rType = 0;
+		vrLen = 1810;
+		vrLoc = 277;
 	};
 	55D36F941489E94700CF1D66 /* 03_JSONAPIDev */ = {
 		isa = PBXExecutable;
@@ -594,17 +497,17 @@
 	};
 	55D36FF11489EC3D00CF1D66 /* JSONBasicAPITest.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {695, 559}}";
-			sepNavSelRange = "{351, 0}";
-			sepNavVisRange = "{0, 527}";
+			sepNavIntBoundsRect = "{{0, 0}, {695, 595}}";
+			sepNavSelRange = "{522, 4}";
+			sepNavVisRange = "{0, 694}";
 			sepNavWindowFrame = "{{566, -84}, {750, 746}}";
 		};
 	};
 	55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {695, 2067}}";
-			sepNavSelRange = "{4401, 0}";
-			sepNavVisRange = "{3375, 1731}";
+			sepNavIntBoundsRect = "{{0, 0}, {695, 2574}}";
+			sepNavSelRange = "{1067, 0}";
+			sepNavVisRange = "{277, 1810}";
 			sepNavWindowFrame = "{{274, 0}, {750, 746}}";
 		};
 	};

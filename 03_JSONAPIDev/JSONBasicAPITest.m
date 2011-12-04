@@ -52,6 +52,8 @@
 	
 	username = @"llv22@sina.com";
 	password = @"xiandao22";
+	cocoaCondition = [[NSCondition alloc]init];
+	isFinished = false;
 }
 
 -(void) tearDown
@@ -70,10 +72,11 @@
 	STAssertEquals(unit_1, unit_2, @"Failure");
 }
 
-//TODO : Test JSON API for implementation
-// API -> http://open.weibo.com/wiki/2/statuses/public_timeline
--(void) testWeiboAPI_00
-{	
+-(void) myThreadMainMethod:(id)param{
+	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc]init ];
+	
+	NSNumber* value = (NSNumber*)param;
+	
 	NSString *url = @"https://api.weibo.com/2/statuses/public_timeline.json";	
 	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:url]
 											  cachePolicy:NSURLRequestUseProtocolCachePolicy
@@ -81,11 +84,42 @@
 	
 	//TODO : NSURLConnection delegate to username/password for default url authentication
 	[[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];
+	//TODO : working
+	NSLog(@"in the thread working - in thread %d", [value intValue]);
+	if (cocoaCondition != nil) {
+		[cocoaCondition lock];
+		isFinished = true;
+		[cocoaCondition signal];
+		[cocoaCondition unlock];
+	}
+	
+	[pool drain];
+}
+
+//TODO : Test JSON API for implementation
+// API -> http://open.weibo.com/wiki/2/statuses/public_timeline
+-(void) testWeiboAPI_00
+{		
+	//TODO : Mac OSX 10.5 later
+	NSThread* myThread = [[NSThread alloc] initWithTarget:self 
+												 selector:@selector(myThreadMainMethod:) 
+												   object:[NSNumber numberWithInt:2]];
+	//TODO : Actually to start thread
+	[myThread start];
+	
+	//sleep(50000);
+	[cocoaCondition lock];
+	while (!isFinished) {
+		[cocoaCondition wait];
+	}
+	[cocoaCondition unlock];
+	NSLog(@"Test case ended 00");
 }
 
 //TODO : Test JSON API for implementation
 -(void) testWeiboAPI_01
 {
+	NSLog(@"Test case ended 01");
 }
 
 

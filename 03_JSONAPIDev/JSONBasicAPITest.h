@@ -17,6 +17,11 @@
 	NSString* username;
 	NSString* password;
 	
+#pragma mark fields for synchronization block -> Page 71 of synchronization programming line	
+	NSCondition* cocoaCondition;
+	bool isFinished;
+	int testCaseFinished;
+	
 #pragma mark field for calling json API of stig	
     SBJsonStreamParser *parser;
     SBJsonStreamParserAdapter *adapter;
