@@ -66,6 +66,8 @@
     QWatchedOperationQueue *        _queue;
     BOOL                            _done;
     NSError *                       _error;
+	
+	//TODO : <URL,true> for found page recordset
     NSMutableSet *                  _foundPageURLs;
     NSMutableDictionary *           _foundImageURLToPathMap;
     NSUInteger                      _runningOperationCount;

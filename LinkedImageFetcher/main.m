@@ -79,7 +79,7 @@ int main(int argc, char **argv)
         } else {
             BOOL    success;
 
-            // Run that object.            
+            // Run that object, create root folder          
             success = [fetcher start];
             if ( ! success ) {
                 fprintf(stderr, "%s: failed to create directory: %s\n", getprogname(), [fetcher.imagesDirPath UTF8String]);

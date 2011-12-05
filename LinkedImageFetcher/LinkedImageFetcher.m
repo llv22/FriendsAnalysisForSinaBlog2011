@@ -153,9 +153,8 @@
     }
 
     // Start the main GET operation, that gets the HTML whose links we want 
-    // to download.
-    
-    if (success) {
+    // to download.    
+    if (success) {		
         [self startPageGet:self.URL depth:0];
     }
     

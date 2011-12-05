@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5590AAC0148BB4D200B04CB3</string>
+										<string>5590AAF6148BBA3C00B04CB3</string>
 										<key>history</key>
 										<array>
 											<string>55D3703D1489F07400CF1D66</string>
@@ -341,10 +341,10 @@
 											<string>559240CF148B53A500B93FCD</string>
 											<string>559240D1148B53A500B93FCD</string>
 											<string>5590AABA148BB4D200B04CB3</string>
-											<string>5590AABC148BB4D200B04CB3</string>
 											<string>5590AABD148BB4D200B04CB3</string>
 											<string>5590AABE148BB4D200B04CB3</string>
-											<string>5590AABF148BB4D200B04CB3</string>
+											<string>5590AAF4148BBA3C00B04CB3</string>
+											<string>5590AAF5148BBA3C00B04CB3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,7 +547,6 @@
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>55D36FC11489EB6500CF1D66</string>
-		<string>/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1020 691 0 0 1024 746 </string>

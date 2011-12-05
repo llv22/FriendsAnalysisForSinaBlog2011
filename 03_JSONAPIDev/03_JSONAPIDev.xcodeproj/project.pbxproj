@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5590A924148D012D00E8B377 /* AsynJSONRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5590A923148D012D00E8B377 /* AsynJSONRequest.m */; };
 		55D36FB91489EB4600CF1D66 /* libSinaWeiBoStaticAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D36FA11489E95500CF1D66 /* libSinaWeiBoStaticAPI.a */; };
 		55D36FF31489EC3D00CF1D66 /* JSONBasicAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */; };
 		55D36FF41489EC4A00CF1D66 /* libSinaWeiBoStaticAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D36FA11489E95500CF1D66 /* libSinaWeiBoStaticAPI.a */; };
@@ -57,6 +58,8 @@
 		08FB7796FE84155DC02AAC07 /* 03_JSONAPIDev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 03_JSONAPIDev.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* 03_JSONAPIDev_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 03_JSONAPIDev_Prefix.pch; sourceTree = "<group>"; };
+		5590A922148D012D00E8B377 /* AsynJSONRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynJSONRequest.h; sourceTree = "<group>"; };
+		5590A923148D012D00E8B377 /* AsynJSONRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynJSONRequest.m; sourceTree = "<group>"; };
 		55D36F991489E95500CF1D66 /* SinaWeiBoStaticAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SinaWeiBoStaticAPI.xcodeproj; path = ../SinaWeiBoStaticAPI/SinaWeiBoStaticAPI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		55D36FE91489EC0400CF1D66 /* JSONAPITest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONAPITest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D36FEA1489EC0400CF1D66 /* JSONAPITest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONAPITest-Info.plist"; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 			children = (
 				55D36FF11489EC3D00CF1D66 /* JSONBasicAPITest.h */,
 				55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */,
+				5590A922148D012D00E8B377 /* AsynJSONRequest.h */,
+				5590A923148D012D00E8B377 /* AsynJSONRequest.m */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D36FF31489EC3D00CF1D66 /* JSONBasicAPITest.m in Sources */,
+				5590A924148D012D00E8B377 /* AsynJSONRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
