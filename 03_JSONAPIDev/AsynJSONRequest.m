@@ -57,4 +57,12 @@
 	return self;
 }
 
+//TODO : start to retrieve json request/response
+-(void) start{
+	[self startAsynJsonRequest:self->_nstrInitialURL];
+}
+
+- (void)startAsynJsonRequest:(NSURL *)jsonURL{
+}
+
 @end

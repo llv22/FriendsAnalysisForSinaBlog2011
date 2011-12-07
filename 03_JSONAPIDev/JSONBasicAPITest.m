@@ -12,6 +12,7 @@
 #import "WBUtil.h"
 #import <SBJson.h>
 #import <SBJsonStreamParserAdapter.h>
+#import "AsynJSONRequest.h"
 
 @interface JSONBasicAPITest () <SBJsonStreamParserAdapterDelegate>
 @end
@@ -78,24 +79,35 @@
 -(void) myThreadMainMethod:(id)param{
 	//NSAutoreleasePool* pool = [[NSAutoreleasePool alloc]init ];	
 	//NSNumber* value = (NSNumber*)param;	
-	NSString *url = [NSString stringWithString:@"https://api.weibo.com/2/statuses/public_timeline.json"];	
-	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:url]
-											  cachePolicy:NSURLRequestUseProtocolCachePolicy
-										  timeoutInterval:60.0];
+	self->proxy = [AsynJSONRequest initWithURL:@"https://api.weibo.com/2/statuses/public_timeline.json" 
+								username:@"llv22@sina.com" 
+								password:@"xiandao22"];
 	
-	//TODO : NSURLConnection delegate to username/password for default url authentication
-	NSURLConnection *theConnection = [[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];
-	STAssertNotNil(theConnection, @"Connection creation failed");
-	//TODO : working
-//	NSLog(@"in the thread working - in thread %d", [value intValue]);
-//	if (cocoaCondition != nil) {
-//		[cocoaCondition lock];
-//		isFinished = true;
-//		[cocoaCondition signal];
-//		[cocoaCondition unlock];
-//	}
-//	
-	//[pool drain];
+	if (self->proxy == nil) {
+		// Do nothing.  +fetcherWithURLString:maximumDepth: has already printed the error.
+	}
+	else {		
+		[self->proxy start];
+//		NSString *url = [NSString stringWithString:@"https://api.weibo.com/2/statuses/public_timeline.json"];	
+//		NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:url]
+//												  cachePolicy:NSURLRequestUseProtocolCachePolicy
+//											  timeoutInterval:60.0];
+//		
+//		//TODO : NSURLConnection delegate to username/password for default url authentication
+//		NSURLConnection *theConnection = [[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];
+//		STAssertNotNil(theConnection, @"Connection creation failed");
+		//TODO : working
+		//	NSLog(@"in the thread working - in thread %d", [value intValue]);
+		//	if (cocoaCondition != nil) {
+		//		[cocoaCondition lock];
+		//		isFinished = true;
+		//		[cocoaCondition signal];
+		//		[cocoaCondition unlock];
+		//	}
+		//	
+		//[pool drain];
+	}
+
 }
 
 //TODO : Test JSON API for implementation

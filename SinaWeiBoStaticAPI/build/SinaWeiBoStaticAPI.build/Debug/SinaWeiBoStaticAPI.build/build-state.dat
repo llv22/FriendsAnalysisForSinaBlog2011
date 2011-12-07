@@ -1,7 +1,7 @@
 TSinaWeiBoStaticAPI
 v7
 r0
-t344788088.810639
+t344989998.392585
 cCheck dependencies
 cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoStaticAPI_Prefix-apyhwlbbogcwxzbtjsjgjxucpvam/SinaWeiBoStaticAPI_Prefix.pch.gch SinaWeiBoStaticAPI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -79,6 +79,11 @@ s12777
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
 c000000004A11EB240000000000000C7E
 t1242688292
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB3D0000000000000C7E
+t1242688317
 s3198
 
 N/System/Library/Frameworks/Cocoa.framework/Cocoa
@@ -758,7 +763,7 @@ s54306576
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344788088#344788088#0(0"0(0#1#0"8638751328#0"0#
+lSLF07#2@18"Check dependencies344989998#344989998#0(0"0(0#1#0"8616148640#0"0#
 
 CCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344597801.053145

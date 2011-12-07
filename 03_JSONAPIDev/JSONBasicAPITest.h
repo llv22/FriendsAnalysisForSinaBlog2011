@@ -10,12 +10,14 @@
 
 @class SBJsonStreamParser;
 @class SBJsonStreamParserAdapter;
+@class AsynJSONRequest;
 
 @interface JSONBasicAPITest : SenTestCase{
 	
 #pragma mark fields for authentication of calling json	
 	NSString* username;
 	NSString* password;
+	AsynJSONRequest* proxy;
 	
 #pragma mark fields for synchronization block -> Page 71 of synchronization programming line	
 	NSCondition* cocoaCondition;

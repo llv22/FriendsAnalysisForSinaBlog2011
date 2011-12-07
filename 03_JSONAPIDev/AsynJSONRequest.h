@@ -17,7 +17,7 @@
     NSMutableDictionary *           _nsmdicFoundImageURLToPathMap;
 	
 	//TODO : User setting and url infor.
-	NSURL *						_nstrInitialURL;
+	NSURL *							_nstrInitialURL;
 	NSString *						_nstrUserName;
 	NSString *						_nstrPassword;
 }
@@ -26,5 +26,9 @@
 + (id)initWithURL:(NSString*)nstrInitialURL username:(NSString*)nstrUserName password:(NSString*)nstrPassword;
 
 - (id)initWithURL:(NSURL*)url userName:(NSString*)nstrUserName password:(NSString*)nstrPassword;
+
+#pragma mark - Start JSON asynchronous request/response
+- (void)start;
+- (void)startAsynJsonRequest:(NSURL *)jsonURL;
 
 @end
