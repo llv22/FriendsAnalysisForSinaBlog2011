@@ -56,8 +56,13 @@
 
 #import "QRunLoopOperation.h"
 
+//TODO : see The Objective-C Programming Language -> Referring to Other Protocols
+@protocol QHTTPOperationAuthenticationDelegate;
+
 @interface QHTTPOperation : QRunLoopOperation {
 
 }
+
+- (id)initWithURL:(NSURL *)url;                     // convenience, calls +[NSURLRequest requestWithURL:]
 
 @end

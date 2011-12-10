@@ -297,7 +297,7 @@
 							<real>231</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>4 55 1020 691 0 0 1024 746 </string>
+						<string>62 40 1020 691 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,17 +327,15 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>558996811491778000449A2F</string>
+										<string>5590484F1493A7A8005989B7</string>
 										<key>history</key>
 										<array>
-											<string>5590A989148D0E7A00E8B377</string>
 											<string>5590A98B148D0E7A00E8B377</string>
 											<string>5590A98D148D0E7A00E8B377</string>
 											<string>5590A98F148D0E7A00E8B377</string>
 											<string>5590A991148D0E7A00E8B377</string>
 											<string>5590A992148D0E7A00E8B377</string>
 											<string>5590A994148D0E7A00E8B377</string>
-											<string>5590A995148D0E7A00E8B377</string>
 											<string>5590A997148D0E7A00E8B377</string>
 											<string>5590A99A148D0E7A00E8B377</string>
 											<string>5590A99C148D0E7A00E8B377</string>
@@ -350,8 +348,10 @@
 											<string>5589967C1491778000449A2F</string>
 											<string>5589967D1491778000449A2F</string>
 											<string>5589967E1491778000449A2F</string>
-											<string>5589967F1491778000449A2F</string>
-											<string>558996801491778000449A2F</string>
+											<string>5590484B1493A7A8005989B7</string>
+											<string>5590484C1493A7A8005989B7</string>
+											<string>5590484D1493A7A8005989B7</string>
+											<string>5590484E1493A7A8005989B7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -363,14 +363,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {767, 608}}</string>
+								<string>{{0, 0}, {767, 607}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 55 1020 691 0 0 1024 746 </string>
+								<string>62 40 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>608pt</string>
+							<string>607pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -383,14 +383,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 613}, {767, 37}}</string>
+								<string>{{0, 612}, {767, 38}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 55 1020 691 0 0 1024 746 </string>
+								<string>62 40 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>37pt</string>
+							<string>38pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -409,9 +409,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>558996821491778000449A2F</string>
+				<string>5590482B1493A05A005989B7</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>558996831491778000449A2F</string>
+				<string>5590482C1493A05A005989B7</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -549,10 +549,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5590AADC148BB67C00B04CB3</string>
+		<string>/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/LinkedImageFetcher.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>4 55 1020 691 0 0 1024 746 </string>
+	<string>62 40 1020 691 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -629,7 +631,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5590AADC148BB67C00B04CB3</string>
-				<string>558996841491778000449A2F</string>
+				<string>5590482D1493A05A005989B7</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -673,8 +675,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {463, 342}}</string>
-											<string>{{463, 0}, {557, 342}}</string>
+											<string>{{0, 0}, {463, 344}}</string>
+											<string>{{463, 0}, {557, 344}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -689,8 +691,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {1020, 342}}</string>
-											<string>{{0, 342}, {1020, 307}}</string>
+											<string>{{0, 0}, {1020, 344}}</string>
+											<string>{{0, 344}, {1020, 305}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -723,7 +725,7 @@
 										<real>327</real>
 									</array>
 									<key>Frame</key>
-									<string>{{463, 0}, {557, 342}}</string>
+									<string>{{463, 0}, {557, 344}}</string>
 									<key>RubberWindowFrame</key>
 									<string>4 56 1020 690 0 0 1024 746 </string>
 								</dict>
@@ -751,13 +753,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>559D21601491683C002966D5</string>
+				<string>559048501493A7A8005989B7</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>559D21611491683C002966D5</string>
-				<string>559D21621491683C002966D5</string>
-				<string>559D21631491683C002966D5</string>
-				<string>559D21641491683C002966D5</string>
-				<string>559D21651491683C002966D5</string>
+				<string>559048511493A7A8005989B7</string>
+				<string>559048521493A7A8005989B7</string>
+				<string>559048531493A7A8005989B7</string>
+				<string>559048541493A7A8005989B7</string>
+				<string>559048551493A7A8005989B7</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
