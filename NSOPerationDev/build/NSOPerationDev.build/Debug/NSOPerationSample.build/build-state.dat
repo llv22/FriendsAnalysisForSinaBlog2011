@@ -1,0 +1,129 @@
+TNSOPerationSample
+v7
+r0
+t345295215.583143
+cCheck dependencies
+cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch.gch NSOPerationSample_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/MyOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/NSOPerationSample normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD5C66A0000000000B3E910
+t1289078378
+s11790608
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.h
+c000000004EE4657B0000000000000161
+t1323591035
+s353
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m
+c000000004EE491E900000000000008C8
+t1323602409
+s2248
+i"MyOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m
+c000000004EE4916D0000000000000A0E
+t1323602285
+s2574
+i<Foundation/Foundation.h>
+i"MyOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample_Prefix.pch
+c000000004EE4649A00000000000000B0
+t1323590810
+s176
+i<Foundation/Foundation.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/NSOPerationSample
+t1323602410
+s17584
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/MyOperation.o
+t1323602410
+s17152
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.LinkFileList
+c000000004EE472330000000000000166
+t1323594291
+s358
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.o
+t1323602287
+s14300
+
+N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch.gch
+t1323594294
+s41429776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies345295215#345295215#0(0"0(0#1#0"8613804000#0"0#
+
+CCompileC build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/MyOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345295210.078849
+e345295210.634369
+r1
+xCompileC
+xbuild/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/MyOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m345295210#345295210#0(0"0(0#0#96"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m8610398816#2127"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/MyOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/MyOperation.o0#
+
+CCompileC build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345295086.589964
+e345295087.141493
+r1
+xCompileC
+xbuild/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m345295086#345295087#0(0"0(0#0#102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m8619012832#2139"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.o0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/NSOPerationSample normal x86_64
+s345295210.634501
+e345295210.655566
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/NSOPerationSample
+xnormal
+xx86_64
+lSLF07#2@117"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/NSOPerationSample345295210#345295210#0(0"0(0#0#0"8609284320#777"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/Objects-normal/x86_64/NSOPerationSample.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/NSOPerationSample0#
+
+CProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch.gch NSOPerationSample_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345287091.704884
+e345287094.106399
+r1
+xProcessPCH
+x/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch.gch
+xNSOPerationSample_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile NSOPerationSample_Prefix.pch345287091#345287094#0(0"0(0#0#111"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample_Prefix.pch8637512864#1968"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/NSOPerationSample-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/build/NSOPerationDev.build/Debug/NSOPerationSample.build/DerivedSources -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationDev/NSOPerationSample_Prefix.pch -o /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NSOPerationSample_Prefix-fyovgdkkaynyhvegglwidqocayeb/NSOPerationSample_Prefix.pch.gch0#
+

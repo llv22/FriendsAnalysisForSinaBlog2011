@@ -67,7 +67,12 @@
     if (self != nil) {
         self->_target = target;
         self->_targetThread = [[NSThread currentThread] retain];
-        self->_operationToAction = CFDictionaryCreateMutable(NULL, 0, &kCFTypeDictionaryKeyCallBacks, NULL);
+        self->_operationToAction = CFDictionaryCreateMutable(
+															 NULL, 
+															 0, 
+															 //If the dictionary will contain only CFType objects, then pass a pointer to kCFTypeDictionaryKeyCallBacks as this parameter to use the default callback functions.
+															 &kCFTypeDictionaryKeyCallBacks, 
+															 NULL);
         assert(self->_operationToAction != NULL);
     }
     return self;
@@ -95,21 +100,18 @@
     assert(action != nil);
     
     // Add the operation-to-action map entry.  We do this synchronised 
-    // because we can be running on any thread.
-    
+    // because we can be running on any thread.    
     @synchronized (self) {
         assert( ! CFDictionaryContainsKey(self->_operationToAction, (const void *) op) );
         CFDictionarySetValue(self->_operationToAction, (const void *) op, (const void *) action);
     }
     
     // Retain ourselves so that we can't go away while the operation is running, 
-    // and then observe the finished property of the operation.
-    
+    // and then observe the finished property of the operation.    
     [self retain];
     [op addObserver:self forKeyPath:@"isFinished" options:0 context:&self->_target];
     
-    // Call into the real NSOperationQueue.
-    
+    // Call into the real NSOperationQueue.    
     [self addOperation:op];
 }
 
@@ -175,8 +177,7 @@
     
     // Remove ourselves as an observer for this operation. We can now 
     // safely release the retain on ourselves that we took in 
-    // -addOperation:finishedAction:.
-    
+    // -addOperation:finishedAction:.    
     [op removeObserver:self forKeyPath:@"isFinished"];
     [self autorelease];
     

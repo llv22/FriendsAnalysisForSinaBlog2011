@@ -78,9 +78,9 @@ s4048
 i<Foundation/Foundation.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QHTMLLinkFinder.m
-c000000004C4D83E20000000000002B33
-t1280148450
-s11059
+c000000004EE461080000000000002B30
+t1323589896
+s11056
 i"QHTMLLinkFinder.h"
 i<libxml/HTMLparser.h>
 
@@ -115,9 +115,9 @@ s4467
 i<Foundation/Foundation.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/Core Code/QWatchedOperationQueue.m
-c000000004C19F5740000000000001E6F
-t1276769652
-s7791
+c000000004EE4631E0000000000001F63
+t1323590430
+s8035
 i"QWatchedOperationQueue.h"
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/LinkedImageFetcher/ImageDownloadOperation.h

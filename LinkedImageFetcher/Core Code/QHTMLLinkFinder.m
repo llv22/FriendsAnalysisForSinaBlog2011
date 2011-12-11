@@ -190,15 +190,12 @@ static void StartElementSAXFunc(
     assert([obj isKindOfClass:[QHTMLLinkFinder class]]);
     
     // libxml2's HTML parser lower cases tag and attribute names, so 
-    // strcmp (rather than strcasecmp) is correct here.
-    
-    // Tags without attributes are not useful to us.
-    
+    // strcmp (rather than strcasecmp) is correct here.    
+    // Tags without attributes are not useful to us.    
     if (attrs != NULL) {
     
         // Check for the tags we care about and, within them, check for 
-        // the attributes we care about.
-        
+        // the attributes we care about.        
         if ( strcmp( (const char *) name, "a") == 0 ) {
             attrIndex = 0;
             while (attrs[attrIndex] != NULL) {

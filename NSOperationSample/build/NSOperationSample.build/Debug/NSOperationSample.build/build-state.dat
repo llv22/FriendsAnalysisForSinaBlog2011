@@ -1,0 +1,545 @@
+TNSOperationSample
+v7
+r0
+t345292031.326923
+cCheck dependencies
+cProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Info.plist Info.plist
+cStripNIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+cCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/GetPathsOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/LoadOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample normal i386
+cTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/English.lproj/Credits.rtf
+c00000000466D75C0000000000000011E
+t1181578688
+s286
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/English.lproj/InfoPlist.strings
+c000000004A57B340000000000000015A
+t1247261504
+s346
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/English.lproj/MainMenu.nib
+c000000004BA3D28400000000000000AA
+t1269027460
+s170
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/GetPathsOperation.h
+c000000004BA3D2850000000000000AD8
+t1269027461
+s2776
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/GetPathsOperation.m
+c000000004BA3D2850000000000001345
+t1269027461
+s4933
+i"GetPathsOperation.h"
+i"LoadOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/LoadOperation.h
+c000000004BA3D2850000000000000AD2
+t1269027461
+s2770
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/LoadOperation.m
+c000000004BA3D2850000000000001E32
+t1269027461
+s7730
+i"LoadOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.h
+c000000004BA3D2850000000000000CD3
+t1269027461
+s3283
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m
+c000000004EE484F70000000000003F52
+t1323599095
+s16210
+i"MyWindowController.h"
+i"GetPathsOperation.h"
+i"LoadOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/NSOperationSample_Prefix.pch
+c00000000466D75C00000000000000033
+t1181578688
+s51
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app
+t1323599142
+s102
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Info.plist
+t1323593845
+s1256
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample
+t1323599142
+s33024
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/PkgInfo
+t1323593845
+s8
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/Credits.rtf
+t1323593804
+s286
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1323593804
+s346
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/MainMenu.nib
+t1323593804
+s21034
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o
+t1323593849
+s11396
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o
+t1323593850
+s17712
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o
+t1323599142
+s49196
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample.LinkFileList
+c000000004EE482E600000000000002D8
+t1323598566
+s728
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o
+t1323593848
+s4956
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/main.m
+c000000004BA3D2850000000000000A40
+t1269027461
+s2624
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/Credits.rtf
+c00000000466D75C0000000000000011E
+t1181578688
+s286
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/InfoPlist.strings
+c000000004A57B340000000000000015A
+t1247261504
+s346
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/MainMenu.nib
+c000000004BA3D28400000000000000AA
+t1269027460
+s170
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.h
+c000000004BA3D2850000000000000AD8
+t1269027461
+s2776
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m
+c000000004BA3D2850000000000001345
+t1269027461
+s4933
+i"GetPathsOperation.h"
+i"LoadOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.h
+c000000004BA3D2850000000000000AD2
+t1269027461
+s2770
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m
+c000000004BA3D2850000000000001E32
+t1269027461
+s7730
+i"LoadOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.h
+c000000004BA3D2850000000000000CD3
+t1269027461
+s3283
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m
+c000000004BA3D2850000000000003EF9
+t1269027461
+s16121
+i"MyWindowController.h"
+i"GetPathsOperation.h"
+i"LoadOperation.h"
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch
+c00000000466D75C00000000000000033
+t1181578688
+s51
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app
+t1323593871
+s102
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Info.plist
+t1323593845
+s1256
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample
+t1323593871
+s33024
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/PkgInfo
+t1323593845
+s8
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/Credits.rtf
+t1323593804
+s286
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1323593804
+s346
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/MainMenu.nib
+t1323593804
+s21034
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o
+t1323593849
+s11396
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o
+t1323593850
+s17712
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o
+t1323593849
+s49100
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample
+t1323593850
+s33024
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample.LinkFileList
+c000000004EE4704B00000000000002D8
+t1323593803
+s728
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o
+t1323593848
+s4956
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/GetPathsOperation.o
+t1323593847
+s12236
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/LoadOperation.o
+t1323593847
+s18712
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/MyWindowController.o
+t1323593846
+s53184
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample
+t1323593848
+s36360
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample.LinkFileList
+c000000004EE4704B00000000000002D4
+t1323593803
+s724
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/main.o
+t1323593846
+s5092
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m
+c000000004BA3D2850000000000000A40
+t1269027461
+s2624
+i<Cocoa/Cocoa.h>
+
+NInfo.plist
+c000000004A57B3400000000000000389
+t1247261504
+s905
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies345292001#345292031#0(0"0(0#1#0"8614938080#0"0#
+
+CCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/GetPathsOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/LoadOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345291941.823603
+e345291942.671119
+r1
+xCompileC
+xbuild/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m345291941#345291942#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m8621291840#1517"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/MyWindowController.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o0#
+
+CCompileC build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345286648.583239
+e345286649.554638
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m345286648#345286649#0(0"0(0#0#105"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m8643918176#1515"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/GetPathsOperation.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345286649.159850
+e345286650.050795
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m345286649#345286650#0(0"0(0#0#101"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m8636644480#1507"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/LoadOperation.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345286648.171063
+e345286649.159040
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m345286648#345286649#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m8643258752#1517"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/MyWindowController.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345286647.574352
+e345286648.583135
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m345286647#345286648#0(0"0(0#0#92"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m8644794944#1489"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/i386 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/main.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/GetPathsOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s345286646.600253
+e345286647.574109
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/GetPathsOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m345286646#345286647#0(0"0(0#0#105"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m8638081760#1522"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/GetPathsOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/GetPathsOperation.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/LoadOperation.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s345286646.699985
+e345286647.693890
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/LoadOperation.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m345286646#345286647#0(0"0(0#0#101"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m8647239360#1514"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/LoadOperation.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/LoadOperation.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/MyWindowController.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s345286645.475101
+e345286646.699830
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/MyWindowController.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m345286645#345286646#0(0"0(0#0#106"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m8640517792#1524"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/MyWindowController.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/MyWindowController.o0#
+
+CCompileC build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/main.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s345286645.473867
+e345286646.600215
+r1
+xCompileC
+xbuild/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/main.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m345286645#345286646#0(0"0(0#0#92"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m8645337888#1496"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/NSOperationSample.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources/ppc -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/DerivedSources -include /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/NSOperationSample_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/main.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s345286604.008995
+e345286604.597706
+r1
+xCopyStringsFile
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings345286604#345286604#0(0"0(0#0#117"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/InfoPlist.strings8646833376#470"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s345286604.472699
+e345286604.514298
+r1
+xCpResource
+xbuild/Debug/NSOperationSample.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf345286604#345286604#0(0"0(0#0#111"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/Credits.rtf8645868512#520"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/Credits.rtf /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample normal "ppc i386"
+s345286650.314908
+e345286650.319995
+r1
+xCreateUniversalBinary
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample
+xnormal
+xppc i386
+lSLF07#2@106"CreateUniversalBinary build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample normal "ppc i386"345286650#345286650#0(0"0(0#0#94"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/ppc i3868643822624#647"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    /usr/bin/lipo -create /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample -output /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample normal i386
+s345291942.671615
+e345291942.723137
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample
+xnormal
+xi386
+lSLF07#2@157"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample345291942#345291942#0(0"0(0#0#0"8621028352#823"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/NSOPerationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample normal i386
+s345286671.658895
+e345286671.701315
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample
+xnormal
+xi386
+lSLF07#2@157"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample345286671#345286671#0(0"0(0#0#0"8643261248#823"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/MacOS/NSOperationSample0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample normal i386
+s345286650.051250
+e345286650.314789
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample
+xnormal
+xi386
+lSLF07#2@188"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample345286650#345286650#0(0"0(0#0#0"8646375488#854"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/i386/NSOperationSample0#
+
+CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample normal ppc
+s345286647.694001
+e345286648.170942
+r1
+xLd
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample
+xnormal
+xppc
+lSLF07#2@187"Link /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample345286647#345286648#0(0"0(0#0#0"8643849984#851"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug -filelist /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/NSOperationSample.build/Debug/NSOperationSample.build/Objects-normal/ppc/NSOperationSample0#
+
+CProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app/Contents/Info.plist Info.plist
+r0
+
+CProcessInfoPlistFile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Info.plist Info.plist
+s345286645.458775
+e345286645.473360
+r1
+xProcessInfoPlistFile
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist345286645#345286645#0(0"0(0#0#96"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/Info.plist8637117376#463"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    builtin-infoPlistUtility Info.plist -genpkginfo /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Info.plist0#
+
+CStripNIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/English.lproj/MainMenu.nib
+r0
+
+CStripNIB /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/MainMenu.nib
+s345286604.007640
+e345286604.473056
+r1
+xStripNIB
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib345286604#345286604#0(0"0(0#0#112"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/MainMenu.nib8642409568#446"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    /Developer/usr/bin/ibtool --strip /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/English.lproj/MainMenu.nib0#
+
+CTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app
+s345291942.723232
+e345291942.727111
+r1
+xTouch
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app
+lSLF07#2@125"Touch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app345291942#345291942#0(0"0(0#0#0"8620960192#235"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample    /usr/bin/touch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOPerationSample/build/Debug/NSOperationSample.app0#
+
+CTouch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app
+s345286671.701422
+e345286671.705763
+r1
+xTouch
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app
+lSLF07#2@125"Touch /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app345286671#345286671#0(0"0(0#0#0"8642962112#235"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample    /usr/bin/touch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/NSOperationSample/build/Debug/NSOperationSample.app0#
+
