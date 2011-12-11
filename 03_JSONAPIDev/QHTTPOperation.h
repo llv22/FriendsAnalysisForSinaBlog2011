@@ -65,4 +65,74 @@
 
 - (id)initWithURL:(NSURL *)url;                     // convenience, calls +[NSURLRequest requestWithURL:]
 
+#pragma mark NSURL implementation
+// Things that are configured by the init method and can't be changed.
+@property (copy,   readonly)  NSURL *               URL;
+
 @end
+
+#pragma mark NSURLConnectionDelegate to set asynchronous mode accessing
+@interface QHTTPOperation (NSURLConnectionDelegate)
+
+// QHTTPOperation implements all of these methods, so if you override them 
+// you must consider whether or not to call super.
+//
+// These will be called on the operation's run loop thread.
+
+// TODO :Routes the request to the authentication delegate if it exists, otherwise 
+// just returns NO.
+- (BOOL)connection:(NSURLConnection *)connection canAuthenticateAgainstProtectionSpace:(NSURLProtectionSpace *)protectionSpace;
+
+// TODO : Routes the request to the authentication delegate if it exists, otherwise 
+// just cancels the challenge.
+- (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge;
+
+// TODO : Latches the request and response in lastRequest and lastResponse.
+- (NSURLRequest *)connection:(NSURLConnection *)connection willSendRequest:(NSURLRequest *)request redirectResponse:(NSURLResponse *)response;
+
+// TODO : Latches the response in lastResponse.
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response;
+
+// TODO : If this is the first chunk of data, it decides whether the data is going to be 
+// routed to memory (responseBody) or a stream (responseOutputStream) and makes the 
+// appropriate preparations.  For this and subsequent data it then actually shuffles 
+// the data to its destination.
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data;
+
+// TODO : Completes the operation with either no error (if the response status code is acceptable) 
+// or an error (otherwise).
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection;
+
+// TODO : Completes the operation with the error.
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error;
+
+@end
+
+#pragma mark Merge with NSObject procotol for QHTTPOperationAuthenticationDelegate
+@protocol QHTTPOperationAuthenticationDelegate <NSObject>
+@required
+
+// These are called on the operation's run loop thread and have the same semantics as their 
+// NSURLConnection equivalents.  It's important to realise that there is no 
+// didCancelAuthenticationChallenge callback (because NSURLConnection doesn't issue one to us).  
+// Rather, an authentication delegate is expected to observe the operation and cancel itself 
+// if the operation completes while the challenge is running.
+
+- (BOOL)httpOperation:(QHTTPOperation *)operation canAuthenticateAgainstProtectionSpace:(NSURLProtectionSpace *)protectionSpace;
+- (void)httpOperation:(QHTTPOperation *)operation didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge;
+
+@end
+
+extern NSString * kQHTTPOperationErrorDomain;
+
+// positive error codes are HTML status codes (when they are not allowed via acceptableStatusCodes)
+//
+// 0 is, of course, not a valid error code
+//
+// negative error codes are errors from the module
+
+enum {
+    kQHTTPOperationErrorResponseTooLarge = -1, 
+    kQHTTPOperationErrorOnOutputStream   = -2, 
+    kQHTTPOperationErrorBadContentType   = -3
+};
