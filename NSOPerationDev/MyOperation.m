@@ -20,13 +20,17 @@
 	return (self);
 }
 
--(void)dealloc{
-	[super dealloc];
-}
+//-(void)dealloc{
+//	[super dealloc];
+//}
 
 -(BOOL)isConcurrent{
 	return YES;
 }
+
+//-(BOOL)isCancelled{
+//	return NO;
+//}
 
 -(BOOL)isExecuting{
 	return self->executing;
@@ -36,9 +40,9 @@
 	return self->finished;
 }
 
-- (BOOL)isReady{
-	return YES;
-}
+//- (BOOL)isReady{
+//	return YES;
+//}
 
 #pragma mark Start method
 -(void)start{
@@ -54,7 +58,8 @@
 	//If the operation is not cancelled, begin executing the task.
 	[self willChangeValueForKey:@"isExecuting"];
 	//[self performSelectorOnMainThread:@selector(main) withObject:nil waitUntilDone:NO];
-	[NSThread detachNewThreadSelector:@selector(main) toTarget:self withObject:nil];
+	[NSThread detachNewThreadSelector:@selector(main) toTarget:self withObject:nil];	    
+    //[self performSelector:@selector(main) with];
 	self->executing = YES;
 	[self didChangeValueForKey:@"isExecuting"];
 }
@@ -64,8 +69,9 @@
 	[self willChangeValueForKey:@"isExecuting"];
 	self->executing =  NO;
 	self->finished = YES;
-	[self willChangeValueForKey:@"isExecuting"];
-	[self willChangeValueForKey:@"isFinished"];
+	//TODO : Change property for KVO for key/value -> for details, check up with KVO programming guide -> Chapter 2 in Page 27
+	[self didChangeValueForKey:@"isExecuting"];
+	[self didChangeValueForKey:@"isFinished"];
 }
 
 -(void)main{
