@@ -7,7 +7,7 @@
 	NSOperationQueue* aQueue;
 }
 
-@property(retain/*copy*/, readonly) NSThread* WorkThread/*myThread*/;
+@property(retain, readonly) NSThread* WorkThread;
 @property(retain, readonly)NSOperationQueue* WorkQueue;
 
 -(void) myThreadMainMethod:(id)param;
@@ -21,26 +21,19 @@
 @synthesize WorkQueue = aQueue;
 
 -(void) myThreadMainMethod:(id)param{
-	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc]init ];
-	
+	NSAutoreleasePool* pool = [[NSAutoreleasePool alloc]init ];	
 	
 	//TODO : NSOperationQueue
 	aQueue = [[NSOperationQueue alloc]init];
 	NSBlockOperation *theOp = [NSBlockOperation blockOperationWithBlock:^{
 		NSLog(@"Begining operation.\n");
 	}];
-	//MyOperation* anOp = [[MyOperation alloc]init];
-	//[aQueue addObserver:aQueue forKeyPath: @"operations" options: NSKeyValueObservingOptionNew context: NULL];
-	//[aQueue setSuspended:NO];
-	//[aQueue addOperation:anOp];
 	[aQueue addOperation:theOp];
-	//[anOp release];
 	[theOp release];
 	
 	//TODO : No response for alloperations -> NO operation, directly return : saying operation hasn't been finished
 	//When called, this method blocks the current thread and waits for the receiver’s current and queued operations to finish executing. While the current thread is blocked, the receiver continues to launch already queued operations and monitor those that are executing. During this time, the current thread cannot add operations to the queue, but other threads may. Once all of the pending operations are finished, this method returns.
 	[aQueue waitUntilAllOperationsAreFinished];
-	//[anOp waitUntilFinished];
 	NSLog(@"start NSOperation::waitUntilAllOperationsAreFinished() method outside");
 	
 	[pool drain];
@@ -105,29 +98,18 @@
 
 //TODO : Concurrency Programming Guide
 int main (int argc, const char * argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];	
-//	ThreadTest* _test = [[ThreadTest alloc] init];
-//	[_test Test];
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	
-//	while (![_test.WorkThread isFinished]) {
-//		sleep(5);
-	//	}
-//	sleep(5);
-//	while (_test.WorkThread != nil && [_test.WorkQueue operationCount] > 0) {
-//		NSLog(@"count %d\n", [_test.WorkQueue operationCount]);
-//		sleep(5);
-//		NSLog(@"count %d\n", [_test.WorkQueue operationCount]);
-//	}
 	//TODO : NSOperationQueue
 	NSOperationQueue *aQueue = [[NSOperationQueue alloc]init];
 	//[aQueue setSuspended:NO];
 	//TODO : MyOperation - Step 00 [Page 22]
 	MyOperation* anOp = [[MyOperation alloc]init];
 	[aQueue addOperation:anOp];
-	[anOp release];
-	//TODO : NSBlockOperation - Step 01 [Page 22] -> 
-//	Program received signal:  “EXC_BAD_ACCESS”.
-//	sharedlibrary apply-load-rules all
+	[anOp release]; /*[anOp autorelease];//Both is OK*/
+	
+	//TODO : NSBlockOperation - Step 01 [Page 22] -> Program received signal:  “EXC_BAD_ACCESS”.
+	// sharedlibrary apply-load-rules all
 	NSBlockOperation *theOp = [NSBlockOperation blockOperationWithBlock:^{
 		NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 		NSLog(@"Begining operation.\n");
@@ -136,12 +118,14 @@ int main (int argc, const char * argv[]) {
 		[pool drain];
 	}];
 	[aQueue addOperation:theOp];
-	[theOp release];
+	[theOp autorelease];/*[theOp release];//EXC_BAD_ACCESS*/
+	
 	//TODO : NSInvocationOperation - Step 02 [Page 21]
 	MyCustomInvocation *proxy = [[MyCustomInvocation alloc]init];
 	NSOperation *inOp = [proxy taskWithData:[NSNumber numberWithInt:5]];
 	[aQueue addOperation:inOp];
-	[inOp release];
+	[inOp autorelease];/*[theOp release];//EXC_BAD_ACCESS*/
+
 	//TODO : No response for alloperations -> NO operation, directly return : saying operation hasn't been finished
 	//When called, this method blocks the current thread and waits for the receiver’s current and queued operations to finish executing. While the current thread is blocked, the receiver continues to launch already queued operations and monitor those that are executing. During this time, the current thread cannot add operations to the queue, but other threads may. Once all of the pending operations are finished, this method returns.
 	[aQueue waitUntilAllOperationsAreFinished];
