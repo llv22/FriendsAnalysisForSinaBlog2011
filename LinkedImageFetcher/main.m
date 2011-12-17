@@ -85,6 +85,7 @@ int main(int argc, char **argv)
                 fprintf(stderr, "%s: failed to create directory: %s\n", getprogname(), [fetcher.imagesDirPath UTF8String]);
             } else {
                 do {
+					//TODO : [NSDate distantFuture] - You can pass this value when an NSDate object is required to have the date argument essentially ignored.
                     [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
                 } while ( ! fetcher.done );
                 success = (fetcher.error == nil);

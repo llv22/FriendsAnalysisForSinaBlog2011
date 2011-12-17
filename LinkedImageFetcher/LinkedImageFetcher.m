@@ -147,8 +147,7 @@
     success = [fm createDirectoryAtPath:self.imagesDirPath withIntermediateDirectories:NO attributes:nil error:NULL];
     if ( ! success ) {
         // If the create failed, it could be because the directory already exists. 
-        // So let's get a listing and see if that succeeds.
-    
+        // So let's get a listing and see if that succeeds.    
         success = [fm contentsOfDirectoryAtPath:self.imagesDirPath error:NULL] != nil;
     }
 
@@ -263,7 +262,6 @@
 
         // An error getting the main page is fatal to the entire process; an error 
         // getting any subsequent pages is just logged.
-
         if (op.depth == 0) {
             [self stopWithError:op.error];
         } else {
@@ -276,8 +274,7 @@
         [self logText:@"page get done" URL:op.URL depth:op.depth error:nil];
         
         // Don't use op.URL here, but rather [op.lastResponse URL] so that relatives 
-        // URLs work in the face of redirection.
-        
+        // URLs work in the face of redirection.        
         nextOp = [[[LinkFinder alloc] initWithData:op.responseBody fromURL:[op.lastResponse URL] depth:op.depth] autorelease];
         assert(nextOp != nil);
         
@@ -301,10 +298,8 @@
     assert([NSThread isMainThread]);
 
     if (op.error != nil) {
-
         // An error parsing the main page is fatal to the entire process; an error 
         // parsing any subsequent pages is just logged.
-
         if (op.depth == 0) {
             [self stopWithError:op.error];
         } else {
@@ -319,8 +314,7 @@
         // foundPageURLs and foundImageURLToPathMap.
         
         // Process all of the links in the page.  But only if we haven't exceeded 
-        // our maximum depth.  And if we haven't already processed that page URL.
-        
+        // our maximum depth.  And if we haven't already processed that page URL.        
         if (op.depth != self.maximumDepth) {
             for (thisURL in op.linkURLs) {
                 thisURLAbsolute = [thisURL absoluteURL];
@@ -337,8 +331,7 @@
         }
         
         // Download all of the images in the page, but only if we haven't already 
-        // downloaded that image.
-        
+        // downloaded that image.        
         for (thisURL in op.imageURLs) {
             thisURLAbsolute = [thisURL absoluteURL];
             assert(thisURLAbsolute != nil);
@@ -401,7 +394,6 @@
     result = nil;
 
     // First construct and check the URL.
-
     url = nil;
     
     urlStr = [NSString stringWithUTF8String:urlCStr];
@@ -423,8 +415,7 @@
         }
     }
     
-    // Then check maximumDepth.  If that passes, create the object to return.
-    
+    // Then check maximumDepth.  If that passes, create the object to return.    
     if (url != nil) {
         if (maximumDepth < 0) {
             fprintf(stderr, "%s: maximum depth must be non-negative\n", getprogname());

@@ -1,16 +1,21 @@
 T03_JSONAPIDev
 v7
 r0
-t344583550.330352
+t345829343.277044
 cCheck dependencies
 cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch.gch 03_JSONAPIDev_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev normal x86_64
+cCompileC build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/RunLoopsThreadHost.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004D5A274300000000000000EE
 t1297753923
 s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
 
 N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
 c000000004CC401D100000000000013E6
@@ -23,11 +28,11 @@ t1289078378
 s11790608
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m
-c000000004ED9B3690000000000000155
-t1322890089
-s341
+c000000004EECB81D000000000000020A
+t1324136477
+s522
 i<Foundation/Foundation.h>
-i"JSON.h"
+i"RunLoopsThreadHost.h"
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev_Prefix.pch
 c000000004ED9B1C700000000000000A8
@@ -35,14 +40,40 @@ t1322889671
 s168
 i<Foundation/Foundation.h>
 
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/AsynJSONRequest.h
+c000000004EDFE70F00000000000003FE
+t1323296527
+s1022
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.h
+c000000004EECB7010000000000000331
+t1324136193
+s817
+i<Cocoa/Cocoa.h>
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m
+c000000004EECB77A0000000000001947
+t1324136314
+s6471
+i"RunLoopsThreadHost.h"
+i"WBUtil.h"
+i<SBJson.h>
+i<SBJsonStreamParserAdapter.h>
+i"AsynJSONRequest.h"
+
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.LinkFileList
-c000000004ED9B20400000000000000AC
-t1322889732
-s172
+c000000004EECB85D000000000000015D
+t1324136541
+s349
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o
-t1322890091
-s8016
+t1324136543
+s8388
+
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/RunLoopsThreadHost.o
+t2
+s0
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev
 t1322890184
@@ -101,6 +132,12 @@ s4416
 i<Foundation/Foundation.h>
 i"SBJsonBase.h"
 
+N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/WBUtil.h
+c000000004DFACF0C000000000000048C
+t1308282636
+s1164
+i<Foundation/Foundation.h>
+
 N/var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-dusmbbshrrbfjbfxknrsivrcikql/03_JSONAPIDev_Prefix.pch.gch
 t1322889735
 s41429776
@@ -111,11 +148,11 @@ s41429776
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344583550#344583550#0(0"0(0#1#0"8631113760#0"0#
+lSLF07#2@18"Check dependencies345829341#345829341#0(0"0(0#1#0"8646544192#0"0#
 
 CCompileC build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s344582890.632056
-e344582891.064928
+s345829341.851722
+e345829343.215646
 r1
 xCompileC
 xbuild/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o
@@ -124,7 +161,38 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m344582890#344582891#0(0"0(0#0#97"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m8640762912#2554"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o0#
+lSLF07#2@105"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m345829341#345829343#0(0"0(0#0#97"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m8645029728#2554"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/03_JSONAPIDev.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/03_JSONAPIDev.o0#
+
+CCompileC build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/RunLoopsThreadHost.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345829342.381247
+e345829343.277032
+r0
+xCompileC
+xbuild/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/RunLoopsThreadHost.o
+x/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:13:38: error: SBJsonStreamParserAdapter.h: No such file or directory
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:22: error: cannot find protocol declaration for 'SBJsonStreamParserAdapterDelegate'
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m: In function '-[RunLoopsThreadHost fetchRequestJSON:username:password:]':
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:122: warning: receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:123: error: request for member 'delegate' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:128: warning: receiver 'SBJsonStreamParser' is a forward class and corresponding @interface may not exist
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:129: error: request for member 'delegate' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:136: error: request for member 'supportMultipleDocuments' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:139: warning: unused variable 'theConnection'
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m: In function '-[RunLoopsThreadHost connection:didReceiveData:]':
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: 'SBJsonStreamParserStatus' undeclared (first use in this function)
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: (Each undeclared identifier is reported only once
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: for each function it appears in.)
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: expected ';' before 'status'
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:177: error: 'status' undeclared (first use in this function)
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:177: error: 'SBJsonStreamParserError' undeclared (first use in this function)
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:179: error: request for member 'error' in something not a structure or union
+o/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:181: error: 'SBJsonStreamParserWaitingForData' undeclared (first use in this function)
+lSLF07#2@110"Compile /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829342#345829343#0(3198"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:13:38: error: SBJsonStreamParserAdapter.h: No such file or directory/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:22: error: cannot find protocol declaration for 'SBJsonStreamParserAdapterDelegate'/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m: In function '-[RunLoopsThreadHost fetchRequestJSON:username:password:]':/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:122: warning: receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:123: error: request for member 'delegate' in something not a structure or union/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:128: warning: receiver 'SBJsonStreamParser' is a forward class and corresponding @interface may not exist/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:129: error: request for member 'delegate' in something not a structure or union/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:136: error: request for member 'supportMultipleDocuments' in something not a structure or union/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:139: warning: unused variable 'theConnection'/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m: In function '-[RunLoopsThreadHost connection:didReceiveData:]':/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: 'SBJsonStreamParserStatus' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: (Each undeclared identifier is reported only once/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: for each function it appears in.)/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:175: error: expected ';' before 'status'/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:177: error: 'status' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:177: error: 'SBJsonStreamParserError' undeclared (first use in this function)/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:179: error: request for member 'error' in something not a structure or union/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m:181: error: 'SBJsonStreamParserWaitingForData' undeclared (first use in this function)14(4@54"SBJsonStreamParserAdapter.h: No such file or directory345829343#0#172#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#13#0#13#0#28"*: No such file or directory0(4@72"Cannot find protocol declaration for 'SBJsonStreamParserAdapterDelegate'345829343#172#187#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#22#0#22#0#0"0(22@98"Receiver 'SBJsonStreamParserAdapter' is a forward class and corresponding @interface may not exist345829343#536#216#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#122#0#122#0#0"0(4@67"Request for member 'delegate' in something not a structure or union345829343#752#183#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#123#0#123#0#0"0(22@91"Receiver 'SBJsonStreamParser' is a forward class and corresponding @interface may not exist345829343#935#209#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#128#0#128#0#0"0(4@67"Request for member 'delegate' in something not a structure or union345829343#1144#183#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#129#0#129#0#0"0(4@83"Request for member 'supportMultipleDocuments' in something not a structure or union345829343#1327#199#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#136#0#136#0#0"0(22@31"Unused variable 'theConnection'345829343#1526#149#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#139#0#139#0#19"unused variable '*'0(4@66"'SBJsonStreamParserStatus' undeclared (first use in this function)345829343#1843#182#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#175#0#175#0#43"'*' undeclared (first use in this function)0(4@28"Expected ';' before 'status'345829343#2339#144#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#175#0#175#0#19"expected * before *0(4@48"'status' undeclared (first use in this function)345829343#2483#164#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#177#0#177#0#43"'*' undeclared (first use in this function)0(4@65"'SBJsonStreamParserError' undeclared (first use in this function)345829343#2647#181#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#177#0#177#0#43"'*' undeclared (first use in this function)0(4@64"Request for member 'error' in something not a structure or union345829343#2828#180#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#179#0#179#0#0"0(4@74"'SBJsonStreamParserWaitingForData' undeclared (first use in this function)345829343#3008#190#0(6@102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m345829114#181#0#181#0#43"'*' undeclared (first use in this function)0(0#0#102"/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m8644978976#2564"    cd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-generated-files.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-own-target-headers.hmap -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-all-target-headers.hmap -iquote /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/03_JSONAPIDev-project-headers.hmap -F/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/include -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/images -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Security -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources/x86_64 -I/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/DerivedSources -include /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/03_JSONAPIDev_Prefix-elwqsnkyswlojzaanktlnnfanvvs/03_JSONAPIDev_Prefix.pch -c /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m -o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/03_JSONAPIDev.build/Debug/03_JSONAPIDev.build/Objects-normal/x86_64/RunLoopsThreadHost.o1#
 
 CLd /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/build/Debug/03_JSONAPIDev normal x86_64
 s344582984.844935

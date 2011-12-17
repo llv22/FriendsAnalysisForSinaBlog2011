@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55877401149CECED00EA4D82 /* RunLoopsThreadHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */; };
+		55877402149CECED00EA4D82 /* RunLoopsThreadHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */; };
 		5589964A14916CA500449A2F /* URLGetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5589964914916CA500449A2F /* URLGetOperation.m */; };
 		55899658149176E900449A2F /* URLGetOperation.m in Resources */ = {isa = PBXBuildFile; fileRef = 5589964914916CA500449A2F /* URLGetOperation.m */; };
 		55899659149176F100449A2F /* QHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5589964E14916CE800449A2F /* QHTTPOperation.m */; };
@@ -62,6 +64,8 @@
 		08FB7796FE84155DC02AAC07 /* 03_JSONAPIDev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 03_JSONAPIDev.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* 03_JSONAPIDev_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 03_JSONAPIDev_Prefix.pch; sourceTree = "<group>"; };
+		558773FF149CECED00EA4D82 /* RunLoopsThreadHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopsThreadHost.h; sourceTree = "<group>"; };
+		55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopsThreadHost.m; sourceTree = "<group>"; };
 		5589964814916CA500449A2F /* URLGetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLGetOperation.h; sourceTree = "<group>"; };
 		5589964914916CA500449A2F /* URLGetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLGetOperation.m; sourceTree = "<group>"; };
 		5589964D14916CE800449A2F /* QHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTTPOperation.h; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				558773FE149CECC900EA4D82 /* ThreadWrapper */,
 				55D36FF01489EC2000CF1D66 /* Test */,
 				32A70AAB03705E1F00C91783 /* 03_JSONAPIDev_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* 03_JSONAPIDev.m */,
@@ -139,6 +144,15 @@
 				55D36FE91489EC0400CF1D66 /* JSONAPITest.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		558773FE149CECC900EA4D82 /* ThreadWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				558773FF149CECED00EA4D82 /* RunLoopsThreadHost.h */,
+				55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */,
+			);
+			name = ThreadWrapper;
 			sourceTree = "<group>";
 		};
 		55D36F9A1489E95500CF1D66 /* Products */ = {
@@ -276,6 +290,7 @@
 				5589964A14916CA500449A2F /* URLGetOperation.m in Sources */,
 				55D36FF31489EC3D00CF1D66 /* JSONBasicAPITest.m in Sources */,
 				5590A924148D012D00E8B377 /* AsynJSONRequest.m in Sources */,
+				55877401149CECED00EA4D82 /* RunLoopsThreadHost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* 03_JSONAPIDev.m in Sources */,
+				55877402149CECED00EA4D82 /* RunLoopsThreadHost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
