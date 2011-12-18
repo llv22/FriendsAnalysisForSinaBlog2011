@@ -41,7 +41,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright © 2005 Apple Computer, Inc., All Rights Reserved
+ Copyright ï¿½ 2005 Apple Computer, Inc., All Rights Reserved
  */ 
 
 
@@ -69,6 +69,7 @@
         NSLog(@"error: %@", error);
     }
 
+	//TODO : SendMessage to xml web service items
     NSXMLDocument *replydoc = [self sendMessage:doc waitForReply:YES];
 
     NSArray *array = [replydoc nodesForXPath:@"soap:Envelope/soap:Body/ex:Result" error:&error];

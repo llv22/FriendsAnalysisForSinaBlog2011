@@ -28,6 +28,9 @@
 -(void) startThreadMainForRunLoop;
 -(void) stopThreadMainForRunLoop;
 //TODO : start Request JSON later wrappered in one queue
--(void) fetchRequestJSON: (NSString*)nstrInitialURL username:(NSString*)nstrUserName password:(NSString*)nstrPassword;
+-(void) fetchRequestJSON: (NSString*)nstrInitialURL 
+				username:(NSString*)nstrUserName 
+				password:(NSString*)nstrPassword 
+			  sinaappkey:(NSString*)nstrappkey;
 
 @end

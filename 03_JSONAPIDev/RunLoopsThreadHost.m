@@ -75,7 +75,8 @@
 	
 	[self fetchRequestJSON:@"https://api.weibo.com/2/statuses/public_timeline.json" 
 			 username:@"llv22@sina.com" 
-			 password:@"xiandao22"];
+				  password:@"xiandao22" 
+				sinaappkey:@"2657678697"];
 	/*
 	 * Run Loop of Thread
 	 */	
@@ -108,11 +109,38 @@
 }
 
 #pragma mark Fetch implementation
--(void) fetchRequestJSON: (NSString*)nstrInitialURL username:(NSString*)nstrUserName password:(NSString*)nstrPassword{	
-	NSURLRequest *theRequest=[NSURLRequest 
-							  requestWithURL:[NSURL URLWithString:nstrInitialURL]
-							  cachePolicy:NSURLRequestUseProtocolCachePolicy 
-							  timeoutInterval:60.0];
+-(void) fetchRequestJSON: (NSString*)nstrInitialURL 
+				username:(NSString*)nstrUserName 
+				password:(NSString*)nstrPassword
+			  sinaappkey:(NSString*)nstrappkey{
+	//TODO : /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/CocoaSOAP/SOAPClient.m NSURLRequest -> NSMutableURLRequest [avoid single url request, then to reuse mutable request, see programming guide of NSMutableURLRequest]
+	
+	NSURL* hosturl = [NSURL URLWithString:nstrInitialURL];
+	NSMutableURLRequest *theRequest = [[[NSMutableURLRequest alloc] 
+										initWithURL:hosturl
+										cachePolicy:NSURLRequestReloadIgnoringCacheData 
+										timeoutInterval:60.0] 
+									   autorelease];
+	//TODO : http://stackoverflow.com/questions/1571336/sending-post-data-from-iphone-over-ssl-https
+	NSString *post =[[NSString alloc] initWithFormat:@"source=%@&page=1&count=10", nstrappkey];
+	NSLog(@"%@", post);
+	NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];	
+	NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
+    [theRequest setHTTPMethod:@"POST"];
+	[theRequest setValue:postLength forHTTPHeaderField:@"Content-Length"];
+	[theRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+	[theRequest setHTTPBody:postData];
+	
+	/* when we user https, we need to allow any HTTPS cerificates, so add the one line code,to tell teh NSURLRequest to accept any https certificate, i'm not sure about the security aspects
+	 */	
+	//[NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[hosturl host]];
+//	
+    //[request setValue:[NSString stringWithFormat:@"%d", [data length]] forHTTPHeaderField:@"Content-Length"];
+	
+//	NSURLRequest *theRequest=[NSURLRequest 
+//							  requestWithURL:[NSURL URLWithString:nstrInitialURL]
+//							  cachePolicy:NSURLRequestUseProtocolCachePolicy 
+//							  timeoutInterval:60.0];
 	
 	self->username = nstrUserName;
 	self->password = nstrPassword;
@@ -150,9 +178,13 @@
     [NSException raise:@"unexpected" format:@"Should not get here"];
 }
 
+//TODO : json response format content
 - (void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict {
-	//tweet.text = [dict objectForKey:@"text"];
-	NSLog(@"(void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict");
+	NSLog(@"(void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict\n");
+	NSString *key;
+	for(key in dict){
+		NSLog(@"Key: %@, Value %@", key, [dict objectForKey: key]);
+	}
 }
 
 #pragma mark NSURLConnectionDelegate methods
@@ -161,8 +193,17 @@
 	NSLog(@"Connection didReceiveResponse: %@ - %@", response, [response MIMEType]);
 }
 
+- (BOOL)connection:(NSURLConnection *)connection canAuthenticateAgainstProtectionSpace:(NSURLProtectionSpace *)protectionSpace {
+	return [protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust];
+}
+
 - (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {
 	NSLog(@"Connection didReceiveAuthenticationChallenge: %@", challenge);
+	if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust])
+		if ([challenge.protectionSpace.host isEqualToString:@"api.weibo.com"]){
+			[challenge.sender useCredential:[NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust] forAuthenticationChallenge:challenge];
+		}
+	
 	//TODO : Network credential setting
 	NSURLCredential *credential = [NSURLCredential credentialWithUser:username
 															 password:password
@@ -174,8 +215,7 @@
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
 	NSLog(@"Connection didReceiveData of length: %u", data.length);
 	
-	// Parse the new chunk of data. The parser will append it to
-	// its internal buffer, then parse from where it left off in
+	// Parse the new chunk of data. The parser will append it to its internal buffer, then parse from where it left off in
 	// the last chunk.
 	SBJsonStreamParserStatus status = [parser parse:data];
 	
