@@ -7,11 +7,14 @@
 //
 
 #import "RunLoopsThreadHost.h"
-//#import "JSON.h" -> deprecated, as sina api isn't used any more
-#import "WBUtil.h"
+
+#pragma mark "stig framework implementation"
+#import <WBUtil.h>
 #import <SBJson.h>
-#import "SBJsonStreamParserAdapter.h"
-#import "AsynJSONRequest.h"
+#import <SBJsonStreamParserAdapter.h>
+
+#pragma mark Customized framework by myself
+//#import "AsynJSONRequest.h" -> extract to class later
 
 @interface RunLoopsThreadHost (PrivateMethod)
 

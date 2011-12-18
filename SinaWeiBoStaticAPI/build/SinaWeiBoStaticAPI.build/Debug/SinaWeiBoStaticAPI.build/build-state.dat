@@ -1,7 +1,7 @@
 TSinaWeiBoStaticAPI
 v7
 r0
-t345874297.142449
+t345874636.280524
 cCheck dependencies
 cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoStaticAPI_Prefix-apyhwlbbogcwxzbtjsjgjxucpvam/SinaWeiBoStaticAPI_Prefix.pch.gch SinaWeiBoStaticAPI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -763,7 +763,7 @@ s54306576
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies345874297#345874297#0(0"0(0#1#0"8615574400#0"0#
+lSLF07#2@18"Check dependencies345874636#345874636#0(0"0(0#1#0"8617573312#0"0#
 
 CCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344597801.053145
