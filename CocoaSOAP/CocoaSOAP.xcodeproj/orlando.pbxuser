@@ -1,0 +1,103 @@
+// !$*UTF8*$!
+{
+	0BC35CFD0846644D009DF0A7 /* Build All */ = {
+		activeExec = 0;
+	};
+	0BC35D000846646F009DF0A7 /* Client */ = {
+		activeExec = 0;
+		executables = (
+			559166EE149DE7D600531DC5 /* Client */,
+		);
+	};
+	0BEE42B00826F22000B6AEED /* Server */ = {
+		activeExec = 0;
+		executables = (
+			559166ED149DE7D600531DC5 /* Server */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = 559166ED149DE7D600531DC5 /* Server */;
+		activeTarget = 0BC35CFD0846644D009DF0A7 /* Build All */;
+		codeSenseManager = 55916703149DE7D700531DC5 /* Code sense */;
+		executables = (
+			559166ED149DE7D600531DC5 /* Server */,
+			559166EE149DE7D600531DC5 /* Client */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 345892822;
+			PBXWorkspaceStateSaveDate = 345892822;
+		};
+		sourceControlManager = 55916702149DE7D700531DC5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	559166ED149DE7D600531DC5 /* Server */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Server;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	559166EE149DE7D600531DC5 /* Client */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Client;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	55916702149DE7D700531DC5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	55916703149DE7D700531DC5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
