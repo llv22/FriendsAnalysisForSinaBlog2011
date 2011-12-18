@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,8 +278,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>4</integer>
+									<integer>19</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -313,14 +314,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RunLoopsThreadHost.m</string>
+								<string>03_JSONAPIDev.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RunLoopsThreadHost.m</string>
+										<string>03_JSONAPIDev.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>55905B6D149DA0D000F18AB9</string>
+										<string>55905B77149DA21300F18AB9</string>
 										<key>history</key>
 										<array>
 											<string>559240C9148B53A500B93FCD</string>
@@ -354,17 +353,13 @@
 											<string>5588B34F149C819D00F2701B</string>
 											<string>55877427149CEF0900EA4D82</string>
 											<string>55877428149CEF0900EA4D82</string>
-											<string>55905B16149D9D0800F18AB9</string>
-											<string>55905B18149D9D0800F18AB9</string>
 											<string>55905B1A149D9D0800F18AB9</string>
 											<string>55905B1B149D9D0800F18AB9</string>
 											<string>55905B4E149D9F7E00F18AB9</string>
-											<string>55905B4F149D9F7E00F18AB9</string>
-											<string>55905B51149D9F7E00F18AB9</string>
-											<string>55905B53149D9F7E00F18AB9</string>
-											<string>55905B55149D9F7E00F18AB9</string>
 											<string>55905B6B149DA0D000F18AB9</string>
-											<string>55905B6C149DA0D000F18AB9</string>
+											<string>55905B74149DA21300F18AB9</string>
+											<string>55905B75149DA21300F18AB9</string>
+											<string>55905B76149DA21300F18AB9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

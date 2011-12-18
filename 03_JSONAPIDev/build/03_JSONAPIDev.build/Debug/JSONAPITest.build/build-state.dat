@@ -224,14 +224,13 @@ s817
 i<Cocoa/Cocoa.h>
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/RunLoopsThreadHost.m
-c000000004EECB77A0000000000001947
-t1324136314
-s6471
+c000000004EED6A2E00000000000019D9
+t1324182062
+s6617
 i"RunLoopsThreadHost.h"
-i"WBUtil.h"
+i<WBUtil.h>
 i<SBJson.h>
 i<SBJsonStreamParserAdapter.h>
-i"AsynJSONRequest.h"
 
 N/Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/03_JSONAPIDev/URLGetOperation.h
 c000000004EE1352700000000000000DE
