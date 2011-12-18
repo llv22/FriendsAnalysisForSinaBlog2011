@@ -10,7 +10,7 @@
 //#import "JSON.h" -> deprecated, as sina api isn't used any more
 #import "WBUtil.h"
 #import <SBJson.h>
-#import <SBJsonStreamParserAdapter.h>
+#import "SBJsonStreamParserAdapter.h"
 #import "AsynJSONRequest.h"
 
 @interface RunLoopsThreadHost (PrivateMethod)
@@ -136,7 +136,8 @@
 	parser.supportMultipleDocuments = YES;
 
 	//TODO : NSURLConnection delegate to username/password for default url authentication
-	NSURLConnection *theConnection = [[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];	
+	/*NSURLConnection *theConnection = */
+	[[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];	
 }
 
 /**********2. Delegation Category**********/
@@ -148,6 +149,7 @@
 
 - (void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict {
 	//tweet.text = [dict objectForKey:@"text"];
+	NSLog(@"(void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict");
 }
 
 #pragma mark NSURLConnectionDelegate methods

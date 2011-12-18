@@ -330,9 +330,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = 03_JSONAPIDev_Prefix.pch;
-				HEADER_SEARCH_PATHS = "${WEIBOSDK_SRC}/**";
+				HEADER_SEARCH_PATHS = (
+					"${WEIBOSDK_SITGSRC}/**",
+					"${WEIBOSDK_SRC}/**",
+				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = 03_JSONAPIDev;
+				WEIBOSDK_SITGSRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/;
 				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
 			};
 			name = Debug;
@@ -345,9 +349,13 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = 03_JSONAPIDev_Prefix.pch;
-				HEADER_SEARCH_PATHS = "${WEIBOSDK_SRC}/**";
+				HEADER_SEARCH_PATHS = (
+					"${WEIBOSDK_SITGSRC}/**",
+					"${WEIBOSDK_SRC}/**",
+				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = 03_JSONAPIDev;
+				WEIBOSDK_SITGSRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/;
 				WEIBOSDK_SRC = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
 			};
 			name = Release;
