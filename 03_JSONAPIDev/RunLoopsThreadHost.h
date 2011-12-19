@@ -33,4 +33,9 @@
 				password:(NSString*)nstrPassword 
 			  sinaappkey:(NSString*)nstrappkey;
 
+//TODO : helper class
++ (NSString*)serializeURL:(NSString *)baseUrl
+                   params:(NSDictionary *)params
+               httpMethod:(NSString *)httpMethod;
+
 @end

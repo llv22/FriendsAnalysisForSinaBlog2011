@@ -224,6 +224,7 @@ headerFieldsInfo = _headerFieldsInfo;
 	return !!_connection;
 }
 
+//TODO : main connect() implementation
 - (void)connect {
 	
 	if ([_delegate respondsToSelector:@selector(requestLoading:)]) 

@@ -272,11 +272,13 @@ static NSString* weiboHttpRequestDomain		= @"http://api.t.sina.com.cn/";
 									 andParams:params 
 							   andPostDataType:WBRequestPostDataType_Multipart 
 								   andDelegate:delegate];
-	else
+	else{
+		//TODO : single post
 		return [self requestWithMethodName:@"statuses/update.json" 
 								 andParams:params 
 							 andHttpMethod:@"POST" 
 							   andDelegate:delegate];
+	}
 }
 
 - (void)showSendViewWithWeiboText:(NSString*) weiboText andImage:(UIImage*)image andDelegate:(id<WBSendViewDelegate>)WBSendDelegate

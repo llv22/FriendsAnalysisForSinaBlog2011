@@ -13,6 +13,7 @@ int main (int argc, const char * argv[]) {
 	 */	
 	do {
 		[[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+		//TODO : must be set by custom events to avoid BAD_ACCESS
 	} while ( threadHost.IsThreadExist == YES );
 /*
  *	Implementation of raw thread check-up, should be replaced by RunLoop on the main thread

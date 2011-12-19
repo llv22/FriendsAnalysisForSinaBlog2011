@@ -13,6 +13,8 @@
 		55899658149176E900449A2F /* URLGetOperation.m in Resources */ = {isa = PBXBuildFile; fileRef = 5589964914916CA500449A2F /* URLGetOperation.m */; };
 		55899659149176F100449A2F /* QHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5589964E14916CE800449A2F /* QHTTPOperation.m */; };
 		5589965A149176F400449A2F /* QRunLoopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5589965014916D1400449A2F /* QRunLoopOperation.m */; };
+		558AAC79149E349400680C31 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AAC78149E349400680C31 /* NSData+Base64.m */; };
+		558AAC7A149E349400680C31 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 558AAC78149E349400680C31 /* NSData+Base64.m */; };
 		5590A924148D012D00E8B377 /* AsynJSONRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5590A923148D012D00E8B377 /* AsynJSONRequest.m */; };
 		55D36FB91489EB4600CF1D66 /* libSinaWeiBoStaticAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D36FA11489E95500CF1D66 /* libSinaWeiBoStaticAPI.a */; };
 		55D36FF31489EC3D00CF1D66 /* JSONBasicAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D36FF21489EC3D00CF1D66 /* JSONBasicAPITest.m */; };
@@ -72,6 +74,8 @@
 		5589964E14916CE800449A2F /* QHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTTPOperation.m; sourceTree = "<group>"; };
 		5589964F14916D1400449A2F /* QRunLoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRunLoopOperation.h; sourceTree = "<group>"; };
 		5589965014916D1400449A2F /* QRunLoopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRunLoopOperation.m; sourceTree = "<group>"; };
+		558AAC77149E349400680C31 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		558AAC78149E349400680C31 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		5590A922148D012D00E8B377 /* AsynJSONRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynJSONRequest.h; sourceTree = "<group>"; };
 		5590A923148D012D00E8B377 /* AsynJSONRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynJSONRequest.m; sourceTree = "<group>"; };
 		55D36F991489E95500CF1D66 /* SinaWeiBoStaticAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SinaWeiBoStaticAPI.xcodeproj; path = ../SinaWeiBoStaticAPI/SinaWeiBoStaticAPI.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -151,6 +155,8 @@
 			children = (
 				558773FF149CECED00EA4D82 /* RunLoopsThreadHost.h */,
 				55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */,
+				558AAC77149E349400680C31 /* NSData+Base64.h */,
+				558AAC78149E349400680C31 /* NSData+Base64.m */,
 			);
 			name = ThreadWrapper;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				55D36FF31489EC3D00CF1D66 /* JSONBasicAPITest.m in Sources */,
 				5590A924148D012D00E8B377 /* AsynJSONRequest.m in Sources */,
 				55877401149CECED00EA4D82 /* RunLoopsThreadHost.m in Sources */,
+				558AAC7A149E349400680C31 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +307,7 @@
 			files = (
 				8DD76F9A0486AA7600D96B5E /* 03_JSONAPIDev.m in Sources */,
 				55877402149CECED00EA4D82 /* RunLoopsThreadHost.m in Sources */,
+				558AAC79149E349400680C31 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
