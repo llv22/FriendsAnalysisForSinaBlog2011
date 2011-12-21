@@ -12,18 +12,12 @@ int main (int argc, const char * argv[]) {
 	 * Run Loop of Thread
 	 */	
 	do {
-		[[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+		[[NSRunLoop mainRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1]];
+		//TODO : Not working
+		//[[NSRunLoop mainRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
 		//TODO : must be set by custom events to avoid BAD_ACCESS
 	} while ( threadHost.IsThreadExist == YES );
-/*
- *	Implementation of raw thread check-up, should be replaced by RunLoop on the main thread
- *	to avoid inefficient thread lock for wasting CPU computing time
-	int iSleepSec = 5;
-	while (threadHost.IsThreadExist == YES) {
-		sleep(iSleepSec);
-		NSLog(@"waiting for thread sleep - %d seconds", iSleepSec);
-	}
- */
+	NSLog(@"threadHost release");
 	[threadHost release];
 	
     [pool drain];

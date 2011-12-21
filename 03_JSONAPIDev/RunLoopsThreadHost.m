@@ -45,6 +45,10 @@
 }
 
 -(void)dealloc{
+	if (self->_myhostThread != nil) {
+		//TODO : for autorelease, then don't need release any more; just add retain then release for framework
+		[self->_myhostThread release]; 
+	}
 	[super dealloc];
 }
 
@@ -123,16 +127,13 @@
 		//TODO : if thread host already existed, stop it first then startThreadMainForRunLoop
 		return;
 	}
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 	//TODO : Mac OSX 10.5 later - autorelease for framework
 	self->_myhostThread = [[[NSThread alloc] initWithTarget:self 
 												 selector:@selector(startThreadMainForRunLoop:) 
-													object:nil]autorelease];
+													object:nil]retain];
 	self->_isThreadExist = YES;
 	//TODO : Actually to start thread status code - YES by setter of thread status
 	[self->_myhostThread start];
-    
-	[pool drain];
 }
 
 //TODO : waiting for thread stop
@@ -163,8 +164,8 @@
 	//TODO : working for thread Host - for RunLoops outside
 	NSLog(@"in the thread quitting - out of run loop %d", self->_isThreadExist);
 	self->_isThreadExist = NO;
-	
-	[pool drain];
+		
+	[pool release];
 }
 
 //TODO : stop thread for running loop
@@ -208,9 +209,6 @@
 			NSLog(@"Please Use NSString for this kind of params");
 			continue;
 		}
-		
-		//NSLog(@"%@", [dicInfo objectForKey:key]);
-		//NSLog(@"%@", [[dicInfo objectForKey:key]URLEncodedString]); -> why with URLEncodedString?
 		[pairs addObject:[NSString stringWithFormat:@"%@=%@", key, [dicInfo objectForKey:key]]];
 	}
 	
@@ -222,11 +220,7 @@
 -(void) fetchRequestJSON: (NSString*)nstrInitialURL 
 				username:(NSString*)nstrUserName 
 				password:(NSString*)nstrPassword
-			  sinaappkey:(NSString*)nstrappkey{
-	//TODO : requestURL:[NSString stringWithFormat:@"%@%@",weiboHttpRequestDomain, methodName]
-	//TODO : static NSString* weiboHttpRequestDomain		= @"http://api.t.sina.com.cn/";
-	//TODO : source=2657678697&page=1&count=10
-	
+			  sinaappkey:(NSString*)nstrappkey{	
 	NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:2];
 	[params setObject:nstrappkey forKey:@"source"];
 	[params setObject:@"1" forKey:@"page"];
@@ -235,10 +229,8 @@
 	//TODO : /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/CocoaSOAP/SOAPClient.m NSURLRequest -> NSMutableURLRequest [avoid single url request, then to reuse mutable request, see programming guide of NSMutableURLRequest]	
 	//TODO : /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBRequest.m
 	//TODO : http://stackoverflow.com/questions/1571336/sending-post-data-from-iphone-over-ssl-https
-	//	NSString *getParams =[[NSString alloc] initWithFormat:@"source=%@&page=1&count=10", nstrappkey];
-	//	NSLog(@"%@", getParams);
-	
-	NSString *getParams = /*[*/[[self class] stringFromDictionary:params];//autorelease];
+	NSString *getParams = [[self class] stringFromDictionary:params];
+	[params release];
 	NSURL* hosturl = [NSURL URLWithString:[NSString stringWithFormat:@"%@?%@", nstrInitialURL, getParams]];	
 	NSMutableURLRequest *theRequest = [[[NSMutableURLRequest alloc] 
 										initWithURL:hosturl
@@ -253,24 +245,24 @@
 	NSMutableString *loginString = (NSMutableString*)[@"" stringByAppendingFormat:@"%@:%@", nstrUserName, nstrPassword];
 	
 	//TODO : https://github.com/mattgemmell/MGTwitterEngine
-	// employ the Base64 encoding above to encode the authentication tokens
+	//TODO : employ the Base64 encoding above to encode the authentication tokens
 	NSString *encodedLoginData = [self Base64Encode:
 								  [loginString dataUsingEncoding:NSUTF8StringEncoding]
 								  ];
 	
 	// create the contents of the header 
-	NSString *authHeader = [@"Basic " stringByAppendingFormat:@"%@", encodedLoginData];// add the header to the request.  Here's the $$$!!!  
+	NSString *authHeader = [@"Basic " stringByAppendingFormat:@"%@", encodedLoginData];
+	// TODO : add the header to the request.  Here's the $$$!!!  
 	[theRequest addValue:authHeader forHTTPHeaderField:@"Authorization"];  
 	
 //	[theRequest setValue:postLength forHTTPHeaderField:@"Content-Length"];
 //	[theRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-	//[theRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-	//[theRequest setHTTPBody:postData];//
-	//[postData retain];
+//	[theRequest setHTTPBody:postData];//
+//	[postData retain];
 	
 	/* when we user https, we need to allow any HTTPS cerificates, so add the one line code,to tell teh NSURLRequest to accept any https certificate, i'm not sure about the security aspects
 	 */	
-//	[NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[hosturl host]];	
+//	[NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[hosturl host]];	//TODO : none exists
 //	NSURLRequest *theRequest=[NSURLRequest 
 //							  requestWithURL:[NSURL URLWithString:nstrInitialURL]
 //							  cachePolicy:NSURLRequestUseProtocolCachePolicy 
@@ -286,8 +278,7 @@
 	// parser adapter exists for this purpose.
 	adapter = [[SBJsonStreamParserAdapter alloc]init];
 	adapter.delegate = self;
-	assert(adapter!=nil);
-	
+	assert(adapter!=nil);	
 	
 	// Create a new stream parser and set our adapter as its delegate.
 	parser = [[SBJsonStreamParser alloc]init];
@@ -301,8 +292,8 @@
 	parser.supportMultipleDocuments = YES;
 
 	//TODO : NSURLConnection delegate to username/password for default url authentication
-	/*NSURLConnection *theConnection = */
-	[[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] autorelease];	
+	//NSURLConnection *theConnection = 
+	[[NSURLConnection alloc] initWithRequest:theRequest delegate:self];	//TODO : autorelease
 }
 
 /**********2. Delegation Category**********/
@@ -326,16 +317,13 @@
 	NSLog(@"Connection didReceiveResponse: %@ - %@", response, [response MIMEType]);
 }
 
+//TODO : ssl enablement
 - (BOOL)connection:(NSURLConnection *)connection canAuthenticateAgainstProtectionSpace:(NSURLProtectionSpace *)protectionSpace {
 	//TODO : http://stackoverflow.com/questions/933331/how-to-use-nsurlconnection-to-connect-with-ssl-for-an-untrusted-cert
 	if([protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]){
-		//if(shouldAllowSelfSignedCert) {
-			return YES; // Self-signed cert will be accepted
-//		} else {
-//			return NO;  // Self-signed cert will be rejected
-//		}
 		// Note: it doesn't seem to matter what you return for a proper SSL cert
-		//       only self-signed certs
+		//       only self-signed certs	
+		return YES; 
 	}
 	// If no other authentication is required, return NO for everything else
 	// Otherwise maybe YES for NSURLAuthenticationMethodDefault and etc.
@@ -344,7 +332,7 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {
 	NSLog(@"Connection didReceiveAuthenticationChallenge: %@", challenge);
-	//if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust])
+//	if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust])
 //		if ([challenge.protectionSpace.host isEqualToString:@"api.weibo.com"]){
 //			[challenge.sender useCredential:[NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust] forAuthenticationChallenge:challenge];
 //		}
@@ -379,8 +367,9 @@
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	//TODO : Remove connection item entity, so in the initilaization of fetchRequestJSON don't add [connection autorelease]
     [connection release];
-	//	TODO : reuse the same adapter and parser, is it possible?
+	//TODO : reuse the same adapter and parser, is it possible?
 	[adapter release];
 	[parser release];
 	self.IsDone = YES;
