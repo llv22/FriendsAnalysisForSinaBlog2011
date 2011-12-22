@@ -12,6 +12,7 @@
 #import <WBUtil.h>
 #import <SBJson.h>
 #import <SBJsonStreamParserAdapter.h>
+#import <NSObject+SBJson.h>
 
 #pragma mark Customized framework by myself
 //#import "AsynJSONRequest.h" -> extract to class later
@@ -19,8 +20,9 @@
 @interface RunLoopsThreadHost (PrivateMethod)
 
 -(void) myThreadMainMethod:(id)param;
-+ (NSString*)stringFromDictionary:(NSDictionary*)dicInfo;
--(NSString *)Base64Encode:(NSData *)data;
++(NSString *) stringFromDictionary:(NSDictionary*)dicInfo;
+-(NSString *) Base64Encode:(NSData *)data;
+-(void) traverseJSONValue:(NSObject*)jsonvalue;
 
 @end
 
@@ -306,8 +308,52 @@
 //TODO : json response format content
 - (void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict {
 	NSLog(@"(void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict\n");
-	for(NSString *key in dict){
-		NSLog(@"Key: %@, Value %@", key, [dict objectForKey: key]);
+	[self traverseJSONValue:dict];
+//	for(NSString *key in dict){
+//		//NSLog(@"Key: %@, Value %@", key, [dict objectForKey: key]);
+//		NSArray* arrary = [dict objectForKey:key];
+//		if (arrary != nil) {
+//			for(NSObject *obj in arrary){
+//				//NSLog(@"content %@", obj);
+//				NSDictionary *iobj = (NSDictionary*)obj;
+//				for(NSString *nobj in iobj){
+//					NSLog(@"%@ - %@", nobj, [iobj objectForKey:nobj]);
+//				}
+//			}
+//		}
+//	}
+}
+
+//TODO : Using recursive algorithm to parse json content
+-(void) traverseJSONValue:(NSObject*)jsonvalue{
+	if (jsonvalue == nil) {
+		return;
+	}
+	if ([jsonvalue isKindOfClass:[NSArray class]]) {
+		//TODO : parse array items
+		NSArray* array = (NSArray*)jsonvalue;
+		for(NSObject* value in array){
+			[self traverseJSONValue:value];
+		}
+	}
+	else if([jsonvalue isKindOfClass:[NSDictionary class]]){
+		//TODO : parse dictionary items
+		NSDictionary* dict = (NSDictionary*)jsonvalue;
+		for(NSObject* key in dict){
+			if ([key isKindOfClass:[NSString class]]) {
+				NSLog(@"%@ - ", (NSString*)key);
+			}
+			NSObject* value = [dict objectForKey:key];
+			if ([value isKindOfClass:[NSString class]]) {
+				NSLog(@"%@\n", (NSString*)value);
+			}
+			else if([value isKindOfClass:[NSNumber class]]){
+				NSLog(@"%@\n", (NSNumber*)value);
+			}
+			else {
+				[self traverseJSONValue:value];
+			}
+		}
 	}
 }
 
