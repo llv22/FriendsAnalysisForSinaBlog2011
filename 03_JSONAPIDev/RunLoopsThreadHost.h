@@ -28,10 +28,15 @@
 -(void) startThreadMainForRunLoop;
 -(void) stopThreadMainForRunLoop;
 //TODO : start Request JSON later wrappered in one queue
--(void) fetchRequestJSON: (NSString*)nstrInitialURL 
+-(void) fetchGETRequestJSON: (NSString*)nstrInitialURL 
 				username:(NSString*)nstrUserName 
 				password:(NSString*)nstrPassword 
 			  sinaappkey:(NSString*)nstrappkey;
+
+-(void) fetchPOSTRequestJSON: (NSString*)nstrInitialURL 
+				   username:(NSString*)nstrUserName 
+				   password:(NSString*)nstrPassword 
+				 sinaappkey:(NSString*)nstrappkey;
 
 //TODO : helper class
 + (NSString*)serializeURL:(NSString *)baseUrl

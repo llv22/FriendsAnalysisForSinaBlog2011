@@ -146,11 +146,17 @@
 	NSLog(@"in the thread working - in run loop %d", self->_isThreadExist);
 	self.IsDone = NO;
 	
-	//TODO : llv22@sina.com:xiandao22@
-	[self fetchRequestJSON:@"https://api.weibo.com/2/statuses/public_timeline.json"
-				  username:@"llv22@sina.com" 
-				  password:@"xiandao22" 
-				sinaappkey:@"2657678697"];
+	//TODO : GET request
+//	[self fetchGETRequestJSON:@"https://api.weibo.com/2/statuses/public_timeline.json"
+//				  username:@"llv22@sina.com" 
+//				  password:@"xiandao22" 
+//				sinaappkey:@"2657678697"];
+	
+	//TODO : POST request
+	[self fetchPOSTRequestJSON:@"https://api.weibo.com/2/statuses/update.json"
+					 username:@"llv22@sina.com" 
+					 password:@"xiandao22" 
+				   sinaappkey:@"2657678697"];
 	
 	/*
 	 * Run Loop of Thread
@@ -219,7 +225,8 @@
 }
 
 #pragma mark Fetch implementation
--(void) fetchRequestJSON: (NSString*)nstrInitialURL 
+//TODO : GET
+-(void) fetchGETRequestJSON: (NSString*)nstrInitialURL 
 				username:(NSString*)nstrUserName 
 				password:(NSString*)nstrPassword
 			  sinaappkey:(NSString*)nstrappkey{	
@@ -232,43 +239,24 @@
 	//TODO : /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBRequest.m
 	//TODO : http://stackoverflow.com/questions/1571336/sending-post-data-from-iphone-over-ssl-https
 	NSString *getParams = [[self class] stringFromDictionary:params];
-	[params release];
+	//[params release];
 	NSURL* hosturl = [NSURL URLWithString:[NSString stringWithFormat:@"%@?%@", nstrInitialURL, getParams]];	
 	NSMutableURLRequest *theRequest = [[[NSMutableURLRequest alloc] 
 										initWithURL:hosturl
 										cachePolicy:NSURLRequestReloadIgnoringCacheData 
 										timeoutInterval:60.0] 
 									   autorelease];
-	//	NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];	
-	//	NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
     [theRequest setHTTPMethod:@"GET"];
 	//TODO : http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch
-	// create a plaintext string in the format username:password
-	NSMutableString *loginString = (NSMutableString*)[@"" stringByAppendingFormat:@"%@:%@", nstrUserName, nstrPassword];
+	NSString *loginString = [@"" stringByAppendingFormat:@"%@:%@", nstrUserName, nstrPassword];
 	
 	//TODO : https://github.com/mattgemmell/MGTwitterEngine
-	//TODO : employ the Base64 encoding above to encode the authentication tokens
-	NSString *encodedLoginData = [self Base64Encode:
+	NSString *encodedLoginData = [[self Base64Encode:
 								  [loginString dataUsingEncoding:NSUTF8StringEncoding]
-								  ];
-	
-	// create the contents of the header 
+								  ]retain];
 	NSString *authHeader = [@"Basic " stringByAppendingFormat:@"%@", encodedLoginData];
-	// TODO : add the header to the request.  Here's the $$$!!!  
-	[theRequest addValue:authHeader forHTTPHeaderField:@"Authorization"];  
-	
-//	[theRequest setValue:postLength forHTTPHeaderField:@"Content-Length"];
-//	[theRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-//	[theRequest setHTTPBody:postData];//
-//	[postData retain];
-	
-	/* when we user https, we need to allow any HTTPS cerificates, so add the one line code,to tell teh NSURLRequest to accept any https certificate, i'm not sure about the security aspects
-	 */	
-//	[NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[hosturl host]];	//TODO : none exists
-//	NSURLRequest *theRequest=[NSURLRequest 
-//							  requestWithURL:[NSURL URLWithString:nstrInitialURL]
-//							  cachePolicy:NSURLRequestUseProtocolCachePolicy 
-//							  timeoutInterval:60.0];
+	// TODO : add the header to the request. [theRequest addValue:authHeader forHTTPHeaderField:@"Authorization"]; for addsinglevalue
+	[theRequest setValue:authHeader forHTTPHeaderField:@"Authorization"]; 	 
 	
 	self->username = nstrUserName;
 	self->password = nstrPassword;
@@ -298,6 +286,70 @@
 	[[NSURLConnection alloc] initWithRequest:theRequest delegate:self];	//TODO : autorelease
 }
 
+
+//TODO : POST
+-(void) fetchPOSTRequestJSON: (NSString*)nstrInitialURL 
+					username:(NSString*)nstrUserName 
+					password:(NSString*)nstrPassword 
+				  sinaappkey:(NSString*)nstrappkey
+{	
+	NSURL* hosturl = [NSURL URLWithString:nstrInitialURL];	
+	NSMutableURLRequest *theRequest = [[[NSMutableURLRequest alloc] 
+										initWithURL:hosturl
+										cachePolicy:NSURLRequestReloadIgnoringCacheData 
+										timeoutInterval:60.0]autorelease];
+	//TODO : POST Method
+    [theRequest setHTTPMethod:@"POST"];
+	//TODO : POST DATA
+	NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:2];
+	[params setObject:nstrappkey forKey:@"source"];
+	[params setObject:@"Post Text from Orlando,Ding without picture New" forKey:@"status"];	
+	NSString *post = [[self class] stringFromDictionary:params];
+	NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];	
+	[theRequest setHTTPBody:postData];
+	//TODO : POST Length
+	NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];	
+	[theRequest addValue:postLength forHTTPHeaderField:@"Content-Length"];
+	// TODO : AUTHENTICATION, create the contents of the header 
+	// http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch	
+	NSString *loginString = [@"" stringByAppendingFormat:@"%@:%@", nstrUserName, nstrPassword];	
+	//TODO : https://github.com/mattgemmell/MGTwitterEngine
+	//TODO : employ the Base64 encoding above to encode the authentication tokens
+	NSString *encodedLoginData = [[self Base64Encode:
+								   [loginString dataUsingEncoding:NSUTF8StringEncoding]]retain];//TODO : Need retain the NSString for posting data	
+	NSString *authHeader = [@"Basic " stringByAppendingFormat:@"%@", encodedLoginData];
+	// TODO : add the header to the request.
+	[theRequest addValue:authHeader forHTTPHeaderField:@"Authorization"];  
+	[theRequest addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];//application/json MIME
+	
+	self->username = nstrUserName;
+	self->password = nstrPassword;
+	
+	//TODO : for calling json parser adpater and callback, just ignored synchronization
+	// [Sitg's comments]
+	// We don't want *all* the individual messages from the
+	// SBJsonStreamParser, just the top-level objects. The stream
+	// parser adapter exists for this purpose.
+	adapter = [[SBJsonStreamParserAdapter alloc]init];
+	adapter.delegate = self;
+	assert(adapter!=nil);	
+	
+	// Create a new stream parser and set our adapter as its delegate.
+	parser = [[SBJsonStreamParser alloc]init];
+	parser.delegate = adapter;
+	assert(parser!=nil);
+	
+	// Normally it's an error if JSON is followed by anything but
+	// whitespace. Setting this means that the parser will be
+	// expecting the stream to contain multiple whitespace-separated
+	// JSON documents.
+	parser.supportMultipleDocuments = YES;
+	
+	//TODO : NSURLConnection delegate to username/password for default url authentication
+	//NSURLConnection *theConnection = 
+	[[NSURLConnection alloc] initWithRequest:theRequest delegate:self];	//TODO : autorelease
+}
+
 /**********2. Delegation Category**********/
 #pragma mark SBJsonStreamParserAdapterDelegate methods
 
@@ -309,19 +361,6 @@
 - (void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict {
 	NSLog(@"(void)parser:(SBJsonStreamParser *)parser foundObject:(NSDictionary *)dict\n");
 	[self traverseJSONValue:dict];
-//	for(NSString *key in dict){
-//		//NSLog(@"Key: %@, Value %@", key, [dict objectForKey: key]);
-//		NSArray* arrary = [dict objectForKey:key];
-//		if (arrary != nil) {
-//			for(NSObject *obj in arrary){
-//				//NSLog(@"content %@", obj);
-//				NSDictionary *iobj = (NSDictionary*)obj;
-//				for(NSString *nobj in iobj){
-//					NSLog(@"%@ - %@", nobj, [iobj objectForKey:nobj]);
-//				}
-//			}
-//		}
-//	}
 }
 
 //TODO : Using recursive algorithm to parse json content
