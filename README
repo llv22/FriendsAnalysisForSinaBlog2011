@@ -58,3 +58,9 @@ SBJSON.h, SBjson.h is different as one from stig framework, another from sina ap
 * NSURLConnectionDelegate should be implemeneted following the rule of thread
 
 Note that all these will be called on the thread that started the asynchronous load operation on the associated NSURLConnection object.
+
+5, Http GET/POST Operation has been wrappered inside Asynchornous Thread class.
+Fixed issue - http post change the authenication header, previously used constant NSString to implement. Now stick to another implementation online with NSMutableString inside for both.
+Next Step
+ -> NSOperation & NSQueue to wrapper Asynchronus Model
+ -> Person Graphic Algorithm Implementation
