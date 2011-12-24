@@ -14,6 +14,7 @@
 
 @private	
 	NSThread* _myhostThread;
+	NSURLConnection *theConnection;
 	BOOL _isThreadExist;
 	BOOL _done;
 	NSString* username;

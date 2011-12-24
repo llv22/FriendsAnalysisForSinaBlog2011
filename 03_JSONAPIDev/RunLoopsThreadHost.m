@@ -13,6 +13,11 @@
 #import <SBJson.h>
 #import <SBJsonStreamParserAdapter.h>
 #import <NSObject+SBJson.h>
+#pragma mark Base64 Encoding&Decoding 
+//  Reference from 
+//	- https://github.com/mattgemmell/MGTwitterEngine
+//  - http://hi.baidu.com/niguang1024/blog/item/
+#import "NSData+Base64.h"
 
 #pragma mark Customized framework by myself
 //#import "AsynJSONRequest.h" -> extract to class later
@@ -21,7 +26,6 @@
 
 -(void) myThreadMainMethod:(id)param;
 +(NSString *) stringFromDictionary:(NSDictionary*)dicInfo;
--(NSString *) Base64Encode:(NSData *)data;
 -(void) traverseJSONValue:(NSObject*)jsonvalue;
 
 @end
@@ -52,74 +56,6 @@
 		[self->_myhostThread release]; 
 	}
 	[super dealloc];
-}
-
-#pragma mark Encoding64
--(NSString *)Base64Encode:(NSData *)data{
-	//Point to start of the data and set buffer sizes
-	int inLength = [data length];
-	int outLength = ((((inLength * 4)/3)/4)*4) + (((inLength * 4)/3)%4 ? 4 : 0);
-	const char *inputBuffer = [data bytes];
-	char *outputBuffer = malloc(outLength);
-	outputBuffer[outLength] = 0;
-	
-	//64 digit code
-	static char Encode[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-	
-	//start the count
-	int cycle = 0;
-	int inpos = 0;
-	int outpos = 0;
-	char temp;
-	
-	//Pad the last to bytes, the outbuffer must always be a multiple of 4
-	outputBuffer[outLength-1] = '=';
-	outputBuffer[outLength-2] = '=';
-	
-	/* http://en.wikipedia.org/wiki/Base64
-	 Text content   M           a           n
-	 ASCII          77          97          110
-	 8 Bit pattern  01001101    01100001    01101110
-	 
-	 6 Bit pattern  010011  010110  000101  101110
-	 Index          19      22      5       46
-	 Base64-encoded T       W       F       u
-	 */
-	
-	
-	while (inpos < inLength){
-		switch (cycle) {
-			case 0:
-				outputBuffer[outpos++] = Encode[(inputBuffer[inpos]&0xFC)>>2];
-				cycle = 1;
-				break;
-			case 1:
-				temp = (inputBuffer[inpos++]&0x03)<<4;
-				outputBuffer[outpos] = Encode[temp];
-				cycle = 2;
-				break;
-			case 2:
-				outputBuffer[outpos++] = Encode[temp|(inputBuffer[inpos]&0xF0)>> 4];
-				temp = (inputBuffer[inpos++]&0x0F)<<2;
-				outputBuffer[outpos] = Encode[temp];
-				cycle = 3;                  
-				break;
-			case 3:
-				outputBuffer[outpos++] = Encode[temp|(inputBuffer[inpos]&0xC0)>>6];
-				cycle = 4;
-				break;
-			case 4:
-				outputBuffer[outpos++] = Encode[inputBuffer[inpos++]&0x3f];
-				cycle = 0;
-				break;                          
-			default:
-				cycle = 0;
-				break;
-		}
-	}
-	NSString *pictemp = [NSString stringWithUTF8String:outputBuffer];
-	free(outputBuffer); 
-	return pictemp;
 }
 
 #pragma mark Thread Wrapper
@@ -237,26 +173,31 @@
 	
 	//TODO : /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/CocoaSOAP/SOAPClient.m NSURLRequest -> NSMutableURLRequest [avoid single url request, then to reuse mutable request, see programming guide of NSMutableURLRequest]	
 	//TODO : /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoSDK/src/src/WBRequest.m
-	//TODO : http://stackoverflow.com/questions/1571336/sending-post-data-from-iphone-over-ssl-https
+	//TODO : header for implementation of url of GET request
+	//	1, http://stackoverflow.com/questions/1571336/sending-post-data-from-iphone-over-ssl-https
 	NSString *getParams = [[self class] stringFromDictionary:params];
-	//[params release];
 	NSURL* hosturl = [NSURL URLWithString:[NSString stringWithFormat:@"%@?%@", nstrInitialURL, getParams]];	
 	NSMutableURLRequest *theRequest = [[[NSMutableURLRequest alloc] 
 										initWithURL:hosturl
 										cachePolicy:NSURLRequestReloadIgnoringCacheData 
 										timeoutInterval:60.0] 
 									   autorelease];
-    [theRequest setHTTPMethod:@"GET"];
-	//TODO : http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch
-	NSString *loginString = [@"" stringByAppendingFormat:@"%@:%@", nstrUserName, nstrPassword];
 	
-	//TODO : https://github.com/mattgemmell/MGTwitterEngine
-	NSString *encodedLoginData = [[self Base64Encode:
-								  [loginString dataUsingEncoding:NSUTF8StringEncoding]
-								  ]retain];
-	NSString *authHeader = [@"Basic " stringByAppendingFormat:@"%@", encodedLoginData];
-	// TODO : add the header to the request. [theRequest addValue:authHeader forHTTPHeaderField:@"Authorization"]; for addsinglevalue
-	[theRequest setValue:authHeader forHTTPHeaderField:@"Authorization"]; 	 
+	//TODo : GET request
+    [theRequest setHTTPMethod:@"GET"];
+	
+	//TODO : Http Header
+	// Migrate from static string from following link on network to NSMutableString for fitting for both GET/POST case, POST header may be changed by http procotol
+	//	1, http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch	
+	//	2, https://github.com/mattgemmell/MGTwitterEngine	
+	// - AUTHENTICATION based on 64Base
+	// 1, previous static NSString for previous case - http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch
+	// 2, NSMutableString for Post Case - http://hi.baidu.com/niguang1024/blog/item/ade949249467c2258744f9ce.html
+	NSString *authString = [NSString stringWithFormat:@"%@:%@",nstrUserName,nstrPassword];
+	NSData *authData = [authString dataUsingEncoding:NSUTF8StringEncoding];
+	NSString *encodingData = [authData base64EncodingWithLineLength:80];
+	NSString *authValue = [NSString stringWithFormat:@"Basic %@", encodingData];
+	[theRequest setValue:authValue forHTTPHeaderField:@"Authorization"];  	 
 	
 	self->username = nstrUserName;
 	self->password = nstrPassword;
@@ -282,8 +223,7 @@
 	parser.supportMultipleDocuments = YES;
 
 	//TODO : NSURLConnection delegate to username/password for default url authentication
-	//NSURLConnection *theConnection = 
-	[[NSURLConnection alloc] initWithRequest:theRequest delegate:self];	//TODO : autorelease
+	theConnection = [[[NSURLConnection alloc] initWithRequest:theRequest delegate:self]retain];	//TODO : autorelease
 }
 
 
@@ -292,7 +232,7 @@
 					username:(NSString*)nstrUserName 
 					password:(NSString*)nstrPassword 
 				  sinaappkey:(NSString*)nstrappkey
-{	
+{
 	NSURL* hosturl = [NSURL URLWithString:nstrInitialURL];	
 	NSMutableURLRequest *theRequest = [[[NSMutableURLRequest alloc] 
 										initWithURL:hosturl
@@ -300,27 +240,31 @@
 										timeoutInterval:60.0]autorelease];
 	//TODO : POST Method
     [theRequest setHTTPMethod:@"POST"];
-	//TODO : POST DATA
+	
+	//TODO : POST DATA content
 	NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:2];
 	[params setObject:nstrappkey forKey:@"source"];
-	[params setObject:@"Post Text from Orlando,Ding without picture New" forKey:@"status"];	
+	[params setObject:@"Orlando Refined NSOperation Asynchronou Queue Implementation, Next Step with Picture location and Friend NSData Graphic Algorithm, Content Analysis" forKey:@"status"];	
 	NSString *post = [[self class] stringFromDictionary:params];
 	NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];	
 	[theRequest setHTTPBody:postData];
+	
 	//TODO : POST Length
 	NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];	
 	[theRequest addValue:postLength forHTTPHeaderField:@"Content-Length"];
+	
 	// TODO : AUTHENTICATION, create the contents of the header 
-	// http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch	
-	NSString *loginString = [@"" stringByAppendingFormat:@"%@:%@", nstrUserName, nstrPassword];	
-	//TODO : https://github.com/mattgemmell/MGTwitterEngine
-	//TODO : employ the Base64 encoding above to encode the authentication tokens
-	NSString *encodedLoginData = [[self Base64Encode:
-								   [loginString dataUsingEncoding:NSUTF8StringEncoding]]retain];//TODO : Need retain the NSString for posting data	
-	NSString *authHeader = [@"Basic " stringByAppendingFormat:@"%@", encodedLoginData];
+	// 1, previous static NSString for previous case - http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch
+	// 2, NSMutableString for Post Case - http://hi.baidu.com/niguang1024/blog/item/ade949249467c2258744f9ce.html
+	NSString *authString = [NSString stringWithFormat:@"%@:%@",nstrUserName,nstrPassword];
+	NSData *authData = [authString dataUsingEncoding:NSUTF8StringEncoding];
+	NSString *encodingData = [authData base64EncodingWithLineLength:80];
+	NSString *authValue = [NSString stringWithFormat:@"Basic %@", encodingData];
 	// TODO : add the header to the request.
-	[theRequest addValue:authHeader forHTTPHeaderField:@"Authorization"];  
-	[theRequest addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];//application/json MIME
+	[theRequest setValue:authValue forHTTPHeaderField:@"Authorization"];  
+	
+	//TODO : Header for POST setting -> application/json MIME
+	[theRequest addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
 	
 	self->username = nstrUserName;
 	self->password = nstrPassword;
@@ -346,8 +290,8 @@
 	parser.supportMultipleDocuments = YES;
 	
 	//TODO : NSURLConnection delegate to username/password for default url authentication
-	//NSURLConnection *theConnection = 
-	[[NSURLConnection alloc] initWithRequest:theRequest delegate:self];	//TODO : autorelease
+	theConnection = 
+	[[[NSURLConnection alloc] initWithRequest:theRequest delegate:self]retain];	//TODO : autorelease
 }
 
 /**********2. Delegation Category**********/
@@ -453,7 +397,9 @@
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
 	//TODO : Remove connection item entity, so in the initilaization of fetchRequestJSON don't add [connection autorelease]
+	assert(connection==theConnection);
     [connection release];
+	[theConnection release];
 	//TODO : reuse the same adapter and parser, is it possible?
 	[adapter release];
 	[parser release];

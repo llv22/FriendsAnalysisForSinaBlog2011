@@ -5,6 +5,7 @@
 //  Created by orlando ding on 12/18/11.
 //  Copyright 2011 MakeDreamToFact. All rights reserved.
 //
+//  Reference from https://github.com/mattgemmell/MGTwitterEngine
 //
 //  NSData+Base64.m
 //
@@ -39,5 +40,11 @@
  one greater than inLineLength).
  @result	The base 64 encoded data. */
 - (NSString *) base64EncodingWithLineLength:(unsigned int) lineLength;
+
+/*
+ * static constant implementation for base64 encoding
+ * @see http://www.chrisumbel.com/article/basic_authentication_iphone_cocoa_touch
+ */
+-(NSString *) Base64EncodeWithConstantValueOutput:(NSData *)data;
 
 @end
