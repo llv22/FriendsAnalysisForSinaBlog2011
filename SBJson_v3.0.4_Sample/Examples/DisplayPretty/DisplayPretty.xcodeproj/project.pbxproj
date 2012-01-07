@@ -189,6 +189,7 @@
 		BC70BEEA138D35AF00638110 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Stig Brautaset";
 			};
 			buildConfigurationList = BC70BEED138D35AF00638110 /* Build configuration list for PBXProject "DisplayPretty" */;

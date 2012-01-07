@@ -58,6 +58,8 @@
 	//If the operation is not cancelled, begin executing the task.
 	[self willChangeValueForKey:@"isExecuting"];
 	//[self performSelectorOnMainThread:@selector(main) withObject:nil waitUntilDone:NO];
+	//@interface NSObject (NSThreadPerformAdditions) - thread for selector on thread
+	//[self performSelector:@selector(didFinishOperation:) onThread:self.targetThread withObject:object waitUntilDone:NO];
 	[NSThread detachNewThreadSelector:@selector(main) toTarget:self withObject:nil];	    
     //[self performSelector:@selector(main) with];
 	self->executing = YES;

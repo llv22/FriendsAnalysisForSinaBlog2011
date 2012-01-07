@@ -64,3 +64,5 @@ Fixed issue - http post change the authenication header, previously used constan
 Next Step
  -> NSOperation & NSQueue to wrapper Asynchronus Model
  -> Person Graphic Algorithm Implementation
+
+6, Change Weibo SDK header file source to new location...

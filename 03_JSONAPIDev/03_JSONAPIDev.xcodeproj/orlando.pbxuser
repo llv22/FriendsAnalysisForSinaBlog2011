@@ -121,10 +121,11 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 346398372;
-			PBXWorkspaceStateSaveDate = 346398372;
+			PBXPerProjectTemplateStateSaveDate = 346781871;
+			PBXWorkspaceStateSaveDate = 346781871;
 		};
 		perUserProjectItems = {
+			5583F6A314AB793E00716256 /* PBXTextBookmark */ = 5583F6A314AB793E00716256 /* PBXTextBookmark */;
 			55877427149CEF0900EA4D82 /* PBXTextBookmark */ = 55877427149CEF0900EA4D82 /* PBXTextBookmark */;
 			55877428149CEF0900EA4D82 /* PBXTextBookmark */ = 55877428149CEF0900EA4D82 /* PBXTextBookmark */;
 			5588B34F149C819D00F2701B /* PBXTextBookmark */ = 5588B34F149C819D00F2701B /* PBXTextBookmark */;
@@ -139,8 +140,6 @@
 			558DAD9E14A5AC4B005710D6 /* PBXTextBookmark */ = 558DAD9E14A5AC4B005710D6 /* PBXTextBookmark */;
 			558DADAD14A5AD24005710D6 /* PBXTextBookmark */ = 558DADAD14A5AD24005710D6 /* PBXTextBookmark */;
 			558DADD414A5AF36005710D6 /* PBXTextBookmark */ = 558DADD414A5AF36005710D6 /* PBXTextBookmark */;
-			558DADD514A5AF36005710D6 /* PBXTextBookmark */ = 558DADD514A5AF36005710D6 /* PBXTextBookmark */;
-			558DADD714A5AF70005710D6 /* PBXTextBookmark */ = 558DADD714A5AF70005710D6 /* PBXTextBookmark */;
 			55905B1B149D9D0800F18AB9 /* PBXTextBookmark */ = 55905B1B149D9D0800F18AB9 /* PBXTextBookmark */;
 			55905B6B149DA0D000F18AB9 /* PBXTextBookmark */ = 55905B6B149DA0D000F18AB9 /* PBXTextBookmark */;
 			5590A97D148D0E7800E8B377 /* PBXTextBookmark */ = 5590A97D148D0E7800E8B377 /* PBXTextBookmark */;
@@ -163,6 +162,7 @@
 			5594E5AE14A23B1D00080D4D /* PBXTextBookmark */ = 5594E5AE14A23B1D00080D4D /* PBXTextBookmark */;
 			5594E5AF14A23B1D00080D4D /* PBXTextBookmark */ = 5594E5AF14A23B1D00080D4D /* PBXTextBookmark */;
 			5597F0B7149E232C00382544 /* PBXTextBookmark */ = 5597F0B7149E232C00382544 /* PBXTextBookmark */;
+			55C48E8A14AB51BF00B376BD /* PBXTextBookmark */ = 55C48E8A14AB51BF00B376BD /* PBXTextBookmark */;
 		};
 		sourceControlManager = 55D36FA21489E95500CF1D66 /* Source Control */;
 		userBuildSettings = {
@@ -190,6 +190,16 @@
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSRunLoop.h;
 		sourceTree = "<absolute>";
 	};
+	5583F6A314AB793E00716256 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */;
+		name = "RunLoopsThreadHost.m: 96";
+		rLen = 0;
+		rLoc = 2753;
+		rType = 0;
+		vrLen = 1961;
+		vrLoc = 5954;
+	};
 	558773FF149CECED00EA4D82 /* RunLoopsThreadHost.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {719, 624}}";
@@ -199,10 +209,10 @@
 	};
 	55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1561, 491}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 15537}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {959, 5603}}";
-			sepNavSelRange = "{764, 0}";
-			sepNavVisRange = "{3672, 1296}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1561, 491}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 15483}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {719, 5343}}";
+			sepNavSelRange = "{2263, 0}";
+			sepNavVisRange = "{5464, 1961}";
 			sepNavWindowFrame = "{{50, 0}, {750, 746}}";
 		};
 	};
@@ -368,7 +378,7 @@
 		ignoreCount = 0;
 		lineNumber = 19;
 		location = JSONAPITest;
-		modificationTime = 346401525.384327;
+		modificationTime = 346401525.3843271;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
@@ -384,6 +394,7 @@
 	};
 	558DAD3914A5A5B4005710D6 /* SBJsonParser.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = SBJsonParser.h;
 		path = /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonParser.h;
 		sourceTree = "<absolute>";
@@ -420,6 +431,7 @@
 	};
 	558DAD6814A5A9A0005710D6 /* NSData.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = NSData.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSData.h;
 		sourceTree = "<absolute>";
@@ -452,26 +464,6 @@
 		rLoc = 144;
 		rType = 0;
 		vrLen = 1573;
-		vrLoc = 0;
-	};
-	558DADD514A5AF36005710D6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */;
-		name = "RunLoopsThreadHost.m: 243";
-		rLen = 0;
-		rLoc = 8872;
-		rType = 0;
-		vrLen = 1892;
-		vrLoc = 7671;
-	};
-	558DADD714A5AF70005710D6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */;
-		name = "RunLoopsThreadHost.m: 18";
-		rLen = 0;
-		rLoc = 397;
-		rType = 0;
-		vrLen = 1037;
 		vrLoc = 0;
 	};
 	55905B1B149D9D0800F18AB9 /* PBXTextBookmark */ = {
@@ -539,11 +531,6 @@
 		name = NSString.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSString.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {719, 5967}}";
-			sepNavSelRange = "{3923, 71}";
-			sepNavVisRange = "{2833, 1591}";
-		};
 	};
 	5590A981148D0E7800E8B377 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -602,11 +589,6 @@
 		name = NSURLRequest.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSURLRequest.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {719, 6617}}";
-			sepNavSelRange = "{18114, 73}";
-			sepNavVisRange = "{16592, 1894}";
-		};
 	};
 	5591677C149DF67700531DC5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -856,6 +838,16 @@
 		rType = 0;
 		vrLen = 222;
 		vrLoc = 0;
+	};
+	55C48E8A14AB51BF00B376BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55877400149CECED00EA4D82 /* RunLoopsThreadHost.m */;
+		name = "RunLoopsThreadHost.m: 20";
+		rLen = 0;
+		rLoc = 518;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 444;
 	};
 	55D36F941489E94700CF1D66 /* 03_JSONAPIDev */ = {
 		isa = PBXExecutable;

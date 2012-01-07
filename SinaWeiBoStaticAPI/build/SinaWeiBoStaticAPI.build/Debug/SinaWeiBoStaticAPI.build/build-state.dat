@@ -1,10 +1,9 @@
 TSinaWeiBoStaticAPI
 v7
 r0
-t346402608.131736
+t346781889.764241
 cCheck dependencies
 cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoStaticAPI_Prefix-apyhwlbbogcwxzbtjsjgjxucpvam/SinaWeiBoStaticAPI_Prefix.pch.gch SinaWeiBoStaticAPI_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/KN/KNfeOcHQF54ZIfOtRNkM1++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SinaWeiBoStaticAPI_Prefix-birtzpqznbgcbjhccwvzcrclcirp/SinaWeiBoStaticAPI_Prefix.pch.pth SinaWeiBoStaticAPI_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/NSObject+SBJSON-FA07BEA93FC6AF7F.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/NSObject+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/NSString+SBJSON.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/NSString+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -26,26 +25,6 @@ cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/SBJsonUTF8Stream.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonUTF8Stream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/SBJsonWriter-B53F7F58DAF7AE40.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cLibtool /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/build/Debug/libSinaWeiBoStaticAPI.a normal x86_64
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/NSObject+SBJSON.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/NSString+SBJSON.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJSON.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonBase.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonParser.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/JSON/SBJsonWriter.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/WBUtil.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/NSObject+SBJson.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonParser.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamParser.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamParserAccumulator.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamParserAdapter.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamParserState.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamWriter.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamWriterAccumulator.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonStreamWriterState.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonTokeniser.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonUTF8Stream.m
-cAnalyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/Classes/Classes/SBJsonWriter.m
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004D5A274300000000000000EE
@@ -1033,7 +1012,7 @@ lSLF07#2@107"Analyze /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSina
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies346402607#346402608#0(0"0(0#1#0"8624908576#0"0#
+lSLF07#2@18"Check dependencies346781889#346781889#0(0"0(0#1#0"9007637348679712#0"0#
 
 CCompileC build/SinaWeiBoStaticAPI.build/Debug/SinaWeiBoStaticAPI.build/Objects-normal/x86_64/GTMBase64.o /Users/orlando/Documents/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src/Base64/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s346398844.427599

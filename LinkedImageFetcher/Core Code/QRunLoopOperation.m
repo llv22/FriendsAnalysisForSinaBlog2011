@@ -326,6 +326,7 @@ XXX  7. init -> start -> cancel -> startOnRunLoopThreadThread -> cancelOnRunLoop
     // start us at a time.
     
     self.state = kQRunLoopOperationStateExecuting;
+	// TODO : performSelector
     [self performSelector:@selector(startOnRunLoopThread) onThread:self.actualRunLoopThread withObject:nil waitUntilDone:NO modes:[self.actualRunLoopModes allObjects]];
 }
 

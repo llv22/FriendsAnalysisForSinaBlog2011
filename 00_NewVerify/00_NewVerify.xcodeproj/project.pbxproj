@@ -23,7 +23,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 5594878F1485157800F13C53 /* SinaWeiBoSDK.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libSinaWeiBoSDK.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = SinaWeiBoSDK;
 		};
 /* End PBXContainerItemProxy section */

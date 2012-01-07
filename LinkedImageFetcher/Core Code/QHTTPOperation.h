@@ -108,6 +108,7 @@
 
 @protocol QHTTPOperationAuthenticationDelegate;
 
+//TODO : QRunLoopOperation for start() method of hooking of NSQueue
 @interface QHTTPOperation : QRunLoopOperation /* <NSURLConnectionDelegate> */
 {
     NSURLRequest *      _request;

@@ -105,7 +105,7 @@
 	} while ( self.IsDone != YES );
 	
 	//TODO : Actually to start thread status code - NO by setter of thread status	
-	//TODO : working for thread Host - for RunLoops outside
+	// - working for thread Host - for RunLoops outside
 	NSLog(@"in the thread quitting - out of run loop %d", self->_isThreadExist);
 	self->_isThreadExist = NO;
 		
@@ -244,7 +244,7 @@
 	//TODO : POST DATA content
 	NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:2];
 	[params setObject:nstrappkey forKey:@"source"];
-	[params setObject:@"Orlando Refined NSOperation Asynchronou Queue Implementation, Next Step with Picture location and Friend NSData Graphic Algorithm, Content Analysis" forKey:@"status"];	
+	[params setObject:@"Orlando From SAP inside with Proxy setting proxy internally, Next Step with Picture location and Friend NSData Graphic Algorithm, Content Analysis - 00" forKey:@"status"];	
 	NSString *post = [[self class] stringFromDictionary:params];
 	NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];	
 	[theRequest setHTTPBody:postData];
@@ -260,10 +260,9 @@
 	NSData *authData = [authString dataUsingEncoding:NSUTF8StringEncoding];
 	NSString *encodingData = [authData base64EncodingWithLineLength:80];
 	NSString *authValue = [NSString stringWithFormat:@"Basic %@", encodingData];
-	// TODO : add the header to the request.
 	[theRequest setValue:authValue forHTTPHeaderField:@"Authorization"];  
 	
-	//TODO : Header for POST setting -> application/json MIME
+	//TODO : Header for POST format of submitting
 	[theRequest addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
 	
 	self->username = nstrUserName;
