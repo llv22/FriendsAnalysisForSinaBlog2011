@@ -346,8 +346,8 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = 03_JSONAPIDev;
-				WEIBOSDK_SITGSRC = /Users/llv22/Documents/01_dev/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/;
-				WEIBOSDK_SRC = /Users/llv22/Documents/01_dev/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
+				WEIBOSDK_SITGSRC = /Users/llv22/Documents/01_devsrc/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/;
+				WEIBOSDK_SRC = /Users/llv22/Documents/01_devsrc/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
 			};
 			name = Debug;
 		};
@@ -365,8 +365,8 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = 03_JSONAPIDev;
-				WEIBOSDK_SITGSRC = /Users/llv22/Documents/01_dev/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/;
-				WEIBOSDK_SRC = /Users/llv22/Documents/01_dev/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
+				WEIBOSDK_SITGSRC = /Users/llv22/Documents/01_devsrc/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/classes/Classes/;
+				WEIBOSDK_SRC = /Users/llv22/Documents/01_devsrc/06_weiboApp/FriendsAnalysisForSinaBlog2011/SinaWeiBoStaticAPI/src;
 			};
 			name = Release;
 		};
